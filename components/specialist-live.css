@@ -1,0 +1,905 @@
+/* ================================================
+   Specialist / condition inner pages — 1:1 port of the live
+   `.services-details-area` widget stack (hospa-main.css,
+   hospa-responsive.css, Elementor frontend + per-page CSS,
+   wp-custom-css), verified against the live computed styles.
+   Every rule is scoped to gh-* classes used only by ConditionPage.
+   ================================================ */
+.gh-sda {
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+/* Elementor boxed `.elementor-container{max-width:1320px}` — no side padding. */
+.gh-sda__container {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  max-width: 1320px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Elementor columns: 100% stacked up to 1024px, 67% / 33% above. */
+.gh-sda__col {
+  display: flex;
+  width: 100%;
+  min-width: 0;
+}
+
+/* `.elementor-widget-wrap` — 10px column padding, wrapping flex. */
+.gh-sda__wrap {
+  display: flex;
+  flex-wrap: wrap;
+  align-content: flex-start;
+  width: 100%;
+  min-width: 0;
+  padding: 10px;
+}
+
+.gh-sda__wrap > * {
+  width: 100%;
+  min-width: 0;
+}
+
+.gh-sda__col--desc {
+  padding-left: 30px;
+}
+
+@media (min-width: 1025px) {
+  .gh-sda__col--desc {
+    width: 67%;
+  }
+  .gh-sda__col--side {
+    width: 33%;
+  }
+}
+
+/* `.elementor-widget:not(:last-child){margin-block-end:20px}` (article column
+   only; width-initial widgets and the sidebar column carry 0). */
+.gh-sda__col--desc .gh-w:not(:last-child) {
+  margin-bottom: 20px;
+}
+
+.gh-sda__col--desc .gh-w--wide:not(:last-child) {
+  margin-bottom: 0;
+}
+
+/* ---- text-editor widget content ---- */
+.gh-rich {
+  color: var(--paragraph);
+  line-height: 1.5;
+}
+
+.gh-rich h1,
+.gh-rich h2,
+.gh-rich h3,
+.gh-rich h4,
+.gh-rich h5,
+.gh-rich h6 {
+  margin-top: 0;
+  margin-bottom: 0.5rem;
+  font-weight: 500;
+  line-height: 1.2;
+  color: var(--blackColor);
+}
+
+.gh-rich h2 {
+  font-size: 42px;
+  margin-top: 35px;
+  margin-bottom: 15px;
+}
+
+.gh-rich h3 {
+  font-size: 25px;
+  margin-top: 35px;
+  margin-bottom: 15px;
+}
+
+.gh-rich h4 {
+  font-size: calc(1.275rem + 0.3vw);
+}
+
+@media (min-width: 1200px) {
+  .gh-rich h4 {
+    font-size: 1.5rem;
+  }
+}
+
+.gh-rich h5 {
+  font-size: 1.25rem;
+}
+
+.gh-rich h6 {
+  font-size: 1rem;
+}
+
+.gh-rich p {
+  margin-top: 0;
+  margin-bottom: 15px;
+  line-height: 1.8;
+}
+
+.gh-rich p:last-child {
+  margin-bottom: 0;
+}
+
+.gh-rich ul,
+.gh-rich ol {
+  margin-top: 0;
+  margin-bottom: 1rem;
+  padding-left: 2rem;
+}
+
+.gh-rich ul {
+  list-style: disc;
+}
+
+.gh-rich ol {
+  list-style: decimal;
+}
+
+.gh-rich ul ul,
+.gh-rich ol ol,
+.gh-rich ul ol,
+.gh-rich ol ul {
+  margin-bottom: 0;
+}
+
+.gh-rich ul ul {
+  list-style: circle;
+}
+
+/* Live <hr>: a 1px currentColor rule at 25% opacity with no margin. */
+.gh-rich hr {
+  margin: 0;
+  border: 0;
+  border-top: 1px solid;
+  color: inherit;
+  opacity: 0.25;
+}
+
+.gh-rich b,
+.gh-rich strong {
+  font-weight: bolder;
+}
+
+.gh-rich a {
+  color: var(--mainColor);
+}
+
+.gh-rich h1 a,
+.gh-rich h2 a,
+.gh-rich h3 a,
+.gh-rich h4 a,
+.gh-rich h5 a,
+.gh-rich h6 a {
+  color: inherit;
+}
+
+.gh-rich img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 20px;
+}
+
+.gh-rich img.aligncenter {
+  display: block;
+  margin: 15px auto;
+}
+
+/* WordPress emoji images (`img.emoji`): text-sized, inline. */
+.gh-rich img.emoji {
+  display: inline;
+  width: 1em;
+  height: 1em;
+  margin: 0 0.07em;
+  vertical-align: -0.1em;
+}
+
+/* ---- image widget ---- */
+.gh-w--image {
+  text-align: center;
+}
+
+.gh-w--image img {
+  display: inline-block;
+  max-width: 100%;
+  height: auto;
+  vertical-align: middle;
+  border-radius: 20px;
+}
+
+/* A live image that 404s still occupies its empty 24px line box. */
+.gh-w--image-missing {
+  height: 24px;
+}
+
+/* ---- live `.default-btn` metrics (the global .default-btn differs) ---- */
+.gh-live-btn {
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px 20px 10px 55px;
+  border: 0;
+  border-radius: 50px;
+  background-color: var(--mainColor);
+  color: #fff;
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 1.5;
+  transition: 0.6s;
+}
+
+.gh-live-btn i {
+  position: absolute;
+  left: 20px;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 25px;
+}
+
+.gh-live-btn:hover {
+  background-color: var(--optionalColor);
+  color: #fff;
+}
+
+.gh-live-btn--black {
+  background-color: var(--blackColor);
+}
+
+.gh-live-btn--black:hover {
+  background-color: var(--mainColor);
+}
+
+/* ---- doctor slider (`Hospa_DoctorSliderWid`) ---- */
+/* The widget wraps its content in a Bootstrap `.container`: 12px gutters and
+   the stepped max-widths (only 540/720px ever bite — wider steps exceed the
+   article column). */
+.gh-docslider {
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 12px;
+  padding-right: 12px;
+}
+
+@media (min-width: 576px) {
+  .gh-docslider {
+    max-width: 540px;
+  }
+}
+
+@media (min-width: 768px) {
+  .gh-docslider {
+    max-width: 720px;
+  }
+}
+
+@media (min-width: 992px) {
+  .gh-docslider {
+    max-width: 960px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .gh-docslider {
+    max-width: 1140px;
+  }
+}
+
+@media (min-width: 1400px) {
+  .gh-docslider {
+    max-width: 1320px;
+  }
+}
+
+.gh-docslider__inner {
+  position: relative;
+  overflow: hidden;
+}
+
+.gh-docslider__inner > h2 {
+  margin-top: 50px;
+  margin-bottom: 45px;
+  font-size: 42px;
+  font-weight: 500;
+  line-height: 1.2;
+}
+
+.gh-docslider__slider {
+  position: relative;
+}
+
+.gh-doccard__image {
+  position: relative;
+}
+
+.gh-doccard__image img {
+  display: block;
+  width: 100%;
+  height: auto;
+  border-radius: 20px;
+}
+
+.gh-doccard__btn {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 15px;
+  text-align: center;
+}
+
+.gh-doccard__btn .gh-live-btn {
+  background-color: #fff;
+  color: var(--optionalColorTwo);
+  border: 1px solid var(--optionalColorTwo);
+}
+
+.gh-doccard__btn .gh-live-btn:hover {
+  background-color: var(--optionalColorTwo);
+  color: #fff;
+}
+
+.gh-doccard__content {
+  padding-top: 25px;
+  text-align: center;
+}
+
+.gh-doccard__content h3 {
+  margin: 0;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 1.2;
+}
+
+.gh-doccard__content h3 a {
+  color: var(--blackColor);
+}
+
+.gh-doccard__content h3 a:hover {
+  color: var(--mainColor);
+}
+
+.gh-doccard__content span {
+  display: block;
+  margin-top: 12px;
+}
+
+/* Owl nav: `.doctor-slider-inner .owl-prev/.owl-next` + the owl-theme button
+   box (5px margin; owl core forces padding:0). Clipped by the inner's
+   overflow:hidden exactly as on the live site. */
+/* `.owl-theme .owl-nav{margin-top:10px}` — zero-height block under the stage. */
+.gh-docslider__navwrap {
+  margin-top: 10px;
+}
+
+.gh-docslider__nav {
+  position: absolute;
+  top: 35%;
+  z-index: 1;
+  transform: translateY(-35%);
+  margin: 5px;
+  padding: 0;
+  background: none;
+  border: 0;
+  font-size: 14px;
+  line-height: 1.5;
+  cursor: pointer;
+}
+
+.gh-docslider__nav--prev {
+  left: -70px;
+}
+
+.gh-docslider__nav--next {
+  right: -70px;
+}
+
+.gh-docslider__nav i {
+  display: inline-block;
+  height: 45px;
+  width: 45px;
+  line-height: 45px !important;
+  background-color: #fff;
+  color: var(--blackColor);
+  border: 1px solid #8ec0ee;
+  text-align: center;
+  border-radius: 50px;
+  font-size: 20px;
+  transition: 0.6s;
+}
+
+.gh-docslider__nav i:hover {
+  background-color: #8ec0ee;
+}
+
+.gh-docslider__nav:disabled {
+  opacity: 0.5;
+  cursor: default;
+}
+
+@media (min-width: 1400px) and (max-width: 1500px) {
+  .gh-docslider__nav--prev {
+    left: -30px;
+  }
+  .gh-docslider__nav--next {
+    right: -30px;
+  }
+}
+
+@media (min-width: 1200px) and (max-width: 1399px) {
+  .gh-docslider__nav--prev {
+    left: -10px;
+  }
+  .gh-docslider__nav--next {
+    right: -10px;
+  }
+}
+
+@media (max-width: 1199px) {
+  .gh-docslider__nav--prev {
+    left: 15px;
+  }
+  .gh-docslider__nav--next {
+    right: 15px;
+  }
+}
+
+/* ---- static doctor grid (live custom-HTML `.gh-docs` widget, verbatim) ---- */
+.gh-docs {
+  --gh-red: #e3262b;
+  --gh-navy: #0b1b3f;
+  --gh-grey: #5b6475;
+  max-width: 1140px;
+  margin: 0 auto;
+  padding: 20px 15px;
+}
+
+.gh-docs * {
+  box-sizing: border-box;
+}
+
+.gh-docs__grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 40px 30px;
+}
+
+.gh-docs__card {
+  text-align: center;
+}
+
+.gh-docs__media {
+  position: relative;
+  display: block;
+  border-radius: 20px;
+  overflow: hidden;
+  aspect-ratio: 3/4;
+  background: #f3f4f6;
+}
+
+.gh-docs__media > a:first-child {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+.gh-docs__media img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: top center;
+  display: block;
+  border-radius: 20px;
+  transition: transform 0.4s ease;
+}
+
+.gh-docs__card:hover .gh-docs__media img {
+  transform: scale(1.04);
+}
+
+.gh-docs .gh-docs__btn {
+  position: absolute;
+  left: 50%;
+  bottom: 18px;
+  transform: translateX(-50%);
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  width: auto;
+  max-width: calc(100% - 32px);
+  white-space: nowrap;
+  background: #fff;
+  color: var(--gh-red);
+  border: 1.5px solid var(--gh-red);
+  border-radius: 50px;
+  padding: 9px 20px 9px 9px;
+  margin: 0;
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.12);
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1;
+  transition: background 0.25s, color 0.25s;
+}
+
+.gh-docs .gh-docs__btn:hover {
+  background: var(--gh-red);
+  color: #fff;
+}
+
+.gh-docs__icon {
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  background: var(--gh-red);
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  transition: background 0.25s;
+}
+
+.gh-docs .gh-docs__btn:hover .gh-docs__icon {
+  background: #fff;
+}
+
+.gh-docs__icon svg {
+  width: 13px;
+  height: 13px;
+  fill: #fff;
+  transition: fill 0.25s;
+}
+
+.gh-docs .gh-docs__btn:hover .gh-docs__icon svg {
+  fill: var(--gh-red);
+}
+
+.gh-docs .gh-docs__name {
+  margin: 22px 0 8px;
+  padding: 0;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 1.3;
+}
+
+.gh-docs .gh-docs__name a {
+  color: var(--gh-navy);
+}
+
+.gh-docs .gh-docs__name a:hover {
+  color: var(--gh-red);
+}
+
+.gh-docs .gh-docs__role {
+  margin: 0 auto;
+  max-width: 300px;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.6;
+  color: var(--gh-grey);
+}
+
+.gh-docs .gh-docs__heading {
+  margin: 0 0 48px;
+  padding: 0;
+  text-align: left;
+  font-size: 40px;
+  font-weight: 400;
+  line-height: 1.25;
+  color: var(--gh-navy);
+  max-width: 900px;
+}
+
+@media (max-width: 1024px) {
+  .gh-docs__grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .gh-docs .gh-docs__heading {
+    font-size: 38px;
+    margin-bottom: 36px;
+  }
+}
+
+@media (max-width: 640px) {
+  .gh-docs__grid {
+    grid-template-columns: 1fr;
+    gap: 36px;
+  }
+  .gh-docs__card {
+    max-width: 360px;
+    margin: 0 auto;
+    width: 100%;
+  }
+  .gh-docs .gh-docs__btn {
+    font-size: 15px;
+    padding: 8px 18px 8px 8px;
+  }
+  .gh-docs .gh-docs__name {
+    font-size: 19px;
+  }
+  .gh-docs .gh-docs__role {
+    font-size: 15px;
+  }
+  .gh-docs .gh-docs__heading {
+    font-size: 30px;
+    margin-bottom: 28px;
+  }
+}
+
+/* ---- `Hospa_Lists_Area` (`.about-content .list`) ---- */
+.gh-checklist {
+  margin-top: 25px;
+}
+
+.gh-checklist li {
+  display: flex;
+  align-items: flex-start;
+  margin-bottom: 20px;
+  color: var(--blackColor);
+  font-weight: 500;
+}
+
+.gh-checklist li:last-child {
+  margin-bottom: 0;
+}
+
+.gh-checklist li i {
+  margin-right: 12px;
+  font-size: 22px;
+  color: var(--optionalColorThree);
+}
+
+/* ---- "Ask Any Question" (`.question-wrap`; wp-custom-css margin-top:10px) ---- */
+.gh-question {
+  margin-top: 10px;
+}
+
+.gh-question .gh-rich h3 {
+  margin-top: 0;
+}
+
+.gh-question .gh-rich p {
+  margin-bottom: 25px;
+}
+
+.gh-question form {
+  border-radius: 20px;
+  border: 1px solid #e1e6eb;
+  padding: 30px;
+}
+
+.gh-question__group {
+  margin-bottom: 25px;
+}
+
+.gh-question__group > label {
+  display: block;
+  color: var(--paragraph);
+  font-size: 14px;
+  line-height: 1.5;
+  margin-bottom: 10px;
+}
+
+.gh-question__control {
+  display: inline-block;
+  border-radius: 50px;
+  background-color: #e1e6eb;
+  border: 1px solid #e1e6eb;
+  width: 100%;
+  height: 55px;
+  color: #687390;
+  transition: 0.6s;
+  padding: 15px 20px;
+  font-size: 14px;
+  line-height: 1.5;
+  outline: 0;
+}
+
+.gh-question__control::placeholder {
+  color: #687390;
+  transition: 0.6s;
+}
+
+.gh-question__control:focus {
+  border: 1px solid var(--optionalColor);
+}
+
+.gh-question__control:focus::placeholder {
+  color: transparent;
+}
+
+textarea.gh-question__control {
+  display: flex;
+  min-height: 145px;
+  border-radius: 20px;
+}
+
+/* CF7 acceptance: inline-block list item whose label picks up the
+   `.form-group label` rule (block, 14px, 10px bottom margin). */
+.gh-question__accept {
+  display: inline-block;
+}
+
+.gh-question__accept label {
+  display: block;
+  margin-bottom: 10px;
+  color: var(--paragraph);
+  font-size: 14px;
+  line-height: 1.5;
+}
+
+.gh-question__accept input {
+  width: 13px;
+  height: 13px;
+  margin: 0;
+}
+
+.gh-question__accept label span {
+  position: relative;
+  top: -1.5px;
+}
+
+/* ---- sidebar: `.services-details-sidebar .services-list` + `.get-directions-wrap` ---- */
+.gh-sdlist {
+  margin-bottom: 50px;
+  border-radius: 20px;
+  background-color: #d7ece4;
+  padding: 40px;
+}
+
+.gh-sdlist li {
+  margin-bottom: 15px;
+}
+
+.gh-sdlist li:last-child {
+  margin-bottom: 0;
+}
+
+.gh-sdlist li a {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 1.5;
+  color: var(--blackColor);
+  letter-spacing: 1.1px;
+  padding: 12px 20px;
+  border: 1px solid #fff;
+  border-radius: 20px;
+  text-transform: uppercase;
+}
+
+.gh-sdlist li a i {
+  color: var(--optionalColorFour);
+  font-size: 17px;
+}
+
+.gh-sdlist li a:hover {
+  background-color: #fff;
+}
+
+.gh-directions {
+  overflow: hidden;
+  border-radius: 20px;
+  background-color: #e9eef2;
+}
+
+.gh-directions__title {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 25px;
+}
+
+.gh-directions__title h3 {
+  margin: 0;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 1.2;
+}
+
+.gh-directions__title i {
+  display: inline-block;
+  height: 32px;
+  width: 32px;
+  line-height: 32px !important;
+  background-color: #fff;
+  border-radius: 50px;
+  text-align: center;
+  color: var(--optionalColor);
+  transition: 0.6s;
+  cursor: pointer;
+}
+
+.gh-directions__title i:hover {
+  background-color: var(--optionalColor);
+  color: #fff;
+}
+
+.gh-directions__map {
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 30px;
+}
+
+.gh-directions__map textarea {
+  display: flex;
+  background: rgba(255, 255, 255, 0.5);
+  -webkit-backdrop-filter: blur(4px);
+  backdrop-filter: blur(4px);
+  width: 100%;
+  height: 240px;
+  margin-bottom: 15px;
+  padding: 25px;
+  border: none;
+  border-radius: 0;
+  outline: 0;
+  color: var(--paragraph);
+  font-size: 14px;
+  line-height: 1.5;
+  transition: 0.6s;
+}
+
+.gh-directions__map textarea::placeholder {
+  color: var(--paragraph);
+  transition: 0.6s;
+}
+
+.gh-directions__map textarea:focus::placeholder {
+  color: transparent;
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+  .gh-sdlist {
+    padding: 30px;
+  }
+}
+
+@media (max-width: 991px) {
+  .gh-sda__col--desc {
+    padding-left: 0;
+    margin-top: 30px;
+  }
+  .gh-directions {
+    margin-top: 30px;
+  }
+}
+
+@media (max-width: 767px) {
+  .gh-sda {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    font-size: 16px;
+  }
+  .gh-rich h2 {
+    font-size: 25px;
+    margin-bottom: 12px;
+  }
+  .gh-rich h3 {
+    font-size: 20px;
+    margin-top: 30px;
+    margin-bottom: 12px;
+  }
+  .gh-docslider__inner > h2 {
+    margin-top: 25px;
+    margin-bottom: 25px;
+    font-size: 25px;
+  }
+  .gh-docslider__nav i {
+    height: 30px;
+    width: 30px;
+    line-height: 30px !important;
+    font-size: 18px;
+  }
+  .gh-question form {
+    padding: 20px;
+  }
+  .gh-sdlist {
+    margin-bottom: 35px;
+    padding: 22px;
+  }
+}

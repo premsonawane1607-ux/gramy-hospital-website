@@ -1,0 +1,6045 @@
+/* Default Colors Style */
+/* Max width 767px */
+@media only screen and (max-width: 767px) {
+  body {
+    font-size: 15px;
+  }
+  .ptb-100 {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+  .pt-100 {
+    padding-top: 50px;
+  }
+  .pb-100 {
+    padding-bottom: 50px;
+  }
+  .pb-75 {
+    padding-bottom: 25px;
+  }
+  .navbar.hide-wp-nav.is-sticky {
+    top: 0;
+  }
+  .cch-help-area {
+    padding: 50px 0 0 0;
+  }
+  .child-care-hospital-banner-image {
+    min-height: unset;
+  }
+  .doctor-details-image {
+    position: relative !important;
+    top: 0;
+  }
+  .doctor-details-sidebar.ml {
+    margin-left: 0;
+  }
+  .ech-funfact-card  {
+    text-align: center !important;
+  }
+  .section-title .sub {
+    font-size: 10px;
+    margin-bottom: 10px;
+  }
+  .section-title h2 {
+    font-size: 28px;
+  }
+  .top-header-area {
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+  .top-header-area .container-fluid {
+    padding-left: calc(var(--bs-gutter-x) * 0.5);
+    padding-right: calc(var(--bs-gutter-x) * 0.5);
+    max-width: 540px;
+  }
+  .top-header-info {
+    text-align: center;
+    margin-bottom: 10px;
+  }
+  .top-header-btn {
+    text-align: center !important;
+  }
+  .navbar {
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+  .navbar .navbar-collapse {
+    display: none !important;
+  }
+  .navbar .container-fluid {
+    padding-left: calc(var(--bs-gutter-x) * 0.5);
+    padding-right: calc(var(--bs-gutter-x) * 0.5);
+    max-width: 540px;
+  }
+
+  .ech-contact-us-information {
+    top: 0;
+    position: relative !important;
+  }
+  .medical-center-banner-area {
+    position: relative;
+    z-index: 1;
+    padding-top: 65px;
+    padding-bottom: 0;
+  }
+  .medical-center-banner-area .container-fluid {
+    padding-left: calc(var(--bs-gutter-x) * 0.5);
+    padding-right: calc(var(--bs-gutter-x) * 0.5);
+    max-width: 540px;
+  }
+  .medical-center-banner-area::before {
+    position: absolute;
+    content: "";
+    left: 0;
+    right: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    background-color: #020D2B;
+    z-index: -1;
+    opacity: 0.3;
+  }
+  .medical-center-banner-content h1 {
+    font-size: 30px;
+    color: #ffffff;
+  }
+  .medical-center-banner-content p {
+    color: #ffffff;
+  }
+  .medical-center-banner-image {
+    position: relative;
+    right: 0;
+    bottom: 0;
+    text-align: center;
+    margin-top: 50px;
+  }
+  .plus-one, .plus-two {
+    display: none;
+  }
+  .features-area {
+    margin-top: 0;
+  }
+  .features-area .container-fluid {
+    padding-left: calc(var(--bs-gutter-x) * 0.5);
+    padding-right: calc(var(--bs-gutter-x) * 0.5);
+    max-width: 540px;
+  }
+  .features-inner-area {
+    padding: 25px 25px 0 25px;
+  }
+  .features-card {
+    padding: 25px;
+  }
+  .about-content .sub {
+    font-size: 10px;
+  }
+  .about-content h2 {
+    font-size: 25px;
+    margin-bottom: 12px;
+  }
+  .about-image {
+    margin-left: 0;
+    margin-top: 30px;
+  }
+  .about-image .counter-wrap .item {
+    padding: 10px;
+  }
+  .about-image .counter-wrap.wrap-two .item {
+    padding: 10px;
+  }
+  .services-area {
+    margin-left: 0;
+    margin-right: 0;
+  }
+  .services-card {
+    margin-bottom: 25px;
+  }
+  .services-card::before {
+    display: none;
+  }
+  .testimonial-top-content {
+    margin-bottom: 40px;
+  }
+  .testimonial-top-content .sub {
+    font-size: 10px;
+    margin-bottom: 10px;
+  }
+  .testimonial-top-content h2 {
+    font-size: 28px;
+  }
+  .testimonial-lft-content .testimonial-card {
+    padding: 30px;
+  }
+  .testimonial-lft-content .testimonial-card p {
+    font-size: 15px;
+  }
+  .testimonial-lft-content .testimonial-card .info {
+    margin-top: 22px;
+  }
+  .testimonial-lft-content .testimonial-slider .owl-nav {
+    right: 10px;
+    bottom: 10px;
+  }
+  .testimonial-lft-content .testimonial-slider .owl-nav button i {
+    height: 25px;
+    width: 25px;
+    line-height: 25px;
+    font-size: 15px;
+  }
+  .testimonial-rght-content {
+    margin-top: 30px;
+  }
+  .testimonial-rght-content .info-box {
+    display: block;
+    padding: 25px;
+  }
+  .testimonial-rght-content .info-box .title {
+    margin-left: 0;
+    margin-top: 15px;
+  }
+  .testimonial-rght-content .info-box .title .link-btn {
+    font-size: 13.5px;
+  }
+  .feed .info-box {
+    display: block;
+    padding: 25px;
+  }
+  .feed .info-box .title {
+    margin-left: 0;
+    margin-top: 15px;
+  }
+  .feed .info-box .title .link-btn {
+    font-size: 13.5px;
+  }
+  .why-choose-us-card img {
+    margin-bottom: 25px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+  }
+  .overview-card .wrap-shape img {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+  }
+  .why-choose-us-card h3 {
+    font-size: 22px;
+    margin-bottom: 12px;
+  }
+  .lab-test-area .container-fluid {
+    padding-left: calc(var(--bs-gutter-x) * 0.5);
+    padding-right: calc(var(--bs-gutter-x) * 0.5);
+    max-width: 540px;
+  }
+  .lab-test-image {
+    height: 450px;
+    margin-bottom: 25px;
+  }
+  .lab-test-image .bottom-info {
+    left: 15px;
+    bottom: 15px;
+  }
+  .lab-test-image .bottom-info .info {
+    margin-right: 5px;
+  }
+  .lab-test-inner-content {
+    padding: 25px;
+  }
+  .lab-test-inner-content .content {
+    margin-bottom: 25px;
+  }
+  .lab-test-inner-content .content .sub {
+    font-size: 10px;
+    margin-bottom: 12px;
+  }
+  .lab-test-inner-content .content h2 {
+    font-size: 25px;
+  }
+  .lab-test-inner-content .lab-test-slider {
+    margin-right: 0;
+  }
+  .lab-test-inner-content .lab-test-slider .swiper-scrollbar {
+    margin-top: 30px;
+  }
+  .lab-test-card {
+    padding: 20px;
+  }
+  .lab-test-card .image {
+    margin-bottom: 20px;
+  }
+  .lab-test-card h3 {
+    margin-bottom: 12px;
+  }
+  .lab-test-card p {
+    margin-bottom: 12px;
+    font-size: 14px;
+  }
+  .lab-test-card .off {
+    padding: 5px 10px;
+    font-size: 10px;
+    top: 5px;
+    right: 5px;
+  }
+  .doctor-information-tabs .nav {
+    margin-bottom: 30px;
+  }
+  .doctor-information-tabs .nav .nav-item {
+    margin-right: 2px;
+    margin-top: 1.5px;
+    margin-bottom: 1.5px;
+  }
+  .doctor-information-tabs .nav .nav-item .nav-link {
+    padding: 5px 7px;
+    font-size: 10px;
+  }
+  .doctor-slider-inner .owl-prev {
+    left: 15px;
+  }
+  .doctor-slider-inner .owl-prev i {
+    height: 30px;
+    width: 30px;
+    line-height: 30px;
+    font-size: 18px;
+  }
+  .doctor-slider-inner .owl-next {
+    right: 15px;
+  }
+  .doctor-slider-inner .owl-next i {
+    height: 30px;
+    width: 30px;
+    line-height: 30px;
+    font-size: 18px;
+  }
+  .mobile-app-image {
+    margin-bottom: 25px;
+  }
+  .mobile-app-content {
+    padding: 20px;
+  }
+  .mobile-app-content .sub {
+    font-size: 10px;
+    margin-bottom: 10px;
+  }
+  .mobile-app-content h2 {
+    font-size: 25px;
+  }
+  .mobile-app-content .info {
+    display: block;
+    margin-top: 20px;
+    margin-bottom: 25px;
+  }
+  .mobile-app-content .info .title {
+    margin-left: 0;
+    margin-top: 12px;
+  }
+  .mobile-app-content .app-btn li {
+    margin-right: 10px;
+    padding: 10px;
+  }
+  .mobile-app-content .app-btn li .icon i {
+    font-size: 15px;
+  }
+  .mobile-app-content .app-btn li .title {
+    margin-left: 8px;
+  }
+  .mobile-app-content .app-btn li .title span {
+    font-size: 10px;
+  }
+  .mobile-app-content .app-btn li .title h5 {
+    font-size: 12px;
+  }
+  .blog-card .blog-content .meta {
+    margin-bottom: 15px;
+  }
+  .blog-card .blog-content h3 {
+    font-size: 18.5px;
+    margin-bottom: 15px;
+  }
+  .footer-area {
+    margin-left: 0;
+    margin-right: 0;
+  }
+  .single-footer-widget.ps-5 {
+    padding-left: 0 !important;
+  }
+  .single-footer-widget h3 {
+    font-size: 18px;
+    margin-bottom: 22px;
+  }
+  .single-footer-widget .social-info {
+    margin-top: 20px;
+  }
+  .copyright-area {
+    margin-top: 25px;
+  }
+  #back-to-top {
+    right: 10px;
+    bottom: 10px;
+    height: 35px;
+    width: 35px;
+    line-height: 35px;
+    font-size: 18px;
+  }
+  .navbar-area-with-transparent-color {
+    background-color: #ffffff;
+  }
+  .navbar-area-with-transparent-color.is-sticky {
+    background-color: #ffffff;
+  }
+  .navbar-area-with-transparent-color .navbar-brand {
+    padding: 0 25px 0 0;
+  }
+  .navbar-area-with-transparent-color .navbar-brand::before {
+    display: none;
+  }
+  .general-hospital-slider-item {
+    padding-top: 270px;
+    padding-bottom: 150px;
+  }
+  .general-hospital-slider-item .container-fluid {
+    padding-left: calc(var(--bs-gutter-x) * 0.5);
+    padding-right: calc(var(--bs-gutter-x) * 0.5);
+    max-width: 540px;
+  }
+  .general-hospital-slider-content .content {
+    padding: 25px;
+  }
+  .general-hospital-slider-content .content h1 {
+    font-size: 25px;
+  }
+  .general-hospital-slider-content .inner-image {
+    margin-bottom: 10px;
+  }
+  .general-hospital-slider-content .inner-info {
+    padding: 10px;
+  }
+  .general-hospital-slider-content .inner-info .box {
+    padding: 10px;
+  }
+  .general-hospital-slider-content .inner-info .box .sub {
+    font-size: 15px;
+    margin-bottom: 10px;
+  }
+  .general-hospital-slider-content .inner-info .box .phone-btn span {
+    font-size: 12px;
+  }
+  .general-hospital-slider .owl-nav {
+    right: 20px;
+    bottom: 50px;
+  }
+  .general-hospital-shape {
+    display: none;
+  }
+  .features-area.without-wrap-area .container-fluid {
+    padding-left: calc(var(--bs-gutter-x) * 0.5);
+    padding-right: calc(var(--bs-gutter-x) * 0.5);
+    max-width: 540px;
+  }
+  .about-style-content {
+    margin-top: 0;
+    margin-bottom: 30px;
+  }
+  .about-style-content .sub {
+    font-size: 10px;
+    margin-bottom: 12px;
+  }
+  .about-style-content h2 {
+    font-size: 25px;
+  }
+  .about-style-rght {
+    padding-left: 0;
+    margin-top: 25px;
+  }
+  .services-image .polygon1 {
+    display: none;
+  }
+  .services-image .polygon2 {
+    display: none;
+  }
+  .animation-view-content h1 {
+    font-size: 30px;
+  }
+  .animation-view-content h1 sup {
+    top: 0;
+    margin: 0 15px;
+  }
+  .overview-card {
+    padding: 20px;
+    margin-top: 2.5px;
+    margin-bottom: 2.5px;
+  }
+  .overview-card .overview-btn {
+    margin-top: 20px;
+  }
+  .overview-card .wrap-shape {
+    position: relative;
+    bottom: 0;
+    right: 0;
+    margin-top: 20px;
+  }
+  .book-an-appointment-area .container-fluid {
+    padding-left: calc(var(--bs-gutter-x) * 0.5);
+    padding-right: calc(var(--bs-gutter-x) * 0.5);
+    max-width: 540px;
+  }
+  .book-an-appointment-content {
+    margin-top: 35px;
+  }
+  .book-an-appointment-content .content {
+    margin-left: 0;
+    margin-bottom: 25px;
+  }
+  .book-an-appointment-content .content .sub {
+    font-size: 10px;
+    margin-bottom: 10px;
+  }
+  .book-an-appointment-content .content h2 {
+    font-size: 25px;
+  }
+  .book-an-appointment-content .appointment-form {
+    padding: 20px;
+    margin-left: 0;
+    border: 1px solid #efefef;
+  }
+  .book-an-appointment-content .appointment-form h2 {
+    position: relative;
+    left: 0;
+    top: 0;
+    font-size: 30px;
+    writing-mode: unset;
+    margin-bottom: 20px;
+  }
+  .book-an-appointment-content .appointment-form .default-btn {
+    font-size: 13px;
+  }
+  .faq-area .container-fluid {
+    padding-left: calc(var(--bs-gutter-x) * 0.5);
+    padding-right: calc(var(--bs-gutter-x) * 0.5);
+    max-width: 540px;
+  }
+  .faq-accordion {
+    padding-left: 0;
+    margin-top: 35px;
+  }
+  .faq-accordion .content {
+    margin-bottom: 30px;
+  }
+  .faq-accordion .content .sub {
+    font-size: 10px;
+    margin-bottom: 12px;
+  }
+  .faq-accordion .content h2 {
+    font-size: 25px;
+  }
+  .navbar-area-with-optional-color {
+    padding-top: 15px;
+    padding-bottom: 15px;
+  }
+  .healthcare-center-banner-area .container-fluid {
+    padding-left: calc(var(--bs-gutter-x) * 0.5);
+    padding-right: calc(var(--bs-gutter-x) * 0.5);
+    max-width: 540px;
+  }
+  .healthcare-center-content {
+    padding: 20px;
+  }
+  .healthcare-center-content h1 {
+    font-size: 30px;
+    margin-bottom: 12px;
+  }
+  .healthcare-center-info .line-shape {
+    display: none;
+  }
+  .healthcare-center-info .award {
+    left: 5px;
+    top: 5px;
+  }
+  .healthcare-center-info .info-btn {
+    bottom: 5px;
+    right: 5px;
+  }
+  .healthcare-center-rght-image img {
+    width: 100%;
+  }
+  .healthcare-center-bottom-image img {
+    width: 100%;
+  }
+  .healthcare-center-bottom-info {
+    padding: 15px;
+  }
+  .healthcare-center-bottom-info .phone-btn span {
+    font-size: 12px;
+  }
+  .healthcare-center-bottom-rght .box {
+    position: relative;
+    left: 0;
+    top: 0;
+    padding: 20px 25px;
+    max-width: 100%;
+    background-color: #f9f9f9;
+    margin-top: 10px;
+  }
+  .healthcare-center-bottom-rght .box .shop-btn {
+    margin-top: 15px;
+    padding-top: 15px;
+  }
+  .join-event-inner {
+    padding: 20px;
+  }
+  .join-event-inner .content .sub {
+    font-size: 10px;
+    margin-bottom: 12px;
+  }
+  .join-event-inner .content h2 {
+    font-size: 30px;
+  }
+  .join-event-inner .woman-wrap {
+    position: relative;
+    bottom: -28px;
+    right: 0;
+  }
+  .join-event-inner .plus {
+    display: none;
+  }
+  .join-event-inner .plus2 {
+    display: none;
+  }
+  .solution-inner {
+    padding: 30px;
+  }
+  .solution-inner .content .sub {
+    font-size: 10px;
+    margin-bottom: 12px;
+  }
+  .solution-inner .content h2 {
+    font-size: 30px;
+  }
+  .features-overview-area {
+    margin-left: 0;
+    margin-right: 0;
+  }
+  .features-overview-inner .col {
+    flex: 0 0 auto;
+    width: 100%;
+  }
+  .features-overview-inner .col:last-child .features-overview-card {
+    border-bottom: none;
+  }
+  .features-overview-card {
+    border-right: none;
+    border-bottom: 1px solid #ffffff;
+    padding: 30px;
+  }
+  .page-banner-area .container-fluid {
+    padding-left: calc(var(--bs-gutter-x) * 0.5);
+    padding-right: calc(var(--bs-gutter-x) * 0.5);
+    max-width: 540px;
+  }
+  .page-banner-inner, .hospa-toolkit-activate .page-banner-inner {
+    padding: 30px 25px;
+    margin: 10px auto 0;
+  }
+  .page-banner-inner .content h2 {
+    font-size: 25px;
+  }
+  .page-banner-inner .information {
+    margin-top: 15px;
+    text-align: start;
+  }
+  .page-banner-inner .information li .phone-btn .icon {
+    margin-right: 10px;
+  }
+  .page-banner-inner .information li .phone-btn .icon i {
+    height: 30px;
+    width: 30px;
+    line-height: 30px;
+    font-size: 18px;
+  }
+  .page-banner-inner .information li .phone-btn span {
+    font-size: 12px;
+  }
+  .about-image.wrap-one {
+    margin-right: 0;
+    margin-top: 0;
+    margin-bottom: 30px;
+  }
+  .about-more-image {
+    padding-right: 0;
+  }
+  .about-more-content {
+    padding-left: 0;
+    margin-top: 25px;
+  }
+  .about-more-content .sub {
+    font-size: 10px;
+  }
+  .about-more-content h2 {
+    font-size: 25px;
+    margin-bottom: 30px;
+  }
+  .about-more-content .wrap {
+    padding-left: 20px;
+  }
+  .about-more-content .inner-more-content {
+    margin-top: 30px;
+    margin-left: 0;
+  }
+  .about-more-content .inner-more-content img {
+    margin-bottom: 25px;
+  }
+  .about-overview-card {
+    padding: 22px;
+  }
+  .about-overview-card i {
+    margin-bottom: 20px;
+  }
+  .about-overview-card h3 {
+    margin-bottom: 15px;
+  }
+  .partner-content .sub {
+    font-size: 10px;
+  }
+  .partner-content h2 {
+    font-size: 25px;
+  }
+  .partner-inner {
+    padding: 25px 25px 0 25px;
+    margin-top: 30px;
+  }
+  .strategy-image .wrap-two {
+    margin-bottom: 22px;
+  }
+  .strategy-content {
+    padding-left: 0;
+    margin-top: 30px;
+  }
+  .strategy-content .sub {
+    font-size: 10px;
+  }
+  .strategy-content h2 {
+    font-size: 25px;
+    margin-bottom: 10px;
+  }
+  .our-purpose-content .sub {
+    font-size: 10px;
+  }
+  .our-purpose-content h2 {
+    font-size: 25px;
+  }
+  .our-purpose-content .purpose-accordion h3 {
+    font-size: 20px;
+  }
+  .our-purpose-content .purpose-accordion .accordion-item .accordion-button {
+    font-size: 17px;
+    padding: 2.5px 0 2.5px 55px;
+  }
+  .our-purpose-image {
+    margin-top: 30px;
+  }
+  .doctor-search-form {
+    margin-bottom: 50px;
+    padding: 15px;
+  }
+  .doctor-search-form .quick-search-list {
+    display: inline-block;
+  }
+  .doctor-search-form .quick-search-list li {
+    margin-bottom: 12px;
+  }
+  .doctor-search-form .quick-search-list li:last-child {
+    margin-bottom: 0;
+  }
+  .doctor-search-form .search-btn {
+    text-align: start;
+    margin-top: 15px;
+  }
+  .doctor-details-area .container-fluid,  .doctor-details-area.container-fluid {
+    padding-left: calc(var(--bs-gutter-x) * 0.5);
+    padding-right: calc(var(--bs-gutter-x) * 0.5);
+    max-width: 540px;
+  }
+  .doctor-details-image {
+    margin-bottom: 25px;
+  }
+  .doctor-details-top-content {
+    padding: 25px;
+  }
+  .doctor-details-top-content .title {
+    padding-right: 0;
+  }
+  .doctor-details-top-content .title h2 {
+    font-size: 25px;
+  }
+  .doctor-details-top-content .title span {
+    font-size: 15px;
+    margin-top: 10px;
+  }
+  .doctor-details-top-content .list li span, .doc-contact.list li span {
+    max-width: 175px;
+  }
+  .doctor-details-top-content .social-box, .social-box.doc-sbox {
+    position: relative;
+    top: 0;
+    right: 0;
+    display: table;
+    margin-top: 20px;
+  }
+  .doctor-details-top-content .social-box li, .social-box.doc-sbox li {
+    display: inline-flex;
+  }
+  .doctor-details-desc .content {
+    padding: 25px;
+  }
+  .doctor-details-desc .content h3 {
+    font-size: 22px;
+    margin-bottom: 12px;
+  }
+  .doctor-details-desc .quote-card {
+    padding: 30px;
+  }
+  .doctor-details-desc .quote-card p {
+    font-size: 15px;
+  }
+  .doctor-details-desc .quote-card .info {
+    margin-top: 22px;
+  }
+  .doctor-details-desc .quote-button {
+    right: 10px;
+    bottom: 10px;
+  }
+  .doctor-details-desc .quote-button li i {
+    height: 25px;
+    width: 25px;
+    line-height: 25px;
+    font-size: 15px;
+  }
+  .doctor-details-sidebar {
+    padding: 25px;
+    margin-top: 25px;
+  }
+  .doctor-details-sidebar h3 {
+    font-size: 22px;
+  }
+  .donate-area .container-fluid {
+    padding-left: calc(var(--bs-gutter-x) * 0.5);
+    padding-right: calc(var(--bs-gutter-x) * 0.5);
+    max-width: 540px;
+  }
+  .donate-large-image {
+    position: relative;
+    top: 0;
+    max-width: 100%;
+  }
+  .donate-form-wrap {
+    max-width: 100%;
+    margin: 30px auto 0 auto;
+  }
+  .donate-form-wrap .top-title h2 {
+    font-size: 25px;
+  }
+  .donate-form-wrap .content h3 {
+    font-size: 20px;
+  }
+  .donate-form-wrap .inner-wrap {
+    padding: 30px;
+  }
+  .donate-form-wrap .information h3 {
+    font-size: 20px;
+  }
+  .donate-form-wrap .information .amount-list {
+    display: table;
+  }
+  .donate-form-wrap .information .amount-list li {
+    margin-bottom: 12px;
+  }
+  .donate-form-wrap .information .amount-list li:last-child {
+    margin-bottom: 0;
+  }
+  .online-information-card {
+    padding: 25px;
+  }
+  .online-information-card .icon {
+    margin-bottom: 20px;
+  }
+  .online-information-card h3 {
+    margin-bottom: 15px;
+  }
+  .partner-inner-area {
+    padding: 25px 25px 0 25px;
+  }
+  .pay-online-content {
+    padding-left: 0;
+    margin-top: 30px;
+  }
+  .pay-online-content .sub {
+    font-size: 10px;
+  }
+  .pay-online-content h2 {
+    font-size: 25px;
+  }
+  .pay-online-content .alert {
+    padding: 15px;
+  }
+  .pricing-information-tabs .nav {
+    margin-bottom: 30px;
+  }
+  .pricing-information-tabs .nav .nav-item {
+    margin-right: 2px;
+    margin-top: 1.5px;
+    margin-bottom: 1.5px;
+  }
+  .pricing-information-tabs .nav .nav-item .nav-link {
+    padding: 5px 7px;
+    font-size: 10px;
+  }
+  .pricing-information-tabs .tab-content .tab-pane {
+    padding: 30px 20px;
+  }
+  .pricing-information-tabs .tab-content .tab-pane .pricing-item {
+    margin-bottom: 50px;
+  }
+  .pricing-information-tabs .tab-content .tab-pane .pricing-item h3 {
+    font-size: 20px;
+  }
+  .pricing-information-tabs .tab-content .tab-pane .pricing-item .list li {
+    font-size: 14px;
+  }
+  .pricing-information-tabs .tab-content .tab-pane .pricing-item .list li .price {
+    font-size: 14px;
+  }
+  .appointment-form-wrap {
+    padding: 20px;
+  }
+  .services-details-sidebar .services-list, .ser-sidebar-card.services-list {
+    margin-bottom: 35px;
+    padding: 22px;
+  }
+  .services-details-desc {
+    padding-left: 0;
+    margin-top: 30px;
+  }
+  .services-details-desc h2 {
+    font-size: 25px;
+    margin-bottom: 12px;
+  }
+  .services-details-desc h3 {
+    font-size: 20px;
+    margin-top: 30px;
+    margin-bottom: 12px;
+  }
+  .services-details-desc .doctor-slider-inner h2 {
+    margin-top: 25px;
+    margin-bottom: 25px;
+  }
+  .services-details-desc .doctor-slider-inner .doctor-slider {
+    margin-right: 0;
+  }
+  .services-details-desc .question-wrap {
+    margin-top: 50px;
+  }
+  .services-details-desc .question-wrap form {
+    padding: 20px;
+  }
+  .education-and-research-content .content {
+    margin: 0 auto 30px;
+  }
+  .education-and-research-content .content .sub {
+    font-size: 10px;
+    margin-bottom: 10px;
+  }
+  .education-and-research-content .content h2 {
+    font-size: 25px;
+  }
+  .education-and-research-content .inner-content {
+    margin: 30px auto 0;
+  }
+  .education-and-research-content .inner-content .info-box {
+    padding: 22px;
+  }
+  .education-and-research-content .inner-content .info-box h3 {
+    font-size: 18px;
+  }
+  .annual-wellness-exam-card .content h3 {
+    padding: 20px;
+    font-size: 18px;
+  }
+  .annual-wellness-exam-content {
+    margin: 25px auto 0;
+  }
+  .annual-wellness-exam-content .sub {
+    font-size: 10px;
+    margin-bottom: 10px;
+  }
+  .annual-wellness-exam-content h2 {
+    font-size: 25px;
+    margin-bottom: 14px;
+  }
+  .annual-wellness-exam-content h3 {
+    font-size: 20px;
+  }
+  .annual-wellness-exam-content .info-box {
+    padding: 20px;
+  }
+  .annual-wellness-exam-content .info-box h3 {
+    font-size: 18px;
+  }
+  .careers-content {
+    padding-left: 0;
+    margin-top: 30px;
+  }
+  .careers-content .sub {
+    font-size: 10px;
+  }
+  .careers-content h2 {
+    font-size: 25px;
+    margin-bottom: 12px;
+  }
+  .job-card {
+    padding: 22px;
+  }
+  .careers-details-desc .content .sub {
+    font-size: 10px;
+    margin-bottom: 10px;
+  }
+  .careers-details-desc .content h2 {
+    font-size: 25px;
+  }
+  .careers-details-desc .content h5 {
+    font-size: 18px;
+  }
+  .careers-details-desc h3 {
+    font-size: 20px;
+  }
+  .careers-details-sidebar {
+    padding: 30px 20px;
+    margin-top: 30px;
+  }
+  .volunteers-content {
+    padding-left: 0;
+    margin-top: 30px;
+  }
+  .volunteers-content .sub {
+    font-size: 10px;
+    margin-bottom: 10px;
+  }
+  .volunteers-content h2 {
+    font-size: 25px;
+  }
+  .patients-visitors-desc .content {
+    margin: 0 auto 35px;
+  }
+  .patients-visitors-desc .content .sub {
+    font-size: 10px;
+    margin-bottom: 10px;
+  }
+  .patients-visitors-desc .content h2 {
+    font-size: 25px;
+    margin-bottom: 12px;
+  }
+  .patients-visitors-desc .inner-content {
+    margin: 35px auto 0;
+  }
+  .patients-visitors-desc .inner-content .sub {
+    font-size: 10px;
+    margin-bottom: 10px;
+  }
+  .patients-visitors-desc .inner-content h2 {
+    font-size: 25px;
+  }
+  .patients-visitors-desc .inner-content h3 {
+    font-size: 20px;
+  }
+  .patients-visitors-desc .inner-content .accordion-wrap h4 {
+    font-size: 20px;
+  }
+  .patients-visitors-desc .inner-content .accordion-wrap .accordion-item .accordion-button {
+    font-size: 16px;
+  }
+  .patients-visitors-desc .inner-content .info-box {
+    padding: 20px;
+  }
+  .patients-visitors-desc .inner-content .info-box h5 {
+    font-size: 18px;
+  }
+  .find-location-search-form .form-group {
+    margin-top: 5px;
+    margin-bottom: 5px;
+  }
+  .find-location-search-form .search-btn {
+    bottom: 35px;
+  }
+  .find-location-content .location-inner .box {
+    display: block;
+    padding: 10px;
+  }
+  .find-location-content .location-inner .box .lft {
+    display: block;
+  }
+  .find-location-content .location-inner .box .lft .title {
+    margin-left: 0;
+    margin-top: 20px;
+  }
+  .find-location-content .location-inner .box .rght {
+    margin-top: 15px;
+  }
+  .find-location-content .location-inner .box .rght .location {
+    margin-bottom: 10px;
+  }
+  .find-location-map {
+    margin-top: 30px;
+  }
+  .lab-test-details-desc .sub {
+    font-size: 10px;
+    margin-bottom: 10px;
+  }
+  .lab-test-details-desc h2 {
+    font-size: 25px;
+    margin-bottom: 15px;
+  }
+  .lab-test-details-desc h3 {
+    font-size: 20px;
+    margin-top: 30px;
+  }
+  .lab-test-details-desc .accordion-wrap h4 {
+    font-size: 20px;
+  }
+  .lab-test-details-sidebar {
+    padding-left: 0;
+    margin-top: 30px;
+  }
+  .lab-test-details-sidebar .info-box {
+    padding: 30px 20px;
+  }
+  .widget-area {
+    padding: 30px 20px;
+    margin-top: 30px;
+  }
+  .widget-area.wrap-left {
+    margin-top: 0;
+    margin-bottom: 30px;
+  }
+  .blog-details-desc .meta li {
+    font-size: 10.5px;
+    margin-right: 12px;
+  }
+  .blog-details-desc .meta li .tag-btn {
+    padding: 8px;
+    font-size: 10px;
+  }
+  .blog-details-desc .meta li::before {
+    right: -8px;
+  }
+  .blog-details-desc h2 {
+    font-size: 25px;
+  }
+  .blog-details-desc h3 {
+    font-size: 20px;
+  }
+  .blog-details-desc .quote {
+    padding: 20px;
+  }
+  .blog-details-desc .article-social span {
+    font-size: 12px;
+  }
+  .blog-details .article-pnext-post .previous-post {
+    margin-bottom: 25px;
+  }
+  .blog-details-desc .article-comments .comments-list li {
+    padding-left: 55px;
+  }
+  .blog-details-desc .article-comments .comments-list li .image img {
+    max-width: 35px;
+  }
+  .blog-details-desc .reply-wrap form {
+    padding: 20px;
+  }
+  .shop-search-form {
+    padding: 20px;
+  }
+  .shop-search-form .form-group {
+    margin-top: 5px;
+    margin-bottom: 5px;
+  }
+  .shop-grid-box p {
+    margin-bottom: 15px;
+  }
+  .shop-widget-area {
+    padding: 30px 20px;
+    margin-top: 30px;
+  }
+  .shop-widget-area.wrap-left {
+    margin-top: 0;
+    margin-bottom: 30px;
+  }
+  .cart-table-inner-border {
+    padding: 20px;
+  }
+  .shopping-cart-buttons .back-btn {
+    margin-bottom: 20px;
+  }
+  .shopping-cart-buttons .shopping-coupon-code .form-control {
+    padding: 15px 20px 15px 20px;
+  }
+  .shopping-cart-buttons .shopping-coupon-code .default-btn {
+    position: relative;
+    right: 0;
+    top: unset;
+    transform: unset;
+    margin-top: 10px;
+  }
+  .shopping-cart-totals {
+    padding: 25px;
+  }
+  .shopping-cart-totals h3 {
+    font-size: 20px;
+  }
+  .checkout-top-title h3 {
+    font-size: 25px;
+    margin-bottom: 12px;
+  }
+  .checkout-sidebar {
+    margin-top: 30px;
+  }
+  .checkout-sidebar .order-box {
+    padding: 20px;
+  }
+  .checkout-sidebar .order-box h3 {
+    font-size: 20px;
+  }
+  .checkout-sidebar .payment-method h3 {
+    font-size: 20px;
+  }
+  .product-details-area .container-fluid {
+    padding-left: calc(var(--bs-gutter-x) * 0.5);
+    padding-right: calc(var(--bs-gutter-x) * 0.5);
+    max-width: 540px;
+  }
+  .product-details-image {
+    margin-bottom: 30px;
+  }
+  .product-details-desc .content {
+    padding: 20px;
+  }
+  .product-details-desc .content h3 {
+    font-size: 25px;
+  }
+  .product-details-desc .content .list {
+    margin-top: 20px;
+  }
+  .product-details-desc .content .product-quantity {
+    margin-top: 20px;
+    display: block;
+    padding: 0;
+    background-color: transparent;
+  }
+  .product-details-desc .content .product-quantity li {
+    margin-bottom: 12px;
+  }
+  .product-details-desc .content .product-quantity li:last-child {
+    margin-bottom: 0;
+  }
+  .product-details-desc .content .social-box {
+    position: relative;
+    top: 0;
+    right: 0;
+    display: table;
+    margin-top: 20px;
+  }
+  .product-details-desc .content .social-box li {
+    display: inline-flex;
+  }
+  .product-details-desc .information-box {
+    padding: 20px;
+  }
+  .product-details-desc .information-box h3 {
+    font-size: 20px;
+  }
+  .product-details-desc .quote-card {
+    padding: 30px;
+  }
+  .product-details-desc .quote-slider .quote-button {
+    right: 10px;
+    bottom: 10px;
+  }
+  .product-details-desc .quote-slider .quote-button li i {
+    height: 25px;
+    width: 25px;
+    line-height: 25px;
+    font-size: 15px;
+  }
+  .product-details-desc .review-wrap {
+    padding: 25px;
+  }
+  .product-details-desc .review-wrap h3 {
+    font-size: 20px;
+  }
+  .product-details-desc .review-wrap .rating li span {
+    font-size: 12px;
+    letter-spacing: 1.1px;
+  }
+  .product-details-desc .review-wrap .rating li i {
+    font-size: 18px;
+  }
+  .working-process-desc .content .sub {
+    font-size: 10px;
+  }
+  .working-process-desc .content h2 {
+    font-size: 25px;
+    margin-bottom: 12px;
+  }
+  .working-process-desc .process-card::before {
+    display: none;
+  }
+  .working-process-desc .bottom-content .inner .info-box {
+    padding: 20px;
+  }
+  .working-process-desc .bottom-content .inner .info-box h5 {
+    font-size: 18px;
+  }
+  .time-schedule-tabs .nav {
+    margin-bottom: 30px;
+  }
+  .time-schedule-tabs .nav .nav-item {
+    margin-right: 2px;
+    margin-top: 1.5px;
+    margin-bottom: 1.5px;
+  }
+  .time-schedule-tabs .nav .nav-item .nav-link {
+    padding: 5px 7px;
+    font-size: 10px;
+  }
+  .time-schedule-information {
+    margin: 50px auto 0;
+    padding: 20px;
+  }
+  .time-schedule-information h3 {
+    font-size: 20px;
+    margin-bottom: 25px;
+  }
+  .time-schedule-information .list, .opening-lists.list {
+    margin-bottom: 25px;
+  }
+  .time-schedule-information .list::before, .opening-lists.list::before {
+    display: none;
+  }
+  .time-schedule-btn {
+    margin-top: 0;
+    top: 0;
+  }
+  .faq-accordion-wrap.with-gap {
+    margin-top: 30px;
+  }
+  .answers-inner-content .content h2 {
+    font-size: 25px;
+  }
+  .answers-inner-content .answers-form {
+    padding: 20px;
+  }
+  .get-directions-wrap {
+    margin-top: 30px;
+  }
+  .testimonial-item {
+    padding: 25px;
+  }
+  .profile-authentication-box {
+    padding: 20px;
+  }
+  .profile-authentication-box .authentication-form .form-bottom.d-flex {
+    display: block !important;
+  }
+  .profile-authentication-box .authentication-form .form-bottom .forgot-password {
+    display: block;
+    margin-top: 10px;
+  }
+  .profile-authentication-box.with-gap {
+    margin-top: 30px;
+  }
+  .contact-us-information .item {
+    padding: 30px;
+  }
+  .contact-us-form-wrap {
+    padding-left: 0;
+    margin-top: 30px;
+  }
+  .contact-us-form-wrap h2 {
+    font-size: 25px;
+  }
+  .contact-us-form-wrap form {
+    padding: 20px;
+  }
+  .coming-soon-content {
+    padding: 20px;
+  }
+  .coming-soon-content h2 {
+    font-size: 30px;
+  }
+  .coming-soon-content .clockdiv .time {
+    font-size: 15px;
+    padding: 5px;
+    margin-right: 10px;
+  }
+  .coming-soon-content .clockdiv .time .text {
+    font-size: 12px;
+  }
+
+  .eye-care-hospital-slider-item {
+    padding-top: 50px;
+    padding-bottom: 150px;
+  }
+  .eye-care-hospital-slider-item .container-fluid {
+    padding-left: calc(var(--bs-gutter-x) * 0.5);
+    padding-right: calc(var(--bs-gutter-x) * 0.5);
+    max-width: 540px;
+  }
+  .eye-care-hospital-slider-content h1 {
+    font-size: 35px;
+  }
+  .eye-care-hospital-slider-content p {
+    font-size: 14px;
+  }
+  .eye-care-hospital-slider-content .title p {
+    font-size: 35px;
+  }
+  .eye-care-hospital-slider-content .slider-btn {
+    margin-top: 25px;
+  }
+  .eye-care-hospital-slider-button {
+    justify-content: center;
+    left: 0;
+    right: 0;
+    bottom: 50px;
+  }
+  .eye-care-hospital-slider-info {
+    position: relative;
+    right: 0;
+    margin-top: 30px;
+    border-radius: 0;
+  }
+  .eye-care-hospital-slider-info li {
+    text-align: center;
+  }
+  .eye-care-hospital-slider-info li h3 {
+    justify-content: center;
+  }
+  .ech-about-image {
+    padding: 0;
+  }
+  .ech-about-image .counter-wrap {
+    top: 0;
+  }
+  .ech-about-image .wrap-quote {
+    position: relative;
+    right: 0;
+    max-width: 100%;
+    margin-top: 20px;
+    padding: 20px;
+    bottom: 0;
+  }
+  .ech-about-image .wrap-quote p {
+    font-size: 17px;
+  }
+  .ech-about-image .wrap-quote .bottom {
+    margin-top: 20px;
+  }
+  .ech-about-image .shape {
+    display: none;
+  }
+  .ech-about-content {
+    padding-left: 0;
+    margin-top: 30px;
+  }
+  .ech-about-content h2 {
+    font-size: 25px;
+    margin-bottom: 12px;
+  }
+  .ech-about-content .inner {
+    margin-left: 0;
+  }
+  .ech-about-content .list {
+    margin-top: 25px;
+  }
+  .ech-large-inner-bg-color::before {
+    height: 98%;
+  }
+  .ech-services-bottom-text {
+    margin-top: 10px;
+  }
+  .ech-information-inner {
+    padding: 25px;
+  }
+  .ech-information-list {
+    display: block;
+  }
+  .ech-information-list li {
+    display: block;
+    margin-right: 0;
+    margin-bottom: 15px;
+  }
+  .ech-information-list li .info {
+    margin-left: 0;
+    margin-top: 15px;
+  }
+  .ech-information-list li .info span {
+    font-size: 15px;
+  }
+  .ech-information-list li:last-child {
+    margin-bottom: 0;
+  }
+  .ech-information-form {
+    margin-top: 25px;
+  }
+  .ech-partner-content {
+    margin: 0 auto 30px;
+  }
+  .ech-partner-content h2 {
+    font-size: 25px;
+  }
+  .ech-funfact-card h5 {
+    margin-bottom: 12px;
+  }
+  .ech-funfact-card h3, .ech-funfact-card .sub {
+    font-size: 30px;
+    margin-bottom: 10px;
+  }
+  .ech-funfact-card p {
+    max-width: 100%;
+  }
+  .ech-review-lft {
+    max-width: 100%;
+  }
+  .ech-review-inner {
+    padding-left: 0;
+    margin-top: 30px;
+  }
+  .ech-review-card .ratings {
+    margin-bottom: 25px;
+  }
+  .ech-review-card h3 {
+    font-size: 25px;
+  }
+  .ech-review-card .info {
+    margin-top: 30px;
+  }
+  .ech-review-button {
+    justify-content: start;
+    position: relative;
+    bottom: 0;
+    margin-top: 30px;
+  }
+  .ech-choose-content {
+    padding: 30px;
+    margin-right: 0;
+  }
+  .ech-choose-content h2 {
+    font-size: 25px;
+  }
+  .ech-choose-content .inner-items .item h3 {
+    font-size: 18.5px;
+    margin-bottom: 10px;
+  }
+  .ech-choose-image {
+    margin-top: 30px;
+    margin-left: 0;
+  }
+  .ech-contact-us-information .item, .ech-con-card.item  {
+    padding: 10px;
+  }
+  .ech-contact-us-information .item .inner, .ech-con-card.item .inner {
+    padding: 20px;
+  }
+  .ech-contact-us-form-wrap {
+    padding-left: 0;
+    margin-top: 30px;
+  }
+  .ech-contact-us-form-wrap h2 {
+    font-size: 25px;
+    margin-bottom: 12px;
+  }
+  .ech-contact-us-form-wrap form {
+    padding: 18px;
+  }
+  .ech-blog-card .blog-content h3 {
+    font-size: 20.5px;
+  }
+  .ech-cta-content h2 {
+    font-size: 30px;
+  }
+  .ech-cta-content .cta-btn-list {
+    display: block;
+    margin-top: 30px;
+  }
+  .ech-cta-content .cta-btn-list li {
+    margin-right: 0;
+    margin-bottom: 10px;
+  }
+  .ech-cta-content .cta-btn-list li:last-child {
+    margin-bottom: 0;
+  }
+  .ech-cta-shape1, .ech-cta-shape2 {
+    display: none;
+  }
+  .footer-area.ech-footer-area .copyright-area {
+    margin: 25px auto 0;
+  }
+  .child-care-hospital-banner-area {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+  .child-care-hospital-banner-area .container-fluid {
+    padding-left: calc(var(--bs-gutter-x) * 0.5);
+    padding-right: calc(var(--bs-gutter-x) * 0.5);
+    max-width: 540px;
+  }
+  .child-care-hospital-banner-image {
+    margin-right: 0;
+    height: 550px;
+    border-radius: 20px;
+  }
+  .child-care-hospital-banner-content {
+    padding-top: 35px;
+    padding-bottom: 0;
+  }
+  .child-care-hospital-banner-content h1 {
+    font-size: 30px;
+    margin-bottom: 12px;
+  }
+  .child-care-hospital-banner-content p {
+    font-size: 15px;
+  }
+  .child-care-hospital-banner-content .banner-btn {
+    margin-top: 25px;
+  }
+  .cch-link-info-area {
+    margin-top: 50px;
+  }
+  .cch-link-info-inner {
+    padding: 30px;
+  }
+  .cch-about-card .wrap-content h3 {
+    font-size: 25px;
+    margin-bottom: 12px;
+  }
+  .cch-about-card .wrap-content .list {
+    margin-top: 20px;
+  }
+  .cch-about-card .wrap-content .list li {
+    margin-bottom: 18px;
+  }
+  .cch-about-card .wrap-content .wrap-btn {
+    margin-top: 25px;
+  }
+  .cch-about-shape {
+    display: none;
+  }
+  .cch-large-inner-bg-color .shape1 {
+    display: none;
+  }
+  .cch-large-inner-bg-color .shape2 {
+    display: none;
+  }
+  .cch-services-btn {
+    margin-top: 10px;
+  }
+  .cch-testimonial-content h2 {
+    font-size: 25px;
+  }
+  .cch-testimonial-content .wrap-shape {
+    display: none;
+  }
+  .cch-testimonial-lft-content .wrap-top-card {
+    padding: 25px;
+    margin-top: 0;
+  }
+  .cch-testimonial-lft-content .wrap-top-card .icon {
+    margin-top: 0;
+  }
+  .cch-testimonial-lft-content .wrap-top-card .items {
+    margin-top: 25px;
+  }
+  .cch-testimonial-lft-content .wrap-top-card .items .item {
+    margin-bottom: 20px;
+  }
+  .cch-testimonial-lft-content .wrap-top-card .items .item h3 {
+    font-size: 18.5px;
+  }
+  .cch-testimonial-card {
+    padding: 30px;
+  }
+  .cch-testimonial-card p {
+    font-size: 15px;
+  }
+  .cch-testimonial-card .info {
+    margin-top: 22px;
+  }
+  .cch-testimonial-nav .testimonial-button {
+    right: 10px;
+    bottom: 10px;
+  }
+  .cch-testimonial-nav .testimonial-button li i {
+    height: 25px;
+    width: 25px;
+    line-height: 25px;
+    font-size: 15px;
+  }
+  .cch-testimonial-rght-content {
+    margin-top: 30px;
+  }
+
+  .rating-and-google {
+    display: block;
+  }
+
+  .rating-and-google .google-wrap {
+    position: relative;
+    left: 0;
+    bottom: 0;
+    margin-top: 10px;
+  }
+  .cch-testimonial-rght-content .info-box {
+    display: block;
+    padding: 25px;
+  }
+  .cch-testimonial-rght-content .info-box .title {
+    margin-left: 0;
+    margin-top: 15px;
+  }
+  .cch-testimonial-rght-content .info-box .title .link-btn {
+    font-size: 13.5px;
+  }
+  .col-lg-6:nth-child(1) .cch-doctor-card {
+    margin-bottom: 25px;
+  }
+  .col-lg-6:nth-child(2) .cch-doctor-card {
+    margin-bottom: 25px;
+  }
+  .col-lg-6:nth-child(3) .cch-doctor-card {
+    margin-bottom: 25px;
+  }
+  .cch-doctors-content {
+    padding-left: 0;
+  }
+  .cch-doctors-content h2 {
+    font-size: 25px;
+    margin-bottom: 12px;
+  }
+  .cch-doctors-content .bottom-info {
+    display: block;
+    padding: 20px;
+  }
+  .cch-doctors-content .bottom-info::before {
+    border-radius: 10px;
+    margin-left: 0;
+  }
+  .cch-doctors-content .bottom-info .info {
+    display: block;
+    margin-right: 0;
+  }
+  .cch-doctors-content .bottom-info .info .title {
+    margin-top: 15px;
+    margin-left: 0;
+  }
+  .cch-doctors-content .bottom-info .arrow-btn {
+    margin-top: 15px;
+  }
+  .cch-help-content h2 {
+    font-size: 25px;
+  }
+  .cch-help-list {
+    display: block;
+  }
+  .cch-help-list .help-card {
+    margin-right: 0;
+    margin-bottom: 30px;
+  }
+  .cch-help-list li {
+    margin-right: 0;
+    margin-bottom: 30px;
+  }
+  .cch-help-list li:last-child {
+    margin-bottom: 0;
+  }
+  .cch-blog-inner {
+    padding: 0 30px;
+  }
+  .cch-blog-inner .cch-blog-slider-button .blog-button-prev {
+    left: 0;
+  }
+  .cch-blog-inner .cch-blog-slider-button .blog-button-prev i {
+    height: 20px;
+    width: 20px;
+    line-height: 20px;
+    font-size: 15px;
+  }
+  .cch-blog-inner .cch-blog-slider-button .blog-button-next {
+    right: 0;
+  }
+  .cch-blog-inner .cch-blog-slider-button .blog-button-next i {
+    height: 20px;
+    width: 20px;
+    line-height: 20px;
+    font-size: 15px;
+  }
+  .cch-faq-area .section-title.d-flex {
+    display: block !important;
+  }
+  .cch-faq-area .section-title .rght {
+    text-align: start;
+    margin-top: 15px;
+  }
+  .cch-cta-area {
+    padding-bottom: 140px;
+  }
+  .cch-cta-content {
+    margin: 0 auto 30px;
+  }
+  .cch-cta-content h2 {
+    font-size: 30px;
+  }
+  .cch-cta-content .cta-btn-list {
+    display: block;
+    margin-top: 30px;
+  }
+  .cch-cta-content .cta-btn-list li {
+    margin-right: 0;
+    margin-bottom: 10px;
+  }
+  .cch-cta-content .cta-btn-list li:last-child {
+    margin-bottom: 0;
+  }
+  .cch-cta-awards .col {
+    width: 50%;
+  }
+  .features-overview-area.cch-features-overview {
+    margin-top: -85px;
+  }
+  .features-overview-area.cch-features-overview::before {
+    height: 95%;
+  }
+  .cch-features-overview .features-overview-area {
+    margin-top: -85px;
+  }
+  .cch-features-overview .features-overview-area::before {
+    height: 95%;
+  }
+  .footer-area.cch-footer-area .copyright-area {
+    margin: 25px auto 0;
+  }
+
+
+  .ech-video-area:after {
+    height: 230px;
+  }
+  .ech-choose-image .counter-wrap {
+    left: 0 !important;
+    bottom: 0  !important;
+  }
+
+
+
+  /* Start "Dental Clinic", "Cancer Treatment Center", "Dermatology & Skin Care Clinic", "Psychiatric Hospital" & "Maternity Clinic" Demo Style CSS
+  ==============================================================*/
+  .top-header-wrap-area .container-fluid {
+    padding-left: calc(var(--bs-gutter-x) * 0.5);
+    padding-right: calc(var(--bs-gutter-x) * 0.5);
+    max-width: 540px;
+  }
+  .top-header-wrap-info {
+    display: block;
+  }
+  .top-header-wrap-info li {
+    justify-content: center;
+    margin-right: 0;
+    margin-bottom: 10px;
+  }
+  .top-header-wrap-info li:last-child {
+    margin-bottom: 0;
+  }
+  .top-header-wrap-list {
+    justify-content: center;
+    margin-top: 10px;
+    display: none;
+  }
+  .top-header-wrap-list li {
+    margin-right: 20px;
+  }
+  .dental-clinic-navbar {
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+  .dental-clinic-navbar .nav-inner {
+    padding: 10px 15px;
+  }
+  .dental-clinic-banner-area {
+    padding-top: 280px;
+    padding-bottom: 50px;
+  }
+  .dental-clinic-banner-area .container-fluid {
+    padding-left: calc(var(--bs-gutter-x) * 0.5);
+    padding-right: calc(var(--bs-gutter-x) * 0.5);
+    max-width: 540px;
+  }
+  .dental-clinic-banner-content h1 {
+    font-size: 35px;
+    margin-bottom: 12px;
+  }
+  .dental-clinic-banner-content p {
+    font-size: 15px;
+  }
+  .dental-clinic-banner-content .banner-btn {
+    margin-top: 22px;
+  }
+  .dental-clinic-banner-content .bottom-info {
+    position: relative;
+    bottom: 0;
+    margin-top: 25px;
+  }
+  .dental-clinic-banner-content .bottom-info p {
+    font-size: 15px;
+    padding: 20px 30px;
+  }
+  .dc-feature-area .container-fluid {
+    padding-left: calc(var(--bs-gutter-x) * 0.5);
+    padding-right: calc(var(--bs-gutter-x) * 0.5);
+    max-width: 540px;
+  }
+  .dc-about-image {
+    margin-right: 0;
+  }
+  .dc-about-content {
+    padding-left: 0;
+  }
+  .dc-about-content h2 {
+    font-size: 30px;
+  }
+  .dc-about-content .list {
+    display: block;
+  }
+  .dc-about-content .list li {
+    margin-right: 0;
+    margin-bottom: 15px;
+  }
+  .dc-about-content .list li:last-child {
+    margin-bottom: 0;
+  }
+  .dc-about-content .bottom-info {
+    display: block;
+    margin-top: 30px;
+  }
+  .dc-about-content .bottom-info .left {
+    margin-bottom: 20px;
+  }
+  .dc-services-area {
+    background: #E7F9FA;
+  }
+  .dc-services-large-item {
+    padding: 25px;
+  }
+  .dc-services-large-item .top {
+    display: block;
+  }
+  .dc-services-large-item .top .icon {
+    margin-bottom: 20px;
+  }
+  .dc-services-card {
+    padding: 25px;
+  }
+  .dc-services-card .arrow-btn {
+    background-color: #E7F9FA;
+  }
+  .dc-services-card .arrow-btn .shape1 svg {
+    fill: #E7F9FA;
+  }
+  .dc-services-card .arrow-btn .shape2 svg {
+    fill: #E7F9FA;
+  }
+  .dc-services-card .arrow-btn.wrap2 {
+    background-color: #E7F9FA;
+  }
+  .dc-services-card .arrow-btn.wrap2 .shape1 svg {
+    fill: #E7F9FA;
+  }
+  .dc-services-card .arrow-btn.wrap2 .shape2 svg {
+    fill: #E7F9FA;
+  }
+  .dc-services-card .arrow-btn.wrap3 {
+    background-color: #E7F9FA;
+  }
+  .dc-services-card .arrow-btn.wrap3 .shape1 svg {
+    fill: #E7F9FA;
+  }
+  .dc-services-card .arrow-btn.wrap3 .shape2 svg {
+    fill: #E7F9FA;
+  }
+  .dc-services-link {
+    margin-left: 0;
+  }
+  .dc-appointment-inner {
+    margin-top: 50px;
+    padding: 20px;
+  }
+  .dc-services-wrap-image {
+    display: none;
+  }
+  .dc-choose-inner .choose-content h2 {
+    font-size: 30px;
+  }
+  .dc-choose-inner .choose-image {
+    margin-top: 30px;
+  }
+  .dc-choose-card .list {
+    top: 0;
+  }
+  .dc-testimonials-card p {
+    font-size: 15.5px;
+  }
+  .dc-testimonials-card .info {
+    margin: 20px auto 0;
+  }
+  .dc-feed-slider-button .testimonial-button-prev {
+    left: 0;
+  }
+  .dc-feed-slider-button .testimonial-button-next {
+    right: 0;
+  }
+  .dc-testimonials-wrap1, .dc-testimonials-wrap2 {
+    display: none;
+  }
+  .dc-treatment-inner .treatment-button-prev {
+    left: 0;
+    padding: 2px 2px 2px 0px;
+  }
+  .dc-treatment-inner .treatment-button-prev i {
+    height: 30px;
+    width: 30px;
+    line-height: 30px;
+    font-size: 15px;
+  }
+  .dc-treatment-inner .treatment-button-next {
+    right: 0;
+    padding: 2px 0 2px 2px;
+  }
+  .dc-treatment-inner .treatment-button-next i {
+    height: 30px;
+    width: 30px;
+    line-height: 30px;
+    font-size: 15px;
+  }
+  .treatment-emergency-help {
+    padding: 15px 0;
+  }
+  .treatment-emergency-help h1 {
+    font-size: 25px;
+  }
+  .dc-treatment-box {
+    padding: 20px;
+  }
+  .dc-treatment-box .content h3 {
+    font-size: 18.5px;
+    margin-bottom: 10px;
+  }
+  .dc-treatment-card {
+    padding: 20px;
+  }
+  .dc-treatment-card .content h3 {
+    font-size: 18.5px;
+    margin-bottom: 10px;
+  }
+  .dc-treatment-card .bottom {
+    margin-top: 25px;
+  }
+  .dc-treatment-card .wrap-image {
+    position: relative;
+    top: 0;
+    right: 0;
+    margin-top: 20px;
+  }
+  .dc-blog-item .content {
+    padding: 20px;
+    max-width: 100%;
+    margin: 25px auto 0;
+  }
+  .dc-blog-item .content h3 {
+    font-size: 19.5px;
+  }
+  .dc-blog-items {
+    padding-left: 15px;
+    margin-left: 0;
+  }
+  .dc-blog-items .item h3 {
+    font-size: 19.5px;
+  }
+  .dc-contact-form .content h2 {
+    font-size: 30px;
+  }
+  .dc-location-map {
+    margin-right: 0;
+  }
+  .dc-location-map .content h3 {
+    font-size: 30px;
+  }
+  .dc-location-map .map .info {
+    left: 0;
+    top: 0;
+  }
+  .cancer-treatment-navbar {
+    background-color: #ffffff;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+  .cancer-treatment-slider-item {
+    padding-top: 280px;
+    padding-bottom: 150px;
+  }
+  .cancer-treatment-slider-item .container-fluid {
+    padding-left: calc(var(--bs-gutter-x) * 0.5);
+    padding-right: calc(var(--bs-gutter-x) * 0.5);
+    max-width: 540px;
+  }
+  .cancer-treatment-slider-content h1 {
+    font-size: 35px;
+  }
+  .cancer-treatment-slider-content .slider-btn {
+    margin-top: 20px;
+  }
+  .cancer-treatment-slider-bottom {
+    display: none;
+  }
+  .cancer-treatment-slider-button {
+    left: 0;
+    right: 0;
+    bottom: 50px;
+    justify-content: center;
+  }
+  .cancer-types-content h2 {
+    font-size: 30px;
+    margin-top: 30px;
+    margin-left: 0;
+  }
+  .cancer-types-list {
+    padding-left: 0;
+  }
+  .cancer-about-content .bottom-info {
+    display: block;
+    margin-top: 25px;
+  }
+  .cancer-about-content .bottom-info .left {
+    margin-bottom: 20px;
+  }
+  .cancer-about-image {
+    height: 500px;
+  }
+  .cancer-appointment-inner {
+    padding: 20px;
+  }
+  .cancer-services-card {
+    overflow: hidden;
+  }
+  .cancer-services-card .content {
+    padding: 0 20px 20px 20px;
+  }
+  .cancer-services-card .arrow-btn .shape1 {
+    left: -29px;
+  }
+  .cancer-services-card .arrow-btn .shape2 {
+    bottom: -29px;
+  }
+  .cancer-services-item {
+    overflow: hidden;
+  }
+  .cancer-services-item .image .arrow-btn .shape1 {
+    left: -29px;
+  }
+  .cancer-services-item .image .arrow-btn .shape2 {
+    bottom: -29px;
+  }
+  .cancer-choose-content h2 {
+    font-size: 30px;
+  }
+  .cancer-choose-content .inner .list {
+    padding-left: 0;
+    margin-top: 25px;
+  }
+  .cancer-choose-content .inner .list li {
+    font-size: 17px;
+  }
+  .cancer-testimonials-item {
+    padding: 30px 30px 80px 30px;
+  }
+  .cancer-testimonials-item h3 {
+    font-size: 20px;
+    line-height: 1.5;
+  }
+  .cancer-testimonials-item .info {
+    margin-top: 25px;
+  }
+  .testimonials-pagination {
+    bottom: 30px !important;
+  }
+  .cancer-team-inner {
+    padding: 20px;
+  }
+  .cancer-team-inner .cancer-team-slider {
+    margin-right: 0;
+  }
+  .cancer-faq-content {
+    margin-bottom: 30px;
+  }
+  .cancer-faq-content h2 {
+    font-size: 30px;
+  }
+  .cancer-faq-content .info {
+    margin-top: 20px;
+  }
+  .cancer-blog-item .content h3 {
+    font-size: 20.5px;
+  }
+  .cancer-blog-items {
+    padding-left: 0;
+  }
+  .cancer-blog-items .item {
+    display: block;
+  }
+  .cancer-blog-items .item .content {
+    margin-top: 20px;
+    margin-left: 0;
+  }
+  .cancer-blog-items .item .content h3 {
+    font-size: 20.5px;
+  }
+  .cancer-contact-form {
+    padding: 20px;
+  }
+  .cancer-contact-form h2 {
+    font-size: 30px;
+    margin-bottom: 30px;
+  }
+  .cancer-contact-form .contact-btn {
+    display: block;
+  }
+  .cancer-contact-form .contact-btn .call {
+    margin-top: 15px;
+    margin-left: 0;
+  }
+  .skin-care-banner-area .container-fluid {
+    padding-left: calc(var(--bs-gutter-x) * 0.5);
+    padding-right: calc(var(--bs-gutter-x) * 0.5);
+    max-width: 540px;
+  }
+  .skin-care-banner-inner {
+    padding-top: 80px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 50px;
+  }
+  .skin-care-banner-inner .content .top {
+    display: block;
+  }
+  .skin-care-banner-inner .content .top h1 {
+    font-size: 30px;
+    margin-bottom: 25px;
+  }
+  .skin-care-banner-inner .content .top .info {
+    display: inline-block;
+    padding: 15px 17px;
+  }
+  .skin-care-banner-inner .content .top .info .call i {
+    font-size: 17px;
+  }
+  .skin-care-banner-inner .content .top .info .call a {
+    font-size: 15px;
+  }
+  .skin-care-banner-inner .content .bottom {
+    display: block;
+  }
+  .skin-care-banner-inner .content .bottom p {
+    font-size: 15px;
+    margin-bottom: 15px;
+  }
+  .skin-care-banner-inner .content .bottom h1 {
+    font-size: 25px;
+  }
+  .sc-appointment-form {
+    padding: 25px;
+    margin-top: 30px;
+  }
+  .sc-appointment-form .form-wrap {
+    padding-left: 0;
+  }
+  .sc-appointment-form .form-wrap .content h2 {
+    font-size: 23px;
+  }
+  .sc-about-image {
+    margin-left: 0;
+  }
+  .sc-about-content .info {
+    display: block;
+    margin-top: 30px;
+  }
+  .sc-about-content .info .about-btn {
+    margin-bottom: 15px;
+  }
+  .sc-services-area {
+    margin: 0 0;
+  }
+  .sc-services-tabs .nav-item .nav-link {
+    font-size: 20px;
+  }
+  .sc-services-tabs .nav-item .nav-link sup {
+    top: -10px;
+  }
+  .sc-services-inner {
+    margin-top: 30px;
+  }
+  .sc-services-inner .content {
+    padding: 25px 0 0 15px;
+  }
+  .col-lg-3:nth-child(2) .sc-choose-card {
+    margin-top: 0;
+  }
+  .col-lg-3:nth-child(4) .sc-choose-card {
+    margin-top: 0;
+  }
+  .col-lg-3:nth-child(6) .sc-choose-card {
+    margin-top: 0;
+  }
+  .col-lg-3:nth-child(8) .sc-choose-card {
+    margin-top: 0;
+  }
+  .sc-doctors-area {
+    margin: 0 0;
+  }
+  .sc-doctors-tabs {
+    margin-bottom: 30px;
+  }
+  .sc-doctors-tabs .nav-item {
+    margin-right: 2px;
+    margin-top: 1.5px;
+    margin-bottom: 1.5px;
+  }
+  .sc-doctors-tabs .nav-item .nav-link {
+    padding: 5px 7px;
+    font-size: 10px;
+  }
+  .treatment-fees-area .container-fluid {
+    padding-left: calc(var(--bs-gutter-x) * 0.5);
+    padding-right: calc(var(--bs-gutter-x) * 0.5);
+    max-width: 540px;
+  }
+  .treatment-fees-image {
+    height: 500px;
+    margin-right: 0;
+  }
+  .treatment-fees-content .content h2 {
+    font-size: 30px;
+  }
+  .sc-blog-card .content {
+    padding: 20px;
+  }
+  .sc-blog-card .content h3 {
+    font-size: 18.5px;
+  }
+  .sc-gallery-inner {
+    padding: 25px;
+  }
+  .sc-gallery-inner h2 {
+    font-size: 30px;
+    margin-bottom: 20px;
+  }
+  .sc-gallery-app {
+    padding: 25px;
+    margin-top: 30px;
+  }
+  .sc-gallery-app h2 {
+    font-size: 30px;
+  }
+  .sc-gallery-app .info {
+    display: block;
+    margin-bottom: 30.5px;
+  }
+  .sc-gallery-app .info .title {
+    margin-top: 15px;
+    margin-left: 0;
+  }
+  .sc-gallery-app .app-btn {
+    display: block;
+  }
+  .sc-gallery-app .app-btn li {
+    margin-right: 0;
+    margin-bottom: 15px;
+  }
+  .sc-gallery-app .app-btn li:last-child {
+    margin-bottom: 0;
+  }
+  .psychiatric-hospital-banner-area {
+    padding-top: 50px;
+  }
+  .psychiatric-hospital-banner-area .container-fluid {
+    padding-left: calc(var(--bs-gutter-x) * 0.5);
+    padding-right: calc(var(--bs-gutter-x) * 0.5);
+    max-width: 540px;
+  }
+  .psychiatric-hospital-banner-content {
+    margin-bottom: 35px;
+  }
+  .psychiatric-hospital-banner-content h1 {
+    font-size: 30px;
+  }
+  .psychiatric-hospital-banner-content .brain {
+    top: 0;
+    margin-left: 0;
+    margin-top: 30px;
+  }
+  .psychiatric-hospital-banner-bottom .inner-wrap {
+    display: none;
+  }
+  .psychiatric-hospital-banner-bottom .view-animation h1 {
+    font-size: 30px;
+  }
+  .ps-5 {
+    padding-left: 0 !important;
+  }
+  .ph-services-slider {
+    margin-right: 0;
+  }
+  .ph-services-card {
+    padding: 20px;
+  }
+  .ph-conditions-image {
+    height: 550px;
+  }
+  .ph-conditions-content {
+    margin-top: 30px;
+  }
+  .ph-conditions-content .inner .list {
+    padding-left: 0;
+    margin-top: 25px;
+  }
+  .ph-conditions-content .conditions-card {
+    padding: 20px 20px 80px 20px;
+  }
+  .ph-conditions-content .conditions-card p {
+    font-size: 17px;
+  }
+  .ph-conditions-content .conditions-button {
+    right: 20px;
+    bottom: 20px;
+  }
+  .ph-team-items .item {
+    padding: 20px;
+  }
+  .ph-team-items .item .content {
+    margin-bottom: 20px;
+  }
+  .ph-team-items .item .team-btn {
+    text-align: start;
+  }
+  .ph-team-items .item .team-image {
+    position: relative;
+    right: 0;
+    top: unset;
+    transform: unset;
+    opacity: 1;
+    max-width: 100%;
+    margin-top: 25px;
+  }
+  .ph-faq-accordion {
+    padding-left: 0;
+    margin-top: 30px;
+  }
+  .ph-blog-item .content h3 {
+    font-size: 20.5px;
+  }
+  .ph-blog-inner .ph-blog-card h3 {
+    font-size: 20.5px;
+  }
+  .ph-blog-link {
+    padding: 15px;
+  }
+  .ph-blog-ellipse {
+    top: -70px;
+  }
+  .ph-appointment-inner {
+    padding: 20px;
+  }
+  .top-header-middle-logo {
+    display: none;
+  }
+  .maternity-clinic-navbar .nav-inner .navbar-brand {
+    display: block;
+  }
+  .maternity-clinic-navbar.wrap2 {
+    padding-bottom: 0;
+  }
+  .maternity-clinic-slider-area {
+    padding: 0 0;
+  }
+  .maternity-clinic-slider-item {
+    padding-top: 120px;
+    padding-bottom: 200px;
+  }
+  .maternity-clinic-slider-item .container-fluid {
+    padding-left: calc(var(--bs-gutter-x) * 0.5);
+    padding-right: calc(var(--bs-gutter-x) * 0.5);
+    max-width: 540px;
+  }
+  .maternity-clinic-slider-item .fun {
+    display: none;
+  }
+  .maternity-clinic-slider-content {
+    padding-left: 0;
+  }
+  .maternity-clinic-slider-content h1 {
+    font-size: 38px;
+  }
+  .maternity-clinic-slider-content p {
+    font-size: 15px;
+  }
+  .maternity-clinic-slider-content .slider-btn {
+    margin-top: 20px;
+  }
+  .mc-features-card {
+    padding: 20px;
+  }
+  .mc-about-content h2 {
+    font-size: 30px;
+  }
+  .mc-about-content .inner .image {
+    height: 350px;
+    margin-bottom: 25px;
+  }
+  .mc-about-content .inner .content {
+    padding-left: 0;
+  }
+  .mc-about-content .inner .content .info {
+    display: block;
+  }
+  .mc-about-content .inner .content .info .about-btn {
+    margin-bottom: 20px;
+  }
+  .mc-about-image {
+    height: 500px;
+    margin-top: 30px;
+  }
+  .mc-services-area .section-title.wrap-style2 .right {
+    text-align: start;
+    margin-top: 12px;
+  }
+  .mc-services-area::before {
+    height: 515px;
+  }
+  .mc-services-image {
+    margin-left: 0;
+  }
+  .mc-services-items {
+    padding-left: 0;
+    margin-top: 30px;
+  }
+  .mc-treatment-content {
+    padding: 30px;
+    margin-right: 0;
+  }
+  .mc-treatment-content .info {
+    top: 30px;
+    left: 30px;
+  }
+  .mc-treatment-content .bottom {
+    position: relative;
+    right: 0;
+    bottom: 0;
+    padding: 25px;
+    display: block;
+  }
+  .mc-treatment-content .bottom .item {
+    display: block;
+    margin-right: 0;
+    margin-bottom: 20px;
+  }
+  .mc-treatment-content .bottom .item .icon {
+    margin-bottom: 12px;
+  }
+  .mc-treatment-content .bottom .item::before {
+    display: none;
+  }
+  .mc-treatment-content .bottom .item:last-child {
+    margin-bottom: 0;
+  }
+  .mc-treatment-items {
+    margin-top: 30px;
+  }
+  .mc-overview-card {
+    padding: 20px;
+  }
+  .mc-overview-card h3 {
+    font-size: 20px;
+  }
+  .mc-overview-card .wrap-shape {
+    position: relative;
+    bottom: 0;
+    right: 0;
+    max-width: 100%;
+    margin-top: 20px;
+  }
+  .mc-testimonials-content .content h2 {
+    font-size: 30px;
+  }
+  .mc-testimonials-content .mc-testimonials-card p {
+    font-size: 18.5px;
+  }
+  .mc-testimonials-content .mc-testimonials-button li {
+    margin-right: 5px;
+  }
+  .mc-testimonials-content .mc-testimonials-button li i {
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    font-size: 20px;
+  }
+  .mc-team-inner .team-button-prev {
+    left: 0;
+  }
+  .mc-team-inner .team-button-prev i {
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    font-size: 20px;
+  }
+  .mc-team-inner .team-button-next {
+    right: 0;
+  }
+  .mc-team-inner .team-button-next i {
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    font-size: 20px;
+  }
+  .mc-appointment-area {
+    padding-top: 0 !important;
+  }
+  .mc-appointment-image {
+    height: 500px;
+  }
+  .mc-appointment-form {
+    padding: 20px;
+    margin-top: 30px;
+    margin-left: 0;
+  }
+  .mc-appointment-form h1 {
+    display: none;
+  }
+  .mc-appointment-form .form-wrap {
+    padding-left: 0;
+  }
+  .mc-appointment-form .form-wrap .content h2 {
+    font-size: 30px;
+  }
+  .mc-appointment-info {
+    margin-top: 30px;
+    margin-bottom: 0;
+  }
+  .mc-event-image {
+    height: 550px;
+  }
+  .mc-event-items {
+    padding-left: 0;
+  }
+  .mc-event-items .item {
+    gap: 20px;
+  }
+  .mc-event-items .item .content h3 {
+    font-size: 20.5px;
+  }
+  .mc-event-items .item .content .list li {
+    margin-right: 10px;
+    font-size: 14px;
+  }
+  .mc-faq-content {
+    margin-bottom: 30px;
+  }
+  .mc-faq-content .content h2 {
+    font-size: 30px;
+  }
+  .mc-blog-item .content h3 {
+    font-size: 20.5px;
+  }
+  .prenatal-care-desc-content {
+    padding-left: 0;
+  }
+  .prenatal-care-desc-content h2 {
+    font-size: 30px;
+  }
+  .mc-event-area.wrap-bg2 {
+    overflow: hidden;
+  }
+  .event-details-desc {
+    padding-left: 0;
+  }
+  .headlogo {
+    display: none;
+  }
+  /* End "Dental Clinic", "Cancer Treatment Center", "Dermatology & Skin Care Clinic", "Psychiatric Hospital" & "Maternity Clinic" Demo Style CSS
+  ==============================================================*/ 
+
+  .ech-services-slider .owl-stage-outer {
+      margin-right: 0;
+  }
+}
+/* Min width 576px to Max width 767px */
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+  .medical-center-banner-content h1 {
+    font-size: 35px;
+  }
+  .services-card {
+    padding: 25.7px 20px;
+  }
+  .lab-test-image .bottom-info {
+    max-width: 465px;
+  }
+  .general-hospital-slider-content .content h1 {
+    font-size: 30px;
+  }
+  .animation-view-content h1 {
+    font-size: 50px;
+  }
+  .overview-card {
+    padding: 50px 225px 50px 45px;
+  }
+  .overview-card .wrap-shape {
+    position: absolute;
+    bottom: 45px;
+    right: 55px;
+  }
+  .strategy-image .wrap-two {
+    margin-bottom: 0;
+  }
+  .doctor-details-top-content .list li span, .doc-contact.list li span {
+    max-width: 100%;
+  }
+  .shop-grid-box p {
+    margin-bottom: 0;
+  }
+  .shop-grid-box .form-select {
+    width: 165px;
+  }
+  .ech-information-list {
+    display: flex;
+  }
+  .ech-information-list li {
+    margin-right: 50px;
+    margin-bottom: 0;
+  }
+  .ech-information-list li:last-child {
+    margin-right: 0;
+  }
+
+  /* Start "Dental Clinic", "Cancer Treatment Center", "Dermatology & Skin Care Clinic", "Psychiatric Hospital" & "Maternity Clinic" Demo Style CSS
+  ==============================================================*/
+  .cancer-blog-items .item {
+    display: flex;
+  }
+  .cancer-blog-items .item .content {
+    margin-top: 0;
+    margin-left: 25px;
+  }
+  .cancer-contact-form .contact-btn {
+    display: flex;
+  }
+  .cancer-contact-form .contact-btn .call {
+    margin-top: 0;
+    margin-left: 20px;
+  }
+  .sc-gallery-app .info {
+    display: flex;
+  }
+  .sc-gallery-app .info .title {
+    margin-top: 0;
+    margin-left: 15px;
+  }
+  .sc-gallery-app .app-btn {
+    display: flex;
+  }
+  .sc-gallery-app .app-btn li {
+    margin-right: 10px;
+    margin-bottom: 0;
+  }
+  .sc-gallery-app .app-btn li:last-child {
+    margin-right: 0;
+  }
+  /* End "Dental Clinic", "Cancer Treatment Center", "Dermatology & Skin Care Clinic", "Psychiatric Hospital" & "Maternity Clinic" Demo Style CSS
+  ==============================================================*/
+}
+/* Min width 768px to Max width 991px */
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .doctor-details-image {
+    position: relative !important;
+    top: 0;
+  }
+  .doctor-details-sidebar.ml {
+    margin-left: 0;
+  }
+  .top-header-area {
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+  .top-header-area .container-fluid {
+    padding-left: calc(var(--bs-gutter-x) * 0.5);
+    padding-right: calc(var(--bs-gutter-x) * 0.5);
+    max-width: 720px;
+  }
+  .top-header-info {
+    text-align: center;
+    margin-bottom: 10px;
+  }
+  .top-header-btn {
+    text-align: center !important;
+  }
+  .navbar {
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+  .navbar .navbar-collapse {
+    display: none !important;
+  }
+  .navbar .container-fluid {
+    padding-left: calc(var(--bs-gutter-x) * 0.5);
+    padding-right: calc(var(--bs-gutter-x) * 0.5);
+    max-width: 720px;
+  }
+  .medical-center-banner-area {
+    position: relative;
+    z-index: 1;
+    padding-top: 100px;
+    padding-bottom: 0;
+  }
+  .medical-center-banner-area .container-fluid {
+    padding-left: calc(var(--bs-gutter-x) * 0.5);
+    padding-right: calc(var(--bs-gutter-x) * 0.5);
+    max-width: 720px;
+  }
+  .medical-center-banner-area::before {
+    position: absolute;
+    content: "";
+    left: 0;
+    right: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    background-color: #020D2B;
+    z-index: -1;
+    opacity: 0.3;
+  }
+  .medical-center-banner-content h1 {
+    font-size: 55px;
+    color: #ffffff;
+  }
+  .medical-center-banner-content p {
+    color: #ffffff;
+  }
+  .medical-center-banner-image {
+    position: relative;
+    right: 0;
+    bottom: 0;
+    text-align: center;
+    margin-top: 50px;
+  }
+  .plus-one, .plus-two {
+    display: none;
+  }
+  .features-area {
+    margin-top: 0;
+  }
+  .features-area .container-fluid {
+    padding-left: calc(var(--bs-gutter-x) * 0.5);
+    padding-right: calc(var(--bs-gutter-x) * 0.5);
+    max-width: 720px;
+  }
+  .features-inner-area {
+    padding: 25px 25px 0 25px;
+  }
+  .features-card {
+    padding: 25px;
+  }
+  .about-image {
+    margin-left: 0;
+    margin-top: 30px;
+  }
+  .services-area {
+    margin-left: 0;
+    margin-right: 0;
+  }
+  .testimonial-top-content {
+    margin-bottom: 40px;
+  }
+  .testimonial-rght-content {
+    margin-top: 30px;
+  }
+  .lab-test-area .container-fluid {
+    padding-left: calc(var(--bs-gutter-x) * 0.5);
+    padding-right: calc(var(--bs-gutter-x) * 0.5);
+    max-width: 720px;
+  }
+  .lab-test-image {
+    height: 650px;
+    margin-bottom: 25px;
+  }
+  .lab-test-image .bottom-info {
+    left: 15px;
+    bottom: 15px;
+  }
+  .lab-test-image .bottom-info .info {
+    margin-right: 15px;
+  }
+  .lab-test-inner-content {
+    padding: 50px;
+  }
+  .lab-test-inner-content .lab-test-slider {
+    margin-right: 0;
+  }
+  .lab-test-inner-content .lab-test-slider .swiper-scrollbar {
+    margin-top: 30px;
+  }
+  .lab-test-card {
+    padding: 20px;
+  }
+  .lab-test-card .image {
+    margin-bottom: 20px;
+  }
+  .lab-test-card h3 {
+    margin-bottom: 12px;
+  }
+  .lab-test-card p {
+    margin-bottom: 12px;
+    font-size: 14px;
+  }
+  .lab-test-card .off {
+    padding: 5px 10px;
+    font-size: 10px;
+    top: 5px;
+    right: 5px;
+  }
+  .doctor-information-tabs .nav {
+    margin-bottom: 30px;
+  }
+  .doctor-information-tabs .nav .nav-item {
+    margin-right: 2px;
+    margin-top: 1.5px;
+    margin-bottom: 1.5px;
+  }
+  .doctor-information-tabs .nav .nav-item .nav-link {
+    padding: 5px;
+    font-size: 10px;
+  }
+  .doctor-slider-inner .owl-prev {
+    left: 15px;
+  }
+  .doctor-slider-inner .owl-next {
+    right: 15px;
+  }
+  .mobile-app-image {
+    margin-bottom: 25px;
+  }
+  .footer-area {
+    margin-left: 0;
+    margin-right: 0;
+  }
+  .single-footer-widget.ps-5 {
+    padding-left: 0 !important;
+  }
+  .navbar-area-with-transparent-color {
+    background-color: #ffffff;
+  }
+  .navbar-area-with-transparent-color.is-sticky {
+    background-color: #ffffff;
+  }
+  .navbar-area-with-transparent-color .navbar-brand {
+    padding: 0 25px 0 0;
+  }
+  .navbar-area-with-transparent-color .navbar-brand::before {
+    display: none;
+  }
+  .general-hospital-slider-item {
+    padding-bottom: 170px;
+  }
+  .general-hospital-slider-item .container-fluid {
+    padding-left: calc(var(--bs-gutter-x) * 0.5);
+    padding-right: calc(var(--bs-gutter-x) * 0.5);
+    max-width: 720px;
+  }
+  .general-hospital-slider-content .content {
+    padding: 30px;
+  }
+  .general-hospital-slider-content .content h1 {
+    font-size: 50px;
+  }
+  .general-hospital-slider-content .inner-info .box {
+    padding: 12px;
+  }
+  .general-hospital-slider-content .inner-info .box .sub {
+    font-size: 15px;
+  }
+  .general-hospital-slider-content .inner-info .box .phone-btn span {
+    font-size: 15px;
+  }
+  .general-hospital-slider .owl-nav {
+    right: 20px;
+    bottom: 50px;
+  }
+  .general-hospital-shape {
+    display: none;
+  }
+  .features-area.without-wrap-area .container-fluid {
+    padding-left: calc(var(--bs-gutter-x) * 0.5);
+    padding-right: calc(var(--bs-gutter-x) * 0.5);
+    max-width: 720px;
+  }
+  .about-style-content {
+    margin-top: 0;
+    margin-bottom: 30px;
+  }
+  .about-style-rght {
+    padding-left: 0;
+    margin-top: 25px;
+  }
+  .overview-card {
+    padding: 40px 85px 40px 20px;
+    margin-top: 2.5px;
+    margin-bottom: 2.5px;
+  }
+  .overview-card .wrap-shape {
+    bottom: 30px;
+    right: 30px;
+    max-width: 50px;
+  }
+  .book-an-appointment-area .container-fluid {
+    padding-left: calc(var(--bs-gutter-x) * 0.5);
+    padding-right: calc(var(--bs-gutter-x) * 0.5);
+    max-width: 720px;
+  }
+  .book-an-appointment-content {
+    margin-top: 35px;
+    max-width: 100%;
+  }
+  .book-an-appointment-content .content {
+    margin-left: 0;
+    margin-bottom: 25px;
+  }
+  .book-an-appointment-content .appointment-form {
+    padding: 35px;
+    margin-left: 0;
+    border: 1px solid #efefef;
+  }
+  .book-an-appointment-content .appointment-form h2 {
+    position: relative;
+    left: 0;
+    top: 0;
+    writing-mode: unset;
+    margin-bottom: 20px;
+    font-size: 55px;
+  }
+  .faq-area .container-fluid {
+    padding-left: calc(var(--bs-gutter-x) * 0.5);
+    padding-right: calc(var(--bs-gutter-x) * 0.5);
+    max-width: 720px;
+  }
+  .faq-accordion {
+    padding-left: 0;
+    margin-top: 35px;
+  }
+  .faq-accordion .content {
+    margin-bottom: 30px;
+  }
+  .navbar-area-with-optional-color {
+    padding-top: 15px;
+    padding-bottom: 15px;
+  }
+  .healthcare-center-banner-area .container-fluid {
+    padding-left: calc(var(--bs-gutter-x) * 0.5);
+    padding-right: calc(var(--bs-gutter-x) * 0.5);
+    max-width: 720px;
+  }
+  .healthcare-center-info img {
+    width: 100%;
+  }
+  .healthcare-center-info .line-shape {
+    display: none;
+  }
+  .healthcare-center-rght-image {
+    text-align: center;
+  }
+  .healthcare-center-bottom-info {
+    padding: 15px;
+  }
+  .join-event-inner {
+    padding: 50px;
+  }
+  .join-event-inner .woman-wrap {
+    position: relative;
+    bottom: -40px;
+    right: 0;
+  }
+  .join-event-inner .plus {
+    display: none;
+  }
+  .join-event-inner .plus2 {
+    display: none;
+  }
+  .solution-inner {
+    padding: 50px;
+  }
+  .features-overview-area {
+    margin-left: 0;
+    margin-right: 0;
+  }
+  .features-overview-inner .col {
+    flex: 0 0 auto;
+    width: 50%;
+  }
+  .features-overview-inner .col:last-child .features-overview-card {
+    border-bottom: none;
+  }
+  .features-overview-card {
+    border: none;
+    padding: 50px;
+  }
+  .page-banner-area .container-fluid {
+    padding-left: calc(var(--bs-gutter-x) * 0.5);
+    padding-right: calc(var(--bs-gutter-x) * 0.5);
+    max-width: 720px;
+  }
+  .page-banner-inner, .hospa-toolkit-activate .page-banner-inner {
+    margin: 15px auto 0;
+    padding: 45px;
+  }
+  .page-banner-inner .information {
+    text-align: start;
+    margin-top: 25px;
+  }
+  .about-image.wrap-one {
+    margin-right: 0;
+    margin-top: 0;
+    margin-bottom: 30px;
+  }
+  .about-more-image {
+    padding-right: 0;
+  }
+  .about-more-content {
+    padding-left: 0;
+    margin-top: 30px;
+  }
+  .about-more-content .inner-more-content {
+    margin-top: 30px;
+    margin-left: 0;
+  }
+  .about-more-content .inner-more-content img {
+    margin-bottom: 25px;
+  }
+  .partner-content {
+    margin-bottom: 30px;
+  }
+  .strategy-content {
+    padding-left: 0;
+    margin-top: 30px;
+  }
+  .our-purpose-image {
+    margin-top: 30px;
+  }
+  .doctor-search-form {
+    padding: 15px;
+  }
+  .doctor-search-form .quick-search-list li {
+    margin-right: 5px;
+  }
+  .doctor-search-form .quick-search-list li a {
+    padding: 2px 5px;
+    font-size: 8px;
+    letter-spacing: 1px;
+  }
+  .doctor-search-form .search-btn {
+    margin-top: 15px;
+  }
+  .doctor-details-area.container-fluid,   .doctor-details-area {
+    padding-left: calc(var(--bs-gutter-x) * 0.5);
+    padding-right: calc(var(--bs-gutter-x) * 0.5);
+    max-width: 720px;
+  }
+  .doctor-details-image {
+    margin-bottom: 25px;
+  }
+  .doctor-details-top-content {
+    padding: 30px;
+  }
+  .doctor-details-top-content .title {
+    padding-right: 0;
+  }
+  .doctor-details-top-content .social-box {
+    position: relative;
+    top: 0;
+    right: 0;
+    display: table;
+    margin-top: 20px;
+  }
+  .doctor-details-top-content .social-box li {
+    display: inline-flex;
+  }
+  .doctor-details-desc .content {
+    padding: 30px;
+  }
+  .doctor-details-desc .quote-card {
+    padding: 30px;
+  }
+  .doctor-details-desc .quote-button {
+    right: 30px;
+    bottom: 30px;
+  }
+  .doctor-details-sidebar {
+    margin-top: 25px;
+  }
+  .donate-area .container-fluid {
+    padding-left: calc(var(--bs-gutter-x) * 0.5);
+    padding-right: calc(var(--bs-gutter-x) * 0.5);
+    max-width: 720px;
+  }
+  .donate-large-image {
+    position: relative;
+    top: 0;
+    max-width: 100%;
+  }
+  .donate-form-wrap {
+    max-width: 100%;
+    margin: 30px auto 0 auto;
+  }
+  .online-information-card {
+    padding: 25px;
+  }
+  .pay-online-content {
+    padding-left: 0;
+    margin-top: 30px;
+  }
+  .pricing-information-tabs .nav {
+    margin-bottom: 30px;
+  }
+  .pricing-information-tabs .nav .nav-item {
+    margin-right: 2px;
+    margin-top: 1.5px;
+    margin-bottom: 1.5px;
+  }
+  .pricing-information-tabs .nav .nav-item .nav-link {
+    padding: 5px 7px;
+    font-size: 10px;
+  }
+  .pricing-information-tabs .tab-content .tab-pane {
+    padding: 50px;
+  }
+  .services-details-desc {
+    padding-left: 0;
+    margin-top: 30px;
+  }
+  .services-details-desc .doctor-slider-inner .doctor-slider {
+    margin-right: 0;
+  }
+  .careers-content {
+    padding-left: 0;
+    margin-top: 30px;
+  }
+  .job-card {
+    padding: 22px;
+  }
+  .careers-details-sidebar {
+    margin-top: 30px;
+  }
+  .volunteers-content {
+    padding-left: 0;
+    margin-top: 30px;
+  }
+  .find-location-search-form .form-group {
+    margin-top: 5px;
+    margin-bottom: 5px;
+  }
+  .find-location-search-form .search-btn {
+    bottom: 35px;
+  }
+  .find-location-map {
+    margin-top: 30px;
+  }
+  .lab-test-details-sidebar {
+    padding-left: 0;
+    margin-top: 30px;
+  }
+  .widget-area {
+    padding: 30px 20px;
+    margin-top: 30px;
+  }
+  .widget-area.wrap-left {
+    margin-top: 0;
+    margin-bottom: 30px;
+  }
+  .shop-search-form {
+    padding: 20px;
+  }
+  .shop-search-form .form-group {
+    margin-top: 5px;
+    margin-bottom: 5px;
+  }
+  .shop-widget-area {
+    padding: 30px 20px;
+    margin-top: 30px;
+  }
+  .shop-widget-area.wrap-left {
+    margin-top: 0;
+    margin-bottom: 30px;
+  }
+  .shopping-cart-buttons .shopping-coupon-code .form-control {
+    padding: 15px 20px 15px 20px;
+  }
+  .shopping-cart-buttons .shopping-coupon-code .default-btn {
+    position: relative;
+    right: 0;
+    top: unset;
+    transform: unset;
+    margin-top: 10px;
+  }
+  .checkout-sidebar {
+    margin-top: 30px;
+  }
+  .product-details-area .container-fluid {
+    padding-left: calc(var(--bs-gutter-x) * 0.5);
+    padding-right: calc(var(--bs-gutter-x) * 0.5);
+    max-width: 720px;
+  }
+  .product-details-image {
+    margin-bottom: 30px;
+  }
+  .product-details-desc .content {
+    padding: 50px;
+  }
+  .product-details-desc .content .social-box {
+    position: relative;
+    top: 0;
+    right: 0;
+    display: table;
+    margin-top: 20px;
+  }
+  .product-details-desc .content .social-box li {
+    display: inline-flex;
+  }
+  .working-process-desc .process-card::before {
+    display: none;
+  }
+  .time-schedule-tabs .nav {
+    margin-bottom: 30px;
+  }
+  .time-schedule-tabs .nav .nav-item {
+    margin-right: 2px;
+    margin-top: 1.5px;
+    margin-bottom: 1.5px;
+  }
+  .time-schedule-tabs .nav .nav-item .nav-link {
+    padding: 5px 7px;
+    font-size: 10px;
+  }
+  .time-schedule-information {
+    margin: 50px auto 0;
+    padding: 20px;
+  }
+  .time-schedule-information h3 {
+    font-size: 20px;
+    margin-bottom: 25px;
+  }
+  .time-schedule-information .list, .opening-lists.list {
+    margin-bottom: 25px;
+  }
+  .time-schedule-information .list::before, .opening-lists.list::before {
+    display: none;
+  }
+  .time-schedule-btn {
+    margin-top: 0;
+    top: 0;
+  }
+  .faq-accordion-wrap.with-gap {
+    margin-top: 30px;
+  }
+  .get-directions-wrap {
+    margin-top: 30px;
+  }
+  .profile-authentication-box.with-gap {
+    margin-top: 25px;
+  }
+  .contact-us-information .item {
+    padding: 25px;
+  }
+  .contact-us-form-wrap {
+    padding-left: 0;
+  }
+  .eye-care-hospital-slider-item {
+    padding-top: 120px;
+    padding-bottom: 200px;
+  }
+  .eye-care-hospital-slider-item .container-fluid {
+    padding-left: calc(var(--bs-gutter-x) * 0.5);
+    padding-right: calc(var(--bs-gutter-x) * 0.5);
+    max-width: 720px;
+  }
+  .eye-care-hospital-slider-info {
+    position: relative;
+    right: 0;
+    margin-top: 30px;
+    border-radius: 0;
+    display: flex;
+  }
+  .eye-care-hospital-slider-info li {
+    margin-right: 50px;
+    margin-bottom: 0;
+  }
+  .eye-care-hospital-slider-info li:last-child {
+    margin-right: 0;
+  }
+  .ech-about-image {
+    padding: 0px 0 185px 0;
+  }
+  .ech-about-image .wrap-quote {
+    right: 15px;
+  }
+  .ech-about-image .shape {
+    left: 0;
+    bottom: 35px;
+  }
+  .ech-about-content {
+    padding-left: 0;
+    margin-top: 30px;
+  }
+  .ech-about-content .inner {
+    margin-left: 0;
+  }
+  .ech-information-list li .info span {
+    font-size: 15px;
+  }
+  .ech-information-form {
+    margin-top: 30px;
+  }
+  .ech-large-inner-bg-color::before {
+    height: 95%;
+  }
+  .ech-review-lft .review-wrap {
+    padding: 5px;
+  }
+  .ech-review-lft .review-wrap .inner {
+    padding: 10px;
+  }
+  .ech-review-inner {
+    padding-left: 15px;
+  }
+  .ech-choose-content {
+    margin-right: 0;
+  }
+  .ech-choose-image {
+    margin-top: 30px;
+    margin-left: 0;
+  }
+  .ech-contact-us-information .item, .ech-con-card.item {
+    padding: 10px;
+  }
+  .ech-contact-us-information .item .inner, .ech-con-card.item .inner {
+    padding: 10px 20px;
+  }
+  .ech-contact-us-form-wrap {
+    padding-left: 0;
+  }
+  .child-care-hospital-banner-area {
+    padding-top: 100px;
+    padding-bottom: 100px;
+  }
+  .child-care-hospital-banner-area .container-fluid {
+    padding-left: calc(var(--bs-gutter-x) * 0.5);
+    padding-right: calc(var(--bs-gutter-x) * 0.5);
+    max-width: 720px;
+  }
+  .child-care-hospital-banner-image {
+    margin-right: 0;
+    height: 650px;
+    border-radius: 20px;
+  }
+  .child-care-hospital-banner-content {
+    padding-top: 45px;
+    padding-bottom: 0;
+  }
+  .cch-link-info-area {
+    margin-top: 100px;
+  }
+  .cch-large-inner-bg-color .shape1 {
+    display: none;
+  }
+  .cch-large-inner-bg-color .shape2 {
+    display: none;
+  }
+  .cch-testimonial-content .wrap-shape {
+    display: none;
+  }
+  .cch-testimonial-rght-content {
+    margin-top: 30px;
+  }
+  .cch-doctors-content .bottom-info {
+    padding: 20px;
+  }
+  .cch-doctors-content .bottom-info::before {
+    margin-left: 0;
+  }
+  .cch-help-list li {
+    margin-right: 15px;
+  }
+  .cch-help-list .help-card {
+    margin-right: 15px;
+  }
+  .cch-blog-inner {
+    padding: 0 50px;
+  }
+  .cch-blog-inner .cch-blog-slider-button .blog-button-prev {
+    left: -15px;
+  }
+  .cch-blog-inner .cch-blog-slider-button .blog-button-next {
+    right: -15px;
+  }
+  .cch-faq-area .section-title.d-flex {
+    display: block !important;
+  }
+  .cch-faq-area .section-title .rght {
+    margin-top: 20px;
+    text-align: start;
+  }
+  .cch-cta-awards .col {
+    flex: 0 0 auto;
+    width: 25%;
+  }
+  .features-overview-area.cch-features-overview::before {
+    height: 85%;
+  }
+  .cch-features-overview .features-overview-area::before {
+    height: 85%;
+  }
+
+
+  /* Start "Dental Clinic", "Cancer Treatment Center", "Dermatology & Skin Care Clinic", "Psychiatric Hospital" & "Maternity Clinic" Demo Style CSS
+  ==============================================================*/
+  .top-header-wrap-area .container-fluid {
+    padding-left: calc(var(--bs-gutter-x) * 0.5);
+    padding-right: calc(var(--bs-gutter-x) * 0.5);
+    max-width: 720px;
+  }
+  .top-header-wrap-info {
+    justify-content: center;
+  }
+  .top-header-wrap-list {
+    justify-content: center;
+    margin-top: 10px;
+    display: none;
+  }
+  .dental-clinic-navbar {
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+  .dental-clinic-navbar .nav-inner {
+    padding: 10px 15px;
+  }
+  .dental-clinic-banner-area {
+    padding-top: 280px;
+    padding-bottom: 420px;
+  }
+  .dental-clinic-banner-area .container-fluid {
+    padding-left: calc(var(--bs-gutter-x) * 0.5);
+    padding-right: calc(var(--bs-gutter-x) * 0.5);
+    max-width: 720px;
+  }
+  .dental-clinic-banner-content .bottom-info {
+    bottom: -270px;
+  }
+  .dc-feature-area {
+    margin-top: -100px;
+  }
+  .dc-feature-area .container-fluid {
+    padding-left: calc(var(--bs-gutter-x) * 0.5);
+    padding-right: calc(var(--bs-gutter-x) * 0.5);
+    max-width: 720px;
+  }
+  .dc-feature-card {
+    padding: 25px;
+  }
+  .dc-about-image {
+    margin-right: 0;
+  }
+  .dc-about-content {
+    padding-left: 0;
+  }
+  .dc-services-area {
+    background: #E7F9FA;
+  }
+  .dc-services-large-item {
+    padding: 25px;
+  }
+  .dc-services-large-item .top {
+    display: block;
+  }
+  .dc-services-large-item .top .icon {
+    margin-bottom: 20px;
+  }
+  .dc-services-card {
+    padding: 25px;
+  }
+  .dc-services-card .arrow-btn {
+    background-color: #E7F9FA;
+  }
+  .dc-services-card .arrow-btn .shape1 svg {
+    fill: #E7F9FA;
+  }
+  .dc-services-card .arrow-btn .shape2 svg {
+    fill: #E7F9FA;
+  }
+  .dc-services-card .arrow-btn.wrap2 {
+    background-color: #E7F9FA;
+  }
+  .dc-services-card .arrow-btn.wrap2 .shape1 svg {
+    fill: #E7F9FA;
+  }
+  .dc-services-card .arrow-btn.wrap2 .shape2 svg {
+    fill: #E7F9FA;
+  }
+  .dc-services-card .arrow-btn.wrap3 {
+    background-color: #E7F9FA;
+  }
+  .dc-services-card .arrow-btn.wrap3 .shape1 svg {
+    fill: #E7F9FA;
+  }
+  .dc-services-card .arrow-btn.wrap3 .shape2 svg {
+    fill: #E7F9FA;
+  }
+  .dc-services-link {
+    margin-left: 0;
+  }
+  .dc-appointment-inner {
+    margin-top: 70px;
+  }
+  .dc-services-wrap-image {
+    right: -230px;
+  }
+  .dc-feed-slider-button .testimonial-button-prev {
+    left: 0;
+  }
+  .dc-feed-slider-button .testimonial-button-next {
+    right: 0;
+  }
+  .dc-testimonials-wrap1, .dc-testimonials-wrap2 {
+    display: none;
+  }
+  .dc-treatment-inner .treatment-button-prev {
+    left: 0;
+    padding: 10px 10px 10px 0px;
+  }
+  .dc-treatment-inner .treatment-button-prev i {
+    height: 40px;
+    width: 40px;
+    line-height: 40px;
+    font-size: 22px;
+  }
+  .dc-treatment-inner .treatment-button-next {
+    right: 0;
+    padding: 10px 0 10px 10px;
+  }
+  .dc-treatment-inner .treatment-button-next i {
+    height: 40px;
+    width: 40px;
+    line-height: 40px;
+    font-size: 22px;
+  }
+  .dc-blog-items {
+    margin-left: 0;
+  }
+  .dc-location-map {
+    margin-right: 0;
+  }
+  .cancer-treatment-navbar {
+    background-color: #ffffff;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+  .cancer-treatment-slider-item {
+    padding-top: 270px;
+  }
+  .cancer-treatment-slider-item .container-fluid {
+    padding-left: calc(var(--bs-gutter-x) * 0.5);
+    padding-right: calc(var(--bs-gutter-x) * 0.5);
+    max-width: 720px;
+  }
+  .cancer-treatment-slider-bottom {
+    right: 35px;
+  }
+  .cancer-treatment-slider-bottom .content {
+    max-width: 495px;
+  }
+  .cancer-treatment-slider-button {
+    left: 35px;
+  }
+  .cancer-types-content h2 {
+    margin-top: 30px;
+    margin-left: 0;
+  }
+  .cancer-types-list {
+    padding-left: 0;
+  }
+  .cancer-about-image {
+    height: 650px;
+  }
+  .cancer-appointment-inner {
+    padding: 25px;
+  }
+  .cancer-services-card {
+    overflow: hidden;
+  }
+  .cancer-services-card .content {
+    padding: 0 20px 20px 20px;
+  }
+  .cancer-services-card .arrow-btn .shape1 {
+    left: -29px;
+  }
+  .cancer-services-card .arrow-btn .shape2 {
+    bottom: -29px;
+  }
+  .cancer-services-item {
+    overflow: hidden;
+  }
+  .cancer-services-item .image .arrow-btn .shape1 {
+    left: -29px;
+  }
+  .cancer-services-item .image .arrow-btn .shape2 {
+    bottom: -29px;
+  }
+  .cancer-choose-content .inner .list {
+    padding-left: 0;
+  }
+  .cancer-testimonials-item {
+    padding: 50px 50px 100px 50px;
+  }
+  .testimonials-pagination {
+    bottom: 50px !important;
+  }
+  .cancer-team-inner {
+    padding: 30px;
+  }
+  .cancer-team-inner .cancer-team-slider {
+    margin-right: 0;
+  }
+  .cancer-faq-content {
+    margin-bottom: 30px;
+  }
+  .cancer-faq-content h2 {
+    font-size: 30px;
+  }
+  .cancer-faq-content .info {
+    margin-top: 20px;
+  }
+  .cancer-blog-items {
+    padding-left: 0;
+  }
+  .cancer-contact-form {
+    padding: 30px;
+  }
+  .skin-care-banner-area .container-fluid {
+    padding-left: calc(var(--bs-gutter-x) * 0.5);
+    padding-right: calc(var(--bs-gutter-x) * 0.5);
+    max-width: 720px;
+  }
+  .skin-care-banner-inner {
+    padding-top: 200px;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-bottom: 100px;
+  }
+  .skin-care-banner-inner .content .top {
+    display: block;
+  }
+  .skin-care-banner-inner .content .top h1 {
+    font-size: 100px;
+    margin-bottom: 25px;
+  }
+  .skin-care-banner-inner .content .top .info {
+    display: inline-block;
+  }
+  .skin-care-banner-inner .content .bottom {
+    display: block;
+  }
+  .skin-care-banner-inner .content .bottom p {
+    max-width: 550px;
+    margin-bottom: 20px;
+  }
+  .skin-care-banner-inner .content .bottom h1 {
+    font-size: 90px;
+  }
+  .sc-appointment-form {
+    padding: 30px;
+    margin-top: 30px;
+  }
+  .sc-appointment-form .form-wrap {
+    padding-left: 0;
+  }
+  .sc-about-image {
+    margin-left: 0;
+  }
+  .sc-services-area {
+    margin: 0 0;
+  }
+  .sc-services-tabs .nav-item .nav-link {
+    font-size: 30px;
+  }
+  .sc-services-tabs .nav-item .nav-link sup {
+    top: -10px;
+  }
+  .sc-services-inner {
+    margin-top: 30px;
+  }
+  .col-lg-3:nth-child(2) .sc-choose-card {
+    margin-top: 0;
+  }
+  .col-lg-3:nth-child(4) .sc-choose-card {
+    margin-top: 0;
+  }
+  .col-lg-3:nth-child(6) .sc-choose-card {
+    margin-top: 0;
+  }
+  .col-lg-3:nth-child(8) .sc-choose-card {
+    margin-top: 0;
+  }
+  .sc-doctors-area {
+    margin: 0 0;
+  }
+  .sc-doctors-tabs {
+    margin-bottom: 30px;
+  }
+  .sc-doctors-tabs .nav-item {
+    margin-right: 2px;
+    margin-top: 1.5px;
+    margin-bottom: 1.5px;
+  }
+  .sc-doctors-tabs .nav-item .nav-link {
+    padding: 5px 7px;
+    font-size: 10px;
+  }
+  .treatment-fees-area .container-fluid {
+    padding-left: calc(var(--bs-gutter-x) * 0.5);
+    padding-right: calc(var(--bs-gutter-x) * 0.5);
+    max-width: 720px;
+  }
+  .treatment-fees-image {
+    height: 650px;
+    margin-right: 0;
+  }
+  .sc-blog-card .content {
+    padding: 20px;
+  }
+  .sc-gallery-inner {
+    padding: 25px;
+  }
+  .sc-gallery-app {
+    padding: 25px;
+    margin-top: 30px;
+  }
+  .psychiatric-hospital-banner-area .container-fluid {
+    padding-left: calc(var(--bs-gutter-x) * 0.5);
+    padding-right: calc(var(--bs-gutter-x) * 0.5);
+    max-width: 720px;
+  }
+  .psychiatric-hospital-banner-content h1 {
+    font-size: 70px;
+  }
+  .psychiatric-hospital-banner-content .brain {
+    top: 0;
+    margin-left: 0;
+    margin-top: 30px;
+  }
+  .psychiatric-hospital-banner-bottom .view-animation h1 {
+    font-size: 50px;
+  }
+  .psychiatric-hospital-banner-bottom .inner-wrap {
+    padding: 15px;
+  }
+  .psychiatric-hospital-banner-bottom .inner-wrap p {
+    max-width: 195px;
+    font-size: 13px;
+  }
+  .ps-5 {
+    padding-left: 0 !important;
+  }
+  .ph-services-slider {
+    margin-right: 0;
+  }
+  .ph-services-card {
+    padding: 20px;
+  }
+  .ph-conditions-image {
+    height: 750px;
+  }
+  .ph-conditions-content {
+    margin-top: 30px;
+  }
+  .ph-conditions-content .inner .list {
+    padding-left: 30px;
+  }
+  .ph-team-items .item {
+    padding: 20px;
+  }
+  .ph-team-items .item .content {
+    margin-bottom: 20px;
+  }
+  .ph-team-items .item .team-btn {
+    text-align: start;
+  }
+  .ph-team-items .item .team-image {
+    position: relative;
+    right: 0;
+    top: unset;
+    transform: unset;
+    opacity: 1;
+    max-width: 100%;
+    margin-top: 25px;
+  }
+  .ph-team-items .item .team-image img {
+    width: 100%;
+  }
+  .ph-faq-accordion {
+    padding-left: 0;
+    margin-top: 30px;
+  }
+  .ph-blog-ellipse {
+    top: -70px;
+  }
+  .top-header-middle-logo {
+    display: none;
+  }
+  .maternity-clinic-navbar .nav-inner .navbar-brand {
+    display: block;
+  }
+  .maternity-clinic-navbar.wrap2 {
+    padding-bottom: 0;
+  }
+  .maternity-clinic-slider-area {
+    padding: 0 0;
+  }
+  .maternity-clinic-slider-item {
+    padding-top: 170px;
+    padding-bottom: 250px;
+  }
+  .maternity-clinic-slider-item .container-fluid {
+    padding-left: calc(var(--bs-gutter-x) * 0.5);
+    padding-right: calc(var(--bs-gutter-x) * 0.5);
+    max-width: 720px;
+  }
+  .maternity-clinic-slider-item .fun {
+    right: 20px;
+    bottom: 20px;
+  }
+  .maternity-clinic-slider-content {
+    padding-left: 0;
+  }
+  .maternity-clinic-slider-content h1 {
+    font-size: 62px;
+  }
+  .mc-features-card {
+    padding: 20px;
+  }
+  .mc-about-content .inner .image {
+    height: 500px;
+  }
+  .mc-about-content .inner .content {
+    padding-left: 0;
+    margin-top: 25px;
+  }
+  .mc-about-image {
+    height: 650px;
+    margin-top: 30px;
+  }
+  .mc-services-area .section-title.wrap-style2 .right {
+    text-align: start;
+    margin-top: 12px;
+  }
+  .mc-services-area::before {
+    height: 515px;
+  }
+  .mc-services-image {
+    margin-left: 0;
+  }
+  .mc-services-items {
+    padding-left: 0;
+    margin-top: 30px;
+  }
+  .mc-treatment-content {
+    margin-right: 0;
+  }
+  .mc-treatment-content .bottom {
+    right: 20px;
+    bottom: 20px;
+  }
+  .mc-treatment-items {
+    margin-top: 30px;
+  }
+  .mc-overview-card {
+    padding: 30px;
+  }
+  .mc-overview-card .wrap-shape {
+    position: relative;
+    bottom: 0;
+    right: 0;
+    max-width: 100%;
+    margin-top: 20px;
+  }
+  .mc-team-inner .team-button-prev {
+    left: 0;
+  }
+  .mc-team-inner .team-button-next {
+    right: 0;
+  }
+  .mc-appointment-area {
+    padding-top: 0 !important;
+  }
+  .mc-appointment-image {
+    height: 650px;
+  }
+  .mc-appointment-form {
+    margin-top: 30px;
+    margin-left: 0;
+  }
+  .mc-appointment-info {
+    margin-top: 30px;
+    margin-bottom: 0;
+  }
+  .mc-event-image {
+    height: 650px;
+  }
+  .mc-event-items {
+    padding-left: 0;
+  }
+  .mc-event-items .item {
+    justify-content: space-between;
+  }
+  .mc-faq-content {
+    margin-bottom: 30px;
+  }
+  .mc-faq-content .form-wrap {
+    max-width: 755px;
+  }
+  .prenatal-care-desc-content {
+    padding-left: 0;
+  }
+  .event-details-desc {
+    padding-left: 0;
+  }
+  .headlogo {
+    display: none;
+  }
+  /* End "Dental Clinic", "Cancer Treatment Center", "Dermatology & Skin Care Clinic", "Psychiatric Hospital" & "Maternity Clinic" Demo Style CSS
+  ==============================================================*/
+}
+/* Min width 992px to Max width 1199px */
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .top-header-area .container-fluid {
+    padding-left: calc(var(--bs-gutter-x) * 0.5);
+    padding-right: calc(var(--bs-gutter-x) * 0.5);
+    max-width: 960px;
+  }
+  .navbar {
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+  .navbar .navbar-collapse {
+    display: none !important;
+  }
+  .navbar .container-fluid {
+    padding-left: calc(var(--bs-gutter-x) * 0.5);
+    padding-right: calc(var(--bs-gutter-x) * 0.5);
+    max-width: 960px;
+  }
+  .medical-center-banner-area {
+    position: relative;
+    z-index: 1;
+    padding-top: 100px;
+    padding-bottom: 0;
+  }
+  .medical-center-banner-area .container-fluid {
+    padding-left: calc(var(--bs-gutter-x) * 0.5);
+    padding-right: calc(var(--bs-gutter-x) * 0.5);
+    max-width: 960px;
+  }
+  .medical-center-banner-area::before {
+    position: absolute;
+    content: "";
+    left: 0;
+    right: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    background-color: #020D2B;
+    z-index: -1;
+    opacity: 0.3;
+  }
+  .medical-center-banner-content h1 {
+    color: #ffffff;
+  }
+  .medical-center-banner-content p {
+    color: #ffffff;
+  }
+  .medical-center-banner-image {
+    position: relative;
+    right: 0;
+    bottom: 0;
+    text-align: center;
+    margin-top: 50px;
+  }
+  .plus-one, .plus-two {
+    display: none;
+  }
+  .features-area {
+    margin-top: 0;
+  }
+  .features-area .container-fluid {
+    padding-left: calc(var(--bs-gutter-x) * 0.5);
+    padding-right: calc(var(--bs-gutter-x) * 0.5);
+    max-width: 960px;
+  }
+  .features-inner-area {
+    padding: 25px 25px 0 25px;
+  }
+  .features-card {
+    padding: 25px;
+  }
+  .about-image {
+    margin-left: 0;
+    margin-top: 30px;
+    text-align: center;
+  }
+  .services-area {
+    margin-left: 0;
+    margin-right: 0;
+  }
+  .testimonial-lft-content .testimonial-slider .owl-nav {
+    right: 25px;
+  }
+  .lab-test-area .container-fluid {
+    padding-left: calc(var(--bs-gutter-x) * 0.5);
+    padding-right: calc(var(--bs-gutter-x) * 0.5);
+    max-width: 960px;
+  }
+  .lab-test-image .bottom-info {
+    left: 25px;
+    max-width: 410px;
+  }
+  .lab-test-image .bottom-info .info {
+    margin-right: 15px;
+  }
+  .lab-test-inner-content {
+    padding: 50px;
+  }
+  .lab-test-inner-content .lab-test-slider {
+    margin-right: 0;
+  }
+  .lab-test-inner-content .lab-test-slider .swiper-scrollbar {
+    margin-top: 30px;
+  }
+  .doctor-information-tabs .nav {
+    margin-bottom: 30px;
+  }
+  .doctor-information-tabs .nav .nav-item {
+    margin-right: 5px;
+    margin-top: 1.5px;
+    margin-bottom: 1.5px;
+  }
+  .doctor-information-tabs .nav .nav-item .nav-link {
+    padding: 10px 15px;
+    font-size: 10px;
+  }
+  .doctor-slider-inner .owl-prev {
+    left: 15px;
+  }
+  .doctor-slider-inner .owl-next {
+    right: 15px;
+  }
+  .mobile-app-image {
+    margin-bottom: 25px;
+  }
+  .footer-area {
+    margin-left: 0;
+    margin-right: 0;
+  }
+  .single-footer-widget.ps-5 {
+    padding-left: 0 !important;
+  }
+  .navbar-area-with-transparent-color {
+    background-color: #ffffff;
+  }
+  .navbar-area-with-transparent-color.is-sticky {
+    background-color: #ffffff;
+  }
+  .navbar-area-with-transparent-color .navbar-brand {
+    padding: 0 25px 0 0;
+  }
+  .navbar-area-with-transparent-color .navbar-brand::before {
+    display: none;
+  }
+  .general-hospital-slider-item .container-fluid {
+    padding-left: calc(var(--bs-gutter-x) * 0.5);
+    padding-right: calc(var(--bs-gutter-x) * 0.5);
+    max-width: 960px;
+  }
+  .general-hospital-slider .owl-nav {
+    right: 20px;
+    bottom: 120px;
+  }
+  .general-hospital-shape {
+    max-width: 150px;
+  }
+  .features-area.without-wrap-area .container-fluid {
+    padding-left: calc(var(--bs-gutter-x) * 0.5);
+    padding-right: calc(var(--bs-gutter-x) * 0.5);
+    max-width: 960px;
+  }
+  .about-style-content {
+    margin-top: 0;
+  }
+  .about-style-rght {
+    padding-left: 0;
+  }
+  .overview-card {
+    padding: 40px 65px 40px 20px;
+    margin-top: 2.5px;
+    margin-bottom: 2.5px;
+  }
+  .overview-card .wrap-shape {
+    bottom: 30px;
+    right: 30px;
+    max-width: 50px;
+  }
+  .book-an-appointment-area .container-fluid {
+    padding-left: calc(var(--bs-gutter-x) * 0.5);
+    padding-right: calc(var(--bs-gutter-x) * 0.5);
+    max-width: 960px;
+  }
+  .book-an-appointment-content {
+    margin-top: 35px;
+    max-width: 100%;
+  }
+  .book-an-appointment-content .content {
+    margin-left: 0;
+    margin-bottom: 25px;
+  }
+  .book-an-appointment-content .appointment-form {
+    padding: 50px;
+    margin-left: 0;
+    border: 1px solid #efefef;
+  }
+  .book-an-appointment-content .appointment-form h2 {
+    position: relative;
+    left: 0;
+    top: 0;
+    writing-mode: unset;
+    margin-bottom: 20px;
+    font-size: 55px;
+  }
+  .faq-area .container-fluid {
+    padding-left: calc(var(--bs-gutter-x) * 0.5);
+    padding-right: calc(var(--bs-gutter-x) * 0.5);
+    max-width: 960px;
+  }
+  .navbar-area-with-optional-color {
+    padding-top: 15px;
+    padding-bottom: 15px;
+  }
+  .healthcare-center-banner-area .container-fluid {
+    padding-left: calc(var(--bs-gutter-x) * 0.5);
+    padding-right: calc(var(--bs-gutter-x) * 0.5);
+    max-width: 960px;
+  }
+  .healthcare-center-content {
+    padding: 15px;
+  }
+  .healthcare-center-content h1 {
+    font-size: 30px;
+    margin-bottom: 8px;
+  }
+  .healthcare-center-content p {
+    font-size: 14px;
+    margin-bottom: 0;
+  }
+  .healthcare-center-content .banner-btn {
+    margin-top: 14px;
+  }
+  .healthcare-center-info img {
+    width: 100%;
+  }
+  .healthcare-center-bottom-image img {
+    width: 100%;
+  }
+  .healthcare-center-bottom-info {
+    padding: 55px;
+  }
+  .healthcare-center-bottom-rght img {
+    width: 100%;
+  }
+  .join-event-inner {
+    padding: 50px;
+  }
+  .join-event-inner .woman-wrap {
+    right: 10px;
+    max-width: 220px;
+  }
+  .join-event-inner .plus {
+    top: 30px;
+  }
+  .join-event-inner .plus2 {
+    bottom: 30%;
+    right: 30%;
+    transform: translateY(-30%) translateX(-30%);
+  }
+  .solution-inner {
+    padding: 50px;
+  }
+  .features-overview-area {
+    margin-left: 0;
+    margin-right: 0;
+  }
+  .features-overview-inner .col {
+    flex: 0 0 auto;
+    width: 50%;
+  }
+  .features-overview-inner .col:last-child .features-overview-card {
+    border-bottom: none;
+  }
+  .features-overview-card {
+    border: none;
+  }
+  .page-banner-area .container-fluid {
+    padding-left: calc(var(--bs-gutter-x) * 0.5);
+    padding-right: calc(var(--bs-gutter-x) * 0.5);
+    max-width: 960px;
+  }
+  .page-banner-inner, .hospa-toolkit-activate .page-banner-inner {
+    margin: 15px auto 0;
+    padding: 35px;
+  }
+  .page-banner-inner .information li .phone-btn span {
+    font-size: 14px;
+  }
+  .about-image.wrap-one {
+    margin-right: 0;
+    margin-top: 0;
+    margin-bottom: 30px;
+  }
+  .about-more-image {
+    padding-right: 0;
+  }
+  .about-more-content {
+    padding-left: 0;
+  }
+  .about-more-content .inner-more-content {
+    margin-left: -398px;
+    margin-top: 30px;
+  }
+  .about-overview-card {
+    padding: 30px;
+  }
+  .strategy-content {
+    padding-left: 15px;
+  }
+  .strategy-shape {
+    top: 10%;
+    right: 5%;
+    transform: translateY(-10%) translateX(-5%);
+  }
+  .doctor-search-form .quick-search-list li a {
+    padding: 5px 7px;
+    font-size: 8px;
+    letter-spacing: 1px;
+  }
+  .doctor-details-area .container-fluid,  .doctor-details-area.container-fluid {
+    padding-left: calc(var(--bs-gutter-x) * 0.5);
+    padding-right: calc(var(--bs-gutter-x) * 0.5);
+    max-width: 960px;
+  }
+  .doctor-details-top-content {
+    padding: 25px;
+  }
+  .doctor-details-top-content .title {
+    padding-right: 0;
+  }
+  .doctor-details-top-content .social-box {
+    position: relative;
+    top: 0;
+    right: 0;
+    display: table;
+    margin-top: 20px;
+  }
+  .doctor-details-top-content .social-box li {
+    display: inline-flex;
+  }
+  .doctor-details-desc .content {
+    padding: 25px;
+  }
+  .doctor-details-desc .quote-card {
+    padding: 25px;
+  }
+  .doctor-details-desc .quote-button {
+    right: 25px;
+    bottom: 25px;
+  }
+  .doctor-details-sidebar {
+    margin-top: 25px;
+    padding: 25px;
+  }
+  .donate-area .container-fluid {
+    padding-left: calc(var(--bs-gutter-x) * 0.5);
+    padding-right: calc(var(--bs-gutter-x) * 0.5);
+    max-width: 960px;
+  }
+  .donate-large-image {
+    position: relative;
+    top: 0;
+    max-width: 100%;
+  }
+  .donate-form-wrap {
+    max-width: 100%;
+    margin: 30px auto 0 auto;
+  }
+  .online-information-card {
+    padding: 20px;
+  }
+  .online-information-card .icon {
+    margin-bottom: 25px;
+  }
+  .online-information-card h3 {
+    margin-bottom: 15px;
+  }
+  .pricing-information-tabs .nav {
+    margin-bottom: 30px;
+  }
+  .pricing-information-tabs .nav .nav-item {
+    margin-right: 2px;
+    margin-top: 1.5px;
+    margin-bottom: 1.5px;
+  }
+  .pricing-information-tabs .nav .nav-item .nav-link {
+    padding: 5px 7px;
+    font-size: 10px;
+  }
+  .pricing-information-tabs .tab-content .tab-pane {
+    padding: 50px;
+  }
+  .services-details-sidebar .services-list, .ser-sidebar-card.services-list {
+    padding: 30px;
+  }
+  .careers-details-sidebar {
+    padding: 22px;
+  }
+  .find-location-search-form .form-group {
+    margin-top: 5px;
+    margin-bottom: 5px;
+  }
+  .find-location-search-form .search-btn {
+    bottom: 35px;
+  }
+  .find-location-content .location-inner {
+    padding-right: 5px;
+  }
+  .find-location-content .location-inner .box .lft .image img {
+    max-width: 105px;
+  }
+  .find-location-content .location-inner .box .rght .location {
+    font-size: 12px;
+  }
+  .find-location-content .location-inner .box .rght .location i {
+    font-size: 15px;
+    margin-right: 3px;
+    top: -0.5px;
+  }
+  .lab-test-details-sidebar .info-box {
+    padding: 25px;
+  }
+  .widget-area {
+    padding: 25px;
+  }
+  .shop-search-form {
+    padding: 20px;
+  }
+  .shop-search-form .form-group {
+    margin-top: 5px;
+    margin-bottom: 5px;
+  }
+  .shop-grid-box .form-select {
+    width: 160px;
+  }
+  .shop-widget-area {
+    padding: 25px;
+  }
+  .checkout-sidebar {
+    margin-top: 30px;
+  }
+  .product-details-area .container-fluid {
+    padding-left: calc(var(--bs-gutter-x) * 0.5);
+    padding-right: calc(var(--bs-gutter-x) * 0.5);
+    max-width: 960px;
+  }
+  .product-details-desc .content .social-box {
+    position: relative;
+    top: 0;
+    right: 0;
+    display: table;
+    margin-top: 20px;
+  }
+  .product-details-desc .content .social-box li {
+    display: inline-flex;
+  }
+  .working-process-desc .process-card::before {
+    display: none;
+  }
+  .time-schedule-tabs .nav {
+    margin-bottom: 30px;
+  }
+  .time-schedule-tabs .nav .nav-item {
+    margin-right: 2px;
+    margin-top: 1.5px;
+    margin-bottom: 1.5px;
+  }
+  .time-schedule-tabs .nav .nav-item .nav-link {
+    padding: 5px 7px;
+    font-size: 10px;
+  }
+  .eye-care-hospital-slider-item {
+    border-radius: 0 0 30px 30px;
+  }
+  .eye-care-hospital-slider-item .container-fluid {
+    padding-left: calc(var(--bs-gutter-x) * 0.5);
+    padding-right: calc(var(--bs-gutter-x) * 0.5);
+    max-width: 960px;
+  }
+  .eye-care-hospital-slider-info {
+    padding: 20px;
+  }
+  .ech-about-image .wrap-quote {
+    right: 0;
+  }
+  .ech-about-image .shape {
+    left: 0;
+    bottom: 25px;
+  }
+  .ech-about-content {
+    padding-left: 0;
+    margin-top: 30px;
+  }
+  .ech-information-form {
+    margin-top: 30px;
+  }
+  .ech-review-lft .review-wrap {
+    padding: 5px;
+  }
+  .ech-review-lft .review-wrap .inner {
+    padding: 10px;
+  }
+  .ech-review-inner {
+    padding-left: 15px;
+  }
+  .ech-choose-content {
+    margin-right: 0;
+  }
+  .ech-choose-image {
+    margin-top: 30px;
+    margin-left: 0;
+  }
+  .ech-contact-us-information .item, .ech-con-card.item {
+    padding: 15px;
+  }
+  .ech-contact-us-information .item .inner, .ech-con-card.item .inner {
+    padding: 15px 18px;
+  }
+  .ech-contact-us-form-wrap {
+    padding-left: 0;
+  }
+  .child-care-hospital-banner-area {
+    padding-top: 100px;
+    padding-bottom: 100px;
+  }
+  .child-care-hospital-banner-area .container-fluid {
+    padding-left: calc(var(--bs-gutter-x) * 0.5);
+    padding-right: calc(var(--bs-gutter-x) * 0.5);
+    max-width: 960px;
+  }
+  .child-care-hospital-banner-image {
+    margin-right: 0;
+  }
+  .child-care-hospital-banner-content {
+    padding: 0;
+  }
+  .cch-link-info-area {
+    margin-top: 100px;
+  }
+  .cch-large-inner-bg-color .shape1 {
+    display: none;
+  }
+  .cch-large-inner-bg-color .shape2 {
+    display: none;
+  }
+  .cch-testimonial-content .wrap-shape {
+    display: none;
+  }
+  .cch-doctors-content .bottom-info {
+    padding: 20px;
+  }
+  .cch-doctors-content .bottom-info::before {
+    margin-left: 0;
+  }
+  .cch-help-list li {
+    margin-right: 15px;
+  }
+  .cch-help-list .help-card {
+    margin-right: 15px;
+  }
+  .cch-blog-inner {
+    padding: 0 50px;
+  }
+  .cch-blog-inner .cch-blog-slider-button .blog-button-prev {
+    left: -15px;
+  }
+  .cch-blog-inner .cch-blog-slider-button .blog-button-next {
+    right: -15px;
+  }
+  .features-overview-area.cch-features-overview::before {
+    height: 85%;
+  }
+  .cch-features-overview .features-overview-area::before {
+    height: 85%;
+  }
+
+  /* Start "Dental Clinic", "Cancer Treatment Center", "Dermatology & Skin Care Clinic", "Psychiatric Hospital" & "Maternity Clinic" Demo Style CSS
+  ==============================================================*/
+  .top-header-wrap-area .container-fluid {
+    padding-left: calc(var(--bs-gutter-x) * 0.5);
+    padding-right: calc(var(--bs-gutter-x) * 0.5);
+    max-width: 960px;
+  }
+  .top-header-wrap-info li {
+    margin-right: 20px;
+  }
+  .top-header-wrap-info li span {
+    font-size: 12.5px;
+  }
+  .top-header-wrap-info li i {
+    font-size: 13px;
+    top: 0;
+  }
+  .dental-clinic-navbar {
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+  .dental-clinic-navbar .nav-inner {
+    padding: 10px 15px;
+  }
+  .dental-clinic-banner-area {
+    padding-top: 280px;
+    padding-bottom: 420px;
+  }
+  .dental-clinic-banner-area .container-fluid {
+    padding-left: calc(var(--bs-gutter-x) * 0.5);
+    padding-right: calc(var(--bs-gutter-x) * 0.5);
+    max-width: 960px;
+  }
+  .dental-clinic-banner-content .bottom-info {
+    bottom: -270px;
+  }
+  .dc-feature-area {
+    margin-top: -100px;
+  }
+  .dc-feature-area .container-fluid {
+    padding-left: calc(var(--bs-gutter-x) * 0.5);
+    padding-right: calc(var(--bs-gutter-x) * 0.5);
+    max-width: 960px;
+  }
+  .dc-about-image {
+    margin-right: 0;
+  }
+  .dc-about-content {
+    padding-left: 0;
+  }
+  .dc-services-area {
+    background: #E7F9FA;
+  }
+  .dc-services-card .arrow-btn {
+    background-color: #E7F9FA;
+  }
+  .dc-services-card .arrow-btn .shape1 svg {
+    fill: #E7F9FA;
+  }
+  .dc-services-card .arrow-btn .shape2 svg {
+    fill: #E7F9FA;
+  }
+  .dc-services-card .arrow-btn.wrap2 {
+    background-color: #E7F9FA;
+  }
+  .dc-services-card .arrow-btn.wrap2 .shape1 svg {
+    fill: #E7F9FA;
+  }
+  .dc-services-card .arrow-btn.wrap2 .shape2 svg {
+    fill: #E7F9FA;
+  }
+  .dc-services-card .arrow-btn.wrap3 {
+    background-color: #E7F9FA;
+  }
+  .dc-services-card .arrow-btn.wrap3 .shape1 svg {
+    fill: #E7F9FA;
+  }
+  .dc-services-card .arrow-btn.wrap3 .shape2 svg {
+    fill: #E7F9FA;
+  }
+  .dc-services-link {
+    margin-left: 0;
+  }
+  .dc-services-wrap-image {
+    right: -170px;
+  }
+  .dc-choose-card .content h3 {
+    font-size: 17px;
+  }
+  .dc-choose-card .list li {
+    font-size: 15px;
+  }
+  .dc-testimonials-wrap1 {
+    left: 10px;
+    max-width: 200px;
+  }
+  .dc-testimonials-wrap2 {
+    right: 10px;
+    max-width: 200px;
+  }
+  .dc-treatment-inner .treatment-button-prev {
+    left: 0;
+    padding: 10px 10px 10px 0px;
+  }
+  .dc-treatment-inner .treatment-button-prev i {
+    height: 40px;
+    width: 40px;
+    line-height: 40px;
+    font-size: 22px;
+  }
+  .dc-treatment-inner .treatment-button-next {
+    right: 0;
+    padding: 10px 0 10px 10px;
+  }
+  .dc-treatment-inner .treatment-button-next i {
+    height: 40px;
+    width: 40px;
+    line-height: 40px;
+    font-size: 22px;
+  }
+  .dc-blog-item .content {
+    max-width: 850px;
+  }
+  .dc-blog-items {
+    margin-left: 0;
+  }
+  .dc-location-map {
+    margin-right: 0;
+  }
+  .cancer-treatment-navbar {
+    background-color: #ffffff;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+  .cancer-treatment-slider-item {
+    padding-top: 270px;
+  }
+  .cancer-treatment-slider-item .container-fluid {
+    padding-left: calc(var(--bs-gutter-x) * 0.5);
+    padding-right: calc(var(--bs-gutter-x) * 0.5);
+    max-width: 960px;
+  }
+  .cancer-treatment-slider-bottom {
+    right: 35px;
+  }
+  .cancer-treatment-slider-bottom .content {
+    max-width: 495px;
+  }
+  .cancer-treatment-slider-button {
+    left: 35px;
+  }
+  .cancer-types-list {
+    padding-left: 0;
+  }
+  .cancer-about-image {
+    height: 750px;
+  }
+  .cancer-services-card {
+    overflow: hidden;
+  }
+  .cancer-services-card .content {
+    padding: 0 20px 20px 20px;
+  }
+  .cancer-services-card .arrow-btn .shape1 {
+    left: -29px;
+  }
+  .cancer-services-card .arrow-btn .shape2 {
+    bottom: -29px;
+  }
+  .cancer-services-item {
+    overflow: hidden;
+  }
+  .cancer-services-item .image .arrow-btn .shape1 {
+    left: -29px;
+  }
+  .cancer-services-item .image .arrow-btn .shape2 {
+    bottom: -29px;
+  }
+  .cancer-team-inner {
+    padding: 15px;
+  }
+  .cancer-blog-items {
+    padding-left: 0;
+  }
+  .skin-care-banner-area .container-fluid {
+    padding-left: calc(var(--bs-gutter-x) * 0.5);
+    padding-right: calc(var(--bs-gutter-x) * 0.5);
+    max-width: 960px;
+  }
+  .skin-care-banner-inner {
+    padding-top: 200px;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-bottom: 100px;
+  }
+  .skin-care-banner-inner .content .top {
+    display: block;
+  }
+  .skin-care-banner-inner .content .top h1 {
+    font-size: 100px;
+    margin-bottom: 25px;
+  }
+  .skin-care-banner-inner .content .top .info {
+    display: inline-block;
+  }
+  .skin-care-banner-inner .content .bottom {
+    display: block;
+  }
+  .skin-care-banner-inner .content .bottom p {
+    max-width: 550px;
+    margin-bottom: 20px;
+  }
+  .skin-care-banner-inner .content .bottom h1 {
+    font-size: 90px;
+  }
+  .sc-appointment-items .item {
+    padding: 20px;
+  }
+  .sc-appointment-items .item h3 {
+    font-size: 17px;
+    margin-bottom: 13px;
+  }
+  .sc-about-image {
+    margin-left: 0;
+  }
+  .sc-services-area {
+    margin: 0 0;
+  }
+  .sc-services-tabs .nav-item .nav-link {
+    font-size: 40px;
+  }
+  .sc-services-tabs .nav-item .nav-link sup {
+    top: -15px;
+  }
+  .sc-doctors-area {
+    margin: 0 0;
+  }
+  .sc-doctors-tabs {
+    margin-bottom: 30px;
+  }
+  .sc-doctors-tabs .nav-item {
+    margin-right: 2px;
+    margin-top: 1.5px;
+    margin-bottom: 1.5px;
+  }
+  .sc-doctors-tabs .nav-item .nav-link {
+    padding: 5px 7px;
+    font-size: 10px;
+  }
+  .treatment-fees-area .container-fluid {
+    padding-left: calc(var(--bs-gutter-x) * 0.5);
+    padding-right: calc(var(--bs-gutter-x) * 0.5);
+    max-width: 960px;
+  }
+  .treatment-fees-image {
+    height: 750px;
+    margin-right: 0;
+  }
+  .treatment-fees-content {
+    max-width: 1050px;
+  }
+  .sc-blog-card .content {
+    padding: 20px;
+  }
+  .sc-gallery-app {
+    margin-top: 30px;
+  }
+  .psychiatric-hospital-banner-area .container-fluid {
+    padding-left: calc(var(--bs-gutter-x) * 0.5);
+    padding-right: calc(var(--bs-gutter-x) * 0.5);
+    max-width: 960px;
+  }
+  .psychiatric-hospital-banner-content h1 {
+    font-size: 70px;
+  }
+  .psychiatric-hospital-banner-content .brain {
+    top: 0;
+    margin-left: 0;
+  }
+  .psychiatric-hospital-banner-bottom .view-animation h1 {
+    font-size: 50px;
+  }
+  .psychiatric-hospital-banner-bottom .inner-wrap {
+    padding: 20px;
+  }
+  .psychiatric-hospital-banner-bottom .inner-wrap p {
+    max-width: 195px;
+    font-size: 15px;
+  }
+  .ps-5 {
+    padding-left: 0 !important;
+  }
+  .ph-conditions-content .inner .list {
+    padding-left: 0;
+  }
+  .ph-conditions-content .inner .list li {
+    margin-bottom: 10px;
+  }
+  .ph-conditions-content .inner .list li h5 {
+    margin-bottom: 5px;
+  }
+  .ph-team-items .item .team-btn {
+    text-align: start;
+  }
+  .ph-team-items .item .team-image {
+    position: relative;
+    right: 0;
+    top: unset;
+    transform: unset;
+    opacity: 1;
+    max-width: 100%;
+    margin-top: 25px;
+  }
+  .ph-team-items .item .team-image img {
+    width: 100%;
+  }
+  .ph-blog-ellipse {
+    top: -80px;
+  }
+  .top-header-middle-logo {
+    display: none;
+  }
+  .top-header-wrap-list li {
+    margin-right: 25px;
+    display: none;
+  }
+  .maternity-clinic-navbar .nav-inner .navbar-brand {
+    display: block;
+  }
+  .maternity-clinic-navbar.wrap2 {
+    padding-bottom: 0;
+  }
+  .maternity-clinic-slider-area {
+    padding: 0 0;
+  }
+  .maternity-clinic-slider-item {
+    padding-top: 170px;
+    padding-bottom: 250px;
+  }
+  .maternity-clinic-slider-item .container-fluid {
+    padding-left: calc(var(--bs-gutter-x) * 0.5);
+    padding-right: calc(var(--bs-gutter-x) * 0.5);
+    max-width: 960px;
+  }
+  .maternity-clinic-slider-item .fun {
+    right: 20px;
+    bottom: 20px;
+  }
+  .maternity-clinic-slider-content {
+    padding-left: 0;
+  }
+  .mc-about-content .inner .content {
+    padding-left: 0;
+  }
+  .mc-services-image {
+    margin-left: 0;
+  }
+  .mc-treatment-content {
+    margin-right: 0;
+  }
+  .mc-treatment-content .bottom {
+    right: 50px;
+  }
+  .mc-treatment-items {
+    margin-top: 30px;
+  }
+  .mc-team-inner .team-button-prev {
+    left: 0;
+  }
+  .mc-team-inner .team-button-next {
+    right: 0;
+  }
+  .mc-event-items {
+    padding-left: 0;
+  }
+  /* End "Dental Clinic", "Cancer Treatment Center", "Dermatology & Skin Care Clinic", "Psychiatric Hospital" & "Maternity Clinic" Demo Style CSS
+  ==============================================================*/
+}
+/* Min width 1200px to Max width 1399px */
+@media only screen and (min-width: 1200px) and (max-width: 1399px) {
+
+  .top-header-area .container-fluid {
+    padding-left: calc(var(--bs-gutter-x) * 0.5);
+    padding-right: calc(var(--bs-gutter-x) * 0.5);
+    max-width: 1140px;
+  }
+  .navbar .container-fluid {
+    padding-left: calc(var(--bs-gutter-x) * 0.5);
+    padding-right: calc(var(--bs-gutter-x) * 0.5);
+    max-width: 1140px;
+  }
+  .navbar .navbar-brand {
+    padding-right: 20px;
+  }
+  .navbar .top-navbar-list li {
+    font-size: 13px;
+    margin-right: 25px;
+  }
+  .navbar .navbar-nav .nav-item {
+    margin-left: 5px;
+    margin-right: 5px;
+  }
+  .navbar .navbar-nav .nav-item .nav-link {
+    font-size: 13.5px;
+  }
+  .navbar .navbar-nav .nav-item .nav-link.dropdown-toggle {
+    padding-right: 15px;
+  }
+  .navbar .navbar-nav .nav-item .nav-link.dropdown-toggle::before {
+    font-size: 13.2px;
+  }
+  .navbar .navbar-nav .nav-item .dropdown-menu .nav-item .nav-link {
+    font-size: 13px;
+  }
+  .navbar .navbar-nav .nav-item.mega-menu .dropdown-menu {
+    max-width: 1150px;
+  }
+  .mega-menu-submenu .nav-item .nav-link {
+    font-size: 13px;
+  }
+  .navbar .others-option {
+    margin-left: 15px;
+  }
+  .navbar .others-option .option-item {
+    margin-right: 10px;
+  }
+  .medical-center-banner-area .container-fluid {
+    padding-left: calc(var(--bs-gutter-x) * 0.5);
+    padding-right: calc(var(--bs-gutter-x) * 0.5);
+    max-width: 1140px;
+  }
+  .medical-center-banner-image {
+    right: -50px;
+  }
+  .plus-one, .plus-two {
+    display: none;
+  }
+  .features-area .container-fluid {
+    padding-left: calc(var(--bs-gutter-x) * 0.5);
+    padding-right: calc(var(--bs-gutter-x) * 0.5);
+    max-width: 1140px;
+  }
+  .features-inner-area {
+    padding: 50px 20px 25px 20px;
+  }
+  .features-card {
+    padding: 30px;
+  }
+  .about-image .counter-wrap .item {
+    padding: 15px;
+  }
+  .about-image .counter-wrap.wrap-two .item {
+    padding: 7px 15px;
+  }
+  .services-area {
+    margin-left: 0;
+    margin-right: 0;
+  }
+  .lab-test-area .container-fluid {
+    padding-left: calc(var(--bs-gutter-x) * 0.5);
+    padding-right: calc(var(--bs-gutter-x) * 0.5);
+    max-width: 1140px;
+  }
+  .lab-test-image .bottom-info {
+    max-width: 485px;
+    left: 25px;
+  }
+  .lab-test-inner-content {
+    padding: 80px 35px;
+  }
+  .lab-test-card {
+    padding: 50px 25px 30px;
+  }
+  .doctor-slider-inner .owl-prev {
+    left: -10px;
+  }
+  .doctor-slider-inner .owl-next {
+    right: -10px;
+  }
+  .mobile-app-content {
+    padding: 50px 30px;
+  }
+  .mobile-app-content .app-btn li {
+    padding: 10px 20px;
+    margin-right: 10px;
+  }
+  .footer-area {
+    margin-left: 0;
+    margin-right: 0;
+  }
+  .single-footer-widget.ps-5 {
+    padding-left: 0 !important;
+  }
+  .navbar-area-with-transparent-color .navbar-brand {
+    margin-right: 20px;
+    padding: 25px 10px 25px 0;
+  }
+  .navbar-area-with-transparent-color.is-sticky .navbar-brand {
+    padding: 50px 10px 50px 0;
+  }
+  .general-hospital-slider-item .container-fluid {
+    padding-left: calc(var(--bs-gutter-x) * 0.5);
+    padding-right: calc(var(--bs-gutter-x) * 0.5);
+    max-width: 1140px;
+  }
+  .general-hospital-slider .owl-nav {
+    right: 20px;
+    bottom: 120px;
+  }
+  .general-hospital-shape {
+    max-width: 150px;
+  }
+  .features-area.without-wrap-area .container-fluid {
+    padding-left: calc(var(--bs-gutter-x) * 0.5);
+    padding-right: calc(var(--bs-gutter-x) * 0.5);
+    max-width: 1140px;
+  }
+  .overview-card {
+    padding: 40px 65px 40px 20px;
+    margin-top: 2.5px;
+    margin-bottom: 2.5px;
+  }
+  .overview-card .wrap-shape {
+    bottom: 30px;
+    right: 30px;
+    max-width: 50px;
+  }
+  .book-an-appointment-area .container-fluid {
+    padding-left: calc(var(--bs-gutter-x) * 0.5);
+    padding-right: calc(var(--bs-gutter-x) * 0.5);
+    max-width: 1140px;
+  }
+  .book-an-appointment-content .appointment-form {
+    margin-left: 0;
+  }
+  .faq-area .container-fluid {
+    padding-left: calc(var(--bs-gutter-x) * 0.5);
+    padding-right: calc(var(--bs-gutter-x) * 0.5);
+    max-width: 1140px;
+  }
+  .healthcare-center-content {
+    padding: 25px;
+  }
+  .healthcare-center-content h1 {
+    font-size: 32px;
+    margin-bottom: 10px;
+  }
+  .healthcare-center-content .banner-btn {
+    margin-top: 15px;
+  }
+  .healthcare-center-bottom-info {
+    padding: 10px;
+  }
+  .healthcare-center-bottom-info .sub {
+    font-size: 14px;
+  }
+  .healthcare-center-bottom-info .phone-btn .icon i {
+    height: 30px;
+    width: 30px;
+    line-height: 30px;
+    font-size: 18px;
+  }
+  .healthcare-center-bottom-info .phone-btn span {
+    font-size: 12px;
+  }
+  .healthcare-center-bottom-rght .box {
+    left: 20px;
+    top: 20px;
+    padding: 20px;
+    max-width: 335px;
+  }
+  .healthcare-center-bottom-rght .box .shop-btn {
+    margin-top: 12px;
+    padding-top: 18px;
+  }
+  .features-overview-area {
+    margin-left: 0;
+    margin-right: 0;
+  }
+  .features-overview-card {
+    padding: 30px;
+    height: 100%;
+  }
+  .page-banner-area .container-fluid {
+    padding-left: calc(var(--bs-gutter-x) * 0.5);
+    padding-right: calc(var(--bs-gutter-x) * 0.5);
+    max-width: 1140px;
+  }
+  .page-banner-inner, .hospa-toolkit-activate .page-banner-inner {
+    margin: -15px auto 0;
+  }
+  .about-more-image {
+    padding-right: 0;
+  }
+  .about-more-content .inner-more-content {
+    margin-top: 35px;
+    margin-left: -362px;
+  }
+  .strategy-shape {
+    top: 10%;
+    right: 5%;
+    transform: translateY(-10%) translateX(-5%);
+  }
+  .doctor-search-form .quick-search-list li a {
+    padding: 5px 10px;
+    font-size: 10px;
+  }
+  .doctor-details-area .container-fluid,  .doctor-details-area.container-fluid {
+    padding-left: calc(var(--bs-gutter-x) * 0.5);
+    padding-right: calc(var(--bs-gutter-x) * 0.5);
+    max-width: 1140px;
+  }
+  .doctor-details-top-content {
+    padding: 30px;
+  }
+  .doctor-details-desc .content {
+    padding: 25px;
+  }
+  .doctor-details-desc .quote-card {
+    padding: 25px;
+  }
+  .doctor-details-desc .quote-button {
+    right: 20px;
+    bottom: 20px;
+  }
+  .doctor-details-desc .quote-button li i {
+    height: 30px;
+    width: 30px;
+    line-height: 30px;
+    font-size: 15px;
+  }
+  .doctor-details-sidebar {
+    padding: 20px;
+  }
+  .doctor-details-sidebar h3 {
+    font-size: 20px;
+  }
+  .donate-area .container-fluid {
+    padding-left: calc(var(--bs-gutter-x) * 0.5);
+    padding-right: calc(var(--bs-gutter-x) * 0.5);
+    max-width: 1140px;
+  }
+  .donate-large-image {
+    position: relative;
+    top: 0;
+    max-width: 100%;
+  }
+  .donate-form-wrap {
+    max-width: 100%;
+    margin: 30px auto 0 auto;
+  }
+  .online-information-card {
+    padding: 25px;
+  }
+  .product-details-area .container-fluid {
+    padding-left: calc(var(--bs-gutter-x) * 0.5);
+    padding-right: calc(var(--bs-gutter-x) * 0.5);
+    max-width: 1140px;
+  }
+  .product-details-desc .content {
+    padding: 110px 50px 50px;
+  }
+  .time-schedule-tabs .nav .nav-item .nav-link {
+    padding: 10px 15px;
+  }
+  .eye-care-hospital-slider-item .container-fluid {
+    padding-left: calc(var(--bs-gutter-x) * 0.5);
+    padding-right: calc(var(--bs-gutter-x) * 0.5);
+    max-width: 1140px;
+  }
+  .ech-about-image .counter-wrap {
+    top: 0;
+  }
+  .ech-about-image .wrap-quote {
+    right: 0;
+    max-width: 465px;
+  }
+  .ech-about-image .shape {
+    left: 0;
+    bottom: 50px;
+  }
+  .ech-about-content {
+    padding-left: 0;
+  }
+  .ech-about-content .inner {
+    margin-left: 15px;
+  }
+  .ech-information-inner {
+    padding: 30px;
+  }
+  .ech-information-list li .info span {
+    font-size: 15px;
+  }
+  .ech-review-lft .review-wrap {
+    padding: 10px;
+  }
+  .ech-review-lft .review-wrap .inner {
+    padding: 15px;
+  }
+  .ech-choose-content {
+    padding: 30px;
+  }
+  .ech-choose-content .inner-items .item {
+    margin-bottom: 20px;
+  }
+  .child-care-hospital-banner-area .container-fluid {
+    padding-left: calc(var(--bs-gutter-x) * 0.5);
+    padding-right: calc(var(--bs-gutter-x) * 0.5);
+    max-width: 1140px;
+  }
+  .cch-doctors-content .bottom-info {
+    padding: 20px;
+  }
+  .cch-doctors-content .bottom-info::before {
+    margin-left: 0;
+  }
+  .cch-blog-inner .cch-blog-slider-button .blog-button-prev {
+    left: -25px;
+  }
+  .cch-blog-inner .cch-blog-slider-button .blog-button-next {
+    right: -25px;
+  }
+  .features-overview-area.cch-features-overview::before {
+    height: 210px;
+  }
+  .cch-features-overview .features-overview-area::before {
+    height: 210px;
+  }
+
+
+
+
+  /* Start "Dental Clinic", "Cancer Treatment Center", "Dermatology & Skin Care Clinic", "Psychiatric Hospital" & "Maternity Clinic" Demo Style CSS
+  ==============================================================*/
+  .top-header-wrap-area .container-fluid {
+    padding-left: calc(var(--bs-gutter-x) * 0.5);
+    padding-right: calc(var(--bs-gutter-x) * 0.5);
+    max-width: 1140px;
+  }
+  .dental-clinic-navbar {
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+  .dental-clinic-navbar .nav-inner {
+    padding: 2px 10px;
+  }
+  .dental-clinic-banner-area {
+    padding-top: 280px;
+    padding-bottom: 420px;
+  }
+  .dental-clinic-banner-area .container-fluid {
+    padding-left: calc(var(--bs-gutter-x) * 0.5);
+    padding-right: calc(var(--bs-gutter-x) * 0.5);
+    max-width: 1140px;
+  }
+  .dental-clinic-banner-content .bottom-info {
+    bottom: -270px;
+  }
+  .dc-feature-area {
+    margin-top: -100px;
+  }
+  .dc-feature-area .container-fluid {
+    padding-left: calc(var(--bs-gutter-x) * 0.5);
+    padding-right: calc(var(--bs-gutter-x) * 0.5);
+    max-width: 1140px;
+  }
+  .dc-about-image {
+    margin-right: 0;
+  }
+  .dc-about-content {
+    padding-left: 0;
+  }
+  .dc-services-area {
+    background: #E7F9FA;
+  }
+  .dc-services-large-item {
+    padding: 40px;
+  }
+  .dc-services-card {
+    padding: 25px;
+  }
+  .dc-services-card .arrow-btn {
+    background-color: #E7F9FA;
+  }
+  .dc-services-card .arrow-btn .shape1 svg {
+    fill: #E7F9FA;
+  }
+  .dc-services-card .arrow-btn .shape2 svg {
+    fill: #E7F9FA;
+  }
+  .dc-services-card .arrow-btn.wrap2 {
+    background-color: #E7F9FA;
+  }
+  .dc-services-card .arrow-btn.wrap2 .shape1 svg {
+    fill: #E7F9FA;
+  }
+  .dc-services-card .arrow-btn.wrap2 .shape2 svg {
+    fill: #E7F9FA;
+  }
+  .dc-services-card .arrow-btn.wrap3 {
+    background-color: #E7F9FA;
+  }
+  .dc-services-card .arrow-btn.wrap3 .shape1 svg {
+    fill: #E7F9FA;
+  }
+  .dc-services-card .arrow-btn.wrap3 .shape2 svg {
+    fill: #E7F9FA;
+  }
+  .dc-services-link {
+    margin-left: 0;
+  }
+  .dc-services-wrap-image {
+    right: -200px;
+  }
+  .dc-appointment-inner {
+    padding: 20px;
+  }
+  .dc-appointment-inner form .form-group .appointment-btn {
+    padding: 15.5px 15px;
+  }
+  .dc-testimonials-wrap1 {
+    left: 10px;
+    max-width: 200px;
+  }
+  .dc-testimonials-wrap2 {
+    right: 10px;
+    max-width: 200px;
+  }
+  .dc-treatment-inner .treatment-button-prev {
+    left: 0;
+    padding: 10px 10px 10px 0px;
+  }
+  .dc-treatment-inner .treatment-button-prev i {
+    height: 40px;
+    width: 40px;
+    line-height: 40px;
+    font-size: 22px;
+  }
+  .dc-treatment-inner .treatment-button-next {
+    right: 0;
+    padding: 10px 0 10px 10px;
+  }
+  .dc-treatment-inner .treatment-button-next i {
+    height: 40px;
+    width: 40px;
+    line-height: 40px;
+    font-size: 22px;
+  }
+  .dc-treatment-box .treatment-btn {
+    margin-top: 90px;
+  }
+  .dc-treatment-card {
+    padding: 35px;
+  }
+  .dc-treatment-card .wrap-image {
+    top: 50px;
+    right: 30px;
+    max-width: 180px;
+  }
+  .dc-blog-item .content {
+    max-width: 500px;
+  }
+  .dc-blog-items {
+    margin-left: 0;
+  }
+  .dc-location-map {
+    margin-right: 0;
+  }
+  .cancer-treatment-navbar .others-option .option-item .search-bar i {
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    font-size: 15px;
+  }
+  .cancer-treatment-slider-item {
+    padding-top: 255px;
+  }
+  .cancer-treatment-slider-item .container-fluid {
+    padding-left: calc(var(--bs-gutter-x) * 0.5);
+    padding-right: calc(var(--bs-gutter-x) * 0.5);
+    max-width: 1140px;
+  }
+  .cancer-treatment-slider-button {
+    left: 35px;
+  }
+  .cancer-appointment-inner {
+    padding: 30px;
+  }
+  .cancer-appointment-inner form .form-group .appointment-btn {
+    padding: 15.5px 15px;
+  }
+  .cancer-choose-content .inner .list {
+    padding-left: 30px;
+  }
+  .cancer-team-inner {
+    padding: 30px;
+  }
+  .cancer-blog-items {
+    padding-left: 0;
+  }
+  .skin-care-banner-area .container-fluid {
+    padding-left: calc(var(--bs-gutter-x) * 0.5);
+    padding-right: calc(var(--bs-gutter-x) * 0.5);
+    max-width: 1140px;
+  }
+  .skin-care-banner-inner {
+    padding-top: 200px;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-bottom: 100px;
+  }
+  .skin-care-banner-inner .content .top {
+    display: block;
+  }
+  .skin-care-banner-inner .content .top h1 {
+    font-size: 120px;
+    margin-bottom: 25px;
+  }
+  .skin-care-banner-inner .content .top .info {
+    display: inline-block;
+  }
+  .skin-care-banner-inner .content .bottom {
+    display: block;
+  }
+  .skin-care-banner-inner .content .bottom p {
+    max-width: 550px;
+    margin-bottom: 20px;
+  }
+  .skin-care-banner-inner .content .bottom h1 {
+    font-size: 100px;
+  }
+  .sc-appointment-items .item {
+    padding: 20px;
+  }
+  .sc-about-image {
+    margin-left: 0;
+  }
+  .sc-about-content .info .call {
+    max-width: 255px;
+  }
+  .sc-services-area {
+    margin: 0 0;
+  }
+  .sc-services-tabs .nav-item .nav-link {
+    font-size: 40px;
+  }
+  .sc-services-tabs .nav-item .nav-link sup {
+    top: -15px;
+  }
+  .sc-doctors-area {
+    margin: 0 0;
+  }
+  .sc-doctors-tabs .nav-item .nav-link {
+    padding: 10px;
+  }
+  .treatment-fees-area .container-fluid {
+    padding-left: calc(var(--bs-gutter-x) * 0.5);
+    padding-right: calc(var(--bs-gutter-x) * 0.5);
+    max-width: 1140px;
+  }
+  .treatment-fees-image {
+    margin-right: 50px;
+  }
+  .sc-blog-card .content {
+    padding: 20px;
+  }
+  .sc-gallery-app {
+    padding: 45px 30px;
+  }
+  .sc-gallery-app .app-btn li {
+    padding: 20px;
+  }
+  .psychiatric-hospital-banner-area .container-fluid {
+    padding-left: calc(var(--bs-gutter-x) * 0.5);
+    padding-right: calc(var(--bs-gutter-x) * 0.5);
+    max-width: 1140px;
+  }
+  .psychiatric-hospital-banner-content h1 {
+    font-size: 85px;
+  }
+  .psychiatric-hospital-banner-bottom .inner-wrap {
+    padding: 25px;
+  }
+  .psychiatric-hospital-banner-bottom .inner-wrap p {
+    max-width: 280px;
+  }
+  .ph-team-items .item .team-image {
+    right: 220px;
+    max-width: 165px;
+  }
+  .maternity-clinic-slider-area {
+    padding: 0 0;
+  }
+  .maternity-clinic-slider-item .container-fluid {
+    padding-left: calc(var(--bs-gutter-x) * 0.5);
+    padding-right: calc(var(--bs-gutter-x) * 0.5);
+    max-width: 1140px;
+  }
+  .maternity-clinic-slider-content {
+    padding-left: 0;
+  }
+  .mc-services-image {
+    margin-left: 0;
+  }
+  .mc-treatment-content {
+    margin-right: 0;
+  }
+  .mc-treatment-content .bottom {
+    right: 50px;
+  }
+  .mc-treatment-items {
+    margin-top: 30px;
+  }
+  .mc-overview-card {
+    padding: 50px 148px 50px 45px;
+  }
+  .mc-team-inner .team-button-prev {
+    left: 0;
+  }
+  .mc-team-inner .team-button-next {
+    right: 0;
+  }
+  .mc-event-items {
+    padding-left: 0;
+  }
+  .mobile-logo {
+    display: none;
+  }
+  /* End "Dental Clinic", "Cancer Treatment Center", "Dermatology & Skin Care Clinic", "Psychiatric Hospital" & "Maternity Clinic" Demo Style CSS
+  ==============================================================*/
+}
+/* Min width 1400px to Max width 1500px */
+@media only screen and (min-width: 1400px) and (max-width: 1500px) {
+ 
+  .navbar .top-navbar-list li {
+    margin-right: 25px;
+  }
+  .navbar .navbar-nav .nav-item {
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+  .navbar .navbar-nav .nav-item.mega-menu .dropdown-menu {
+    max-width: 1340px;
+  }
+  .navbar .others-option {
+    margin-left: 25px;
+  }
+  .navbar .others-option .option-item {
+    margin-right: 20px;
+  }
+  .medical-center-banner-image {
+    right: 35px;
+  }
+  .features-card {
+    padding: 35px;
+  }
+  .doctor-slider-inner .owl-prev {
+    left: -30px;
+  }
+  .doctor-slider-inner .owl-next {
+    right: -30px;
+  }
+  .appointment-bottom-content {
+    max-width: 470px;
+  }
+  .healthcare-center-content {
+    padding: 35px;
+  }
+  .healthcare-center-bottom-info {
+    padding: 10px;
+  }
+  .healthcare-center-bottom-rght .box {
+    max-width: 340px;
+  }
+  .page-banner-inner, .hospa-toolkit-activate .page-banner-inner {
+    margin: -15px auto 0;
+  }
+  .eye-care-hospital-slider-info {
+    padding: 25px;
+    right: 55px;
+  }
+
+  /* Start "Dental Clinic", "Cancer Treatment Center", "Dermatology & Skin Care Clinic", "Psychiatric Hospital" & "Maternity Clinic" Demo Style CSS
+  ==============================================================*/
+  .dc-feature-card {
+    padding: 22px;
+  }
+  .dc-services-area {
+    background: #E7F9FA;
+  }
+  .dc-services-card .arrow-btn {
+    background-color: #E7F9FA;
+  }
+  .dc-services-card .arrow-btn .shape1 svg {
+    fill: #E7F9FA;
+  }
+  .dc-services-card .arrow-btn .shape2 svg {
+    fill: #E7F9FA;
+  }
+  .dc-services-card .arrow-btn.wrap2 {
+    background-color: #E7F9FA;
+  }
+  .dc-services-card .arrow-btn.wrap2 .shape1 svg {
+    fill: #E7F9FA;
+  }
+  .dc-services-card .arrow-btn.wrap2 .shape2 svg {
+    fill: #E7F9FA;
+  }
+  .dc-services-card .arrow-btn.wrap3 {
+    background-color: #E7F9FA;
+  }
+  .dc-services-card .arrow-btn.wrap3 .shape1 svg {
+    fill: #E7F9FA;
+  }
+  .dc-services-card .arrow-btn.wrap3 .shape2 svg {
+    fill: #E7F9FA;
+  }
+  .dc-services-wrap-image {
+    right: -140px;
+  }
+  .dc-treatment-inner .treatment-button-prev {
+    left: -15px;
+  }
+  .dc-treatment-inner .treatment-button-next {
+    right: -15px;
+  }
+  .dc-location-map {
+    margin-right: 0;
+  }
+  .skin-care-banner-inner {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  .skin-care-banner-inner .content .bottom h1 {
+    font-size: 100px;
+  }
+  .sc-about-image {
+    margin-left: 0;
+  }
+  .psychiatric-hospital-banner-content h1 {
+    font-size: 97px;
+  }
+  .mc-services-image {
+    margin-left: 0;
+  }
+  .mc-team-inner .team-button-prev {
+    left: -25px;
+  }
+  .mc-team-inner .team-button-next {
+    right: -25px;
+  }
+  .mobile-logo {
+    display: none;
+  }
+  /* End "Dental Clinic", "Cancer Treatment Center", "Dermatology & Skin Care Clinic", "Psychiatric Hospital" & "Maternity Clinic" Demo Style CSS
+  ==============================================================*/
+}
+/* Min width 1600px */
+@media only screen and (min-width: 1600px) {
+  .top-header-area .container-fluid {
+    padding-left: 100px;
+    padding-right: 100px;
+    max-width: 1920px;
+  }
+  .navbar .container-fluid {
+    padding-left: 100px;
+    padding-right: 100px;
+    max-width: 1920px;
+  }
+  .navbar .navbar-nav .nav-item.mega-menu .dropdown-menu {
+    max-width: 1710px;
+  }
+  .navbar-area-with-transparent-color .navbar-brand {
+    padding: 45px 100px 45px 0;
+  }
+  .medical-center-banner-area .container-fluid {
+    padding-left: 100px;
+    padding-right: 100px;
+    max-width: 1920px;
+  }
+  .medical-center-banner-image {
+    right: 232px;
+  }
+  .plus-two {
+    top: 35%;
+    right: 23%;
+    transform: translateY(-35%) translateX(-23%);
+  }
+  .features-area .container-fluid {
+    padding-top: 50px;
+    padding-left: 50px;
+    padding-right: 50px;
+    max-width: 1920px;
+  }
+  .features-area.without-wrap-area {
+    margin-top: 0;
+  }
+  .features-area.without-wrap-area .container-fluid {
+    padding-top: 0;
+    padding-left: 100px;
+    padding-right: 100px;
+  }
+  .lab-test-area .container-fluid {
+    padding-left: 50px;
+    padding-right: 50px;
+    max-width: 1920px;
+  }
+  .general-hospital-slider-item .container-fluid {
+    padding-left: 100px;
+    padding-right: 100px;
+    max-width: 1920px;
+  }
+  .general-hospital-slider .owl-nav {
+    right: 100px;
+  }
+  .book-an-appointment-area .container-fluid {
+    padding-left: 50px;
+    padding-right: 50px;
+    max-width: 1920px;
+  }
+  .appointment-bottom-content {
+    max-width: 600px;
+  }
+  .faq-area .container-fluid {
+    padding-left: 50px;
+    padding-right: 50px;
+    max-width: 1920px;
+  }
+  .healthcare-center-banner-area .container-fluid {
+    padding-left: 100px;
+    padding-right: 100px;
+    max-width: 1920px;
+  }
+  .healthcare-center-content {
+    padding: 92px 70px;
+  }
+  .healthcare-center-content h1 {
+    font-size: 50px;
+  }
+  .healthcare-center-info .award {
+    left: 25px;
+    top: 25px;
+  }
+  .healthcare-center-bottom-info {
+    padding: 30px;
+  }
+  .healthcare-center-bottom-info .sub {
+    font-size: 18px;
+  }
+  .healthcare-center-bottom-rght .box {
+    padding: 35px;
+  }
+  .healthcare-center-bottom-rght .box .shop-btn {
+    margin-top: 35px;
+    padding-top: 35px;
+  }
+  .features-overview-area {
+    margin-left: 50px;
+    margin-right: 50px;
+  }
+  .page-banner-area .container-fluid {
+    padding-left: 100px;
+    padding-right: 100px;
+    max-width: 1920px;
+  }
+  .page-banner-inner {
+    max-width: 1630px;
+  }
+  .doctor-details-area .container-fluid,  .doctor-details-area.container-fluid{
+    padding-left: 100px;
+    padding-right: 100px;
+    max-width: 1920px;
+  }
+  .donate-area .container-fluid {
+    padding-left: 100px;
+    padding-right: 100px;
+    max-width: 1920px;
+  }
+  .donate-large-image {
+    max-width: 1700px;
+  }
+  .product-details-area .container-fluid {
+    padding-left: 100px;
+    padding-right: 100px;
+    max-width: 1920px;
+  }
+  .footer-area {
+    margin-left: 50px;
+    margin-right: 50px;
+  }
+
+  /* Start "Eye Care Hospital Demo CSS" & "Child Care Hospital Demo CSS" */
+  .eye-care-hospital-slider-item .container-fluid {
+    padding-left: 100px;
+    padding-right: 100px;
+    max-width: 1920px;
+  }
+  .eye-care-hospital-slider-button {
+    left: 100px;
+  }
+  .eye-care-hospital-slider-info {
+    right: 100px;
+  }
+  .ech-cta-shape2 {
+    bottom: -100px;
+  }
+  .child-care-hospital-banner-area .container-fluid {
+    padding-left: 100px;
+    padding-right: 100px;
+    max-width: 1920px;
+  }
+  .child-care-hospital-banner-content h1 {
+    font-size: 88px;
+  }
+
+
+  /* Start "Dental Clinic", "Cancer Treatment Center", "Dermatology & Skin Care Clinic", "Psychiatric Hospital" & "Maternity Clinic" Demo Style CSS
+  ==============================================================*/
+  .top-header-wrap-area .container-fluid {
+    padding-left: 150px;
+    padding-right: 150px;
+    max-width: 1920px;
+  }
+  .dental-clinic-navbar .container-fluid {
+    padding-left: 150px;
+    padding-right: 150px;
+    max-width: 1920px;
+  }
+  /* Skin Care Navbar CSS */
+  .skin-care-navbar .container-fluid {
+    padding-left: 50px;
+    padding-right: 50px;
+    max-width: 1920px;
+  }
+  .dental-clinic-banner-area .container-fluid {
+    padding-left: 150px;
+    padding-right: 150px;
+    max-width: 1920px;
+  }
+  .dc-feature-area .container-fluid {
+    padding-left: 150px;
+    padding-right: 150px;
+    max-width: 1920px;
+  }
+  .dc-location-map {
+    margin-right: -150px;
+  }
+  .cancer-treatment-slider-item .container-fluid {
+    padding-left: 150px;
+    padding-right: 150px;
+    max-width: 1920px;
+  }
+  .cancer-treatment-slider-button {
+    left: 150px;
+  }
+  .cancer-treatment-slider-bottom {
+    right: 150px;
+  }
+  .skin-care-banner-area .container-fluid {
+    padding-left: 50px;
+    padding-right: 50px;
+    max-width: 1920px;
+  }
+  .skin-care-banner-inner .content {
+    max-width: 1530px;
+  }
+  .skin-care-banner-inner .content .top h1 {
+    font-size: 150px;
+  }
+  .skin-care-banner-inner .content .bottom p {
+    font-size: 18px;
+  }
+  .skin-care-banner-inner .content .bottom h1 {
+    font-size: 130px;
+  }
+  .sc-about-image {
+    margin-left: -255px;
+    padding-right: 85px;
+  }
+  .sc-about-content p {
+    font-size: 23.5px;
+  }
+  .sc-services-area {
+    margin: 0 50px;
+  }
+  .sc-doctors-area {
+    margin: 0 50px;
+  }
+  .treatment-fees-area .container-fluid {
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+  .psychiatric-hospital-banner-area .container-fluid {
+    padding-left: 150px;
+    padding-right: 150px;
+    max-width: 1920px;
+  }
+  .psychiatric-hospital-banner-content h1 {
+    font-size: 128px;
+  }
+  .maternity-clinic-slider-area {
+    padding: 0 50px;
+  }
+  .maternity-clinic-slider-content {
+    max-width: 965px;
+    padding-left: 90px;
+  }
+  .maternity-clinic-slider-content.wrap2 {
+    max-width: 1040px;
+  }
+  .maternity-clinic-slider-content.wrap3 {
+    max-width: 970px;
+  }
+  .mc-services-area::before {
+    height: 821.5px;
+  }
+  .mc-services-image {
+    margin-left: -100px;
+  }
+  .mc-event-image {
+    margin-left: -150px;
+    margin-right: 30px;
+  }
+  .mc-event-wrap-image {
+    margin-left: -150px;
+    margin-right: 30px;
+  }
+
+  .mobile-logo {
+    display: none;
+  }
+  /* End "Dental Clinic", "Cancer Treatment Center", "Dermatology & Skin Care Clinic", "Psychiatric Hospital" & "Maternity Clinic" Demo Style CSS
+  ==============================================================*/
+}

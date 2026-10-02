@@ -1,0 +1,6207 @@
+@charset "UTF-8";
+:root {
+  --mainColor: #9588E8;
+  --optionalColor: #0B55E5;
+  --optionalColorTwo: #F82828;
+  --optionalColorThree: #5DB996;
+  --optionalColorFour: #E67A66;
+  --blackColor: #020D2B;
+  --paragraph: #444F6F;
+  --whiteColor: #ffffff;
+  --transition: .6s;
+  --font-size: 16px;
+}
+
+/* Start "Dental Clinic", "Cancer Treatment Center", "Dermatology & Skin Care Clinic", "Psychiatric Hospital" & "Maternity Clinic" Demo Style CSS
+==============================================================*/
+.default-btn.extra-gap {
+  padding: 13px 20px 13.5px 55px;
+}
+
+.section-title.wrap-style2 {
+  max-width: 1050px;
+}
+.section-title.wrap-style3 {
+  max-width: 1320px;
+  text-align: start;
+}
+.section-title.wrap-style3 .sub {
+  display: inline-flex;
+  padding: 5px 10px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50px;
+  border: 1px solid #C4DCF3;
+}
+.section-title.wrap-style3 h2 span {
+  color: #939CB2;
+}
+
+.optional-header-with-position-absolute {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  width: 100%;
+  z-index: 999;
+}
+
+/*================================================
+Top Header Wrap Area CSS
+=================================================*/
+.top-header-wrap-area {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.top-header-wrap-area .container-fluid {
+  padding-left: 30px;
+  padding-right: 30px;
+}
+.top-header-wrap-area.wrap-bg2 {
+  background-color: var(--mainColor);
+}
+.top-header-wrap-area.wrap-bg2 .top-header-wrap-info li i {
+  color: var(--whiteColor);
+}
+.top-header-wrap-area.wrap-bg2 .top-header-wrap-info li span {
+  color: var(--whiteColor);
+}
+.top-header-wrap-area.wrap-bg2 .top-header-wrap-info li span a {
+  color: var(--whiteColor);
+}
+.top-header-wrap-area.wrap-bg2 .top-header-wrap-list li:last-child a {
+  color: var(--whiteColor);
+}
+.top-header-wrap-area.wrap-bg2 .top-header-wrap-list li a {
+  color: var(--whiteColor);
+}
+.top-header-wrap-area.wrap-bg2 .top-header-wrap-list .dropdown .dropdown-toggle {
+  color: var(--whiteColor);
+}
+.top-header-wrap-area.wrap-bg2 .top-header-wrap-list .dropdown .dropdown-toggle::before {
+  color: var(--whiteColor);
+}
+.top-header-wrap-area.wrap-bg2 .top-header-wrap-list .dropdown .dropdown-menu li .dropdown-item {
+  color: var(--paragraph);
+}
+.top-header-wrap-area.wrap-bg-color {
+  background-color: #F7F9FD;
+}
+.top-header-wrap-area.wrap-bg3 {
+  background-color: transparent;
+}
+
+.top-header-wrap-info {
+  display: flex;
+  align-items: center;
+  margin-bottom: 0;
+  padding-left: 0;
+  padding-right: 0;
+}
+.top-header-wrap-info li {
+  display: flex;
+  align-items: center;
+  gap: 7px;
+  list-style-type: none;
+  margin-right: 30px;
+}
+.top-header-wrap-info li i {
+  color: var(--optionalColor);
+  font-size: 18px;
+  position: relative;
+  top: -0.2px;
+}
+.top-header-wrap-info li span {
+  font-size: 13px;
+  color: var(--blackColor);
+}
+.top-header-wrap-info li span a {
+  color: var(--blackColor);
+}
+.top-header-wrap-info li span a:hover {
+  color: var(--optionalColorTwo);
+}
+.top-header-wrap-info li:first-child span a {
+  font-weight: 700;
+}
+.top-header-wrap-info li:last-child {
+  margin-right: 0;
+}
+
+.top-header-wrap-list {
+  display: flex;
+  justify-content: end;
+  margin-bottom: 0;
+  padding-left: 0;
+  padding-right: 0;
+}
+.top-header-wrap-list li {
+  font-size: 13px;
+  list-style-type: none;
+  margin-right: 40px;
+}
+.top-header-wrap-list li a {
+  color: var(--blackColor);
+}
+.top-header-wrap-list li a:hover {
+  color: var(--optionalColorTwo);
+}
+.top-header-wrap-list .dropdown .dropdown-toggle {
+  background-color: transparent;
+  color: var(--blackColor);
+  position: relative;
+  border: 0;
+  padding: 0 25px 0 0;
+  font-size: 13px;
+  font-weight: 600;
+}
+.top-header-wrap-list .dropdown .dropdown-toggle::after {
+  display: none;
+}
+.top-header-wrap-list .dropdown .dropdown-toggle::before {
+  position: absolute;
+  content: "שׁ";
+  right: 0;
+  top: 0;
+  color: var(--blackColor);
+  font-family: "tabler-icons";
+  font-size: 12px;
+}
+.top-header-wrap-list .dropdown .dropdown-menu {
+  box-shadow: 0px 10px 55px rgba(0, 0, 0, 0.1);
+  background-color: var(--whiteColor);
+  transform: translateY(0) !important;
+  transition: var(--transition);
+  top: 40px !important;
+  visibility: hidden;
+  display: block;
+  height: 192px;
+  width: 100%;
+  padding: 0;
+  opacity: 0;
+  border: 0;
+  right: 0 !important;
+  left: auto !important;
+  border-radius: 20px;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  /* width */
+  /* Track */
+  /* Handle */
+  /* Handle on hover */
+}
+.top-header-wrap-list .dropdown .dropdown-menu li {
+  border-bottom: 1px solid rgba(238, 237, 245, 0.2);
+  margin-right: 0;
+  width: 100%;
+}
+.top-header-wrap-list .dropdown .dropdown-menu li .dropdown-item {
+  background-color: transparent !important;
+  transition: var(--transition);
+  color: var(--paragraph);
+  padding: 10px 15px;
+  width: 100%;
+  font-size: 15px;
+}
+.top-header-wrap-list .dropdown .dropdown-menu li .dropdown-item:hover {
+  background-color: #f8f8f8 !important;
+}
+.top-header-wrap-list .dropdown .dropdown-menu li:last-child {
+  border-bottom: none;
+}
+.top-header-wrap-list .dropdown .dropdown-menu.show {
+  opacity: 1;
+  visibility: visible;
+}
+.top-header-wrap-list .dropdown .dropdown-menu::-webkit-scrollbar {
+  width: 5px;
+  height: 5px;
+  -webkit-transition: var(--transition);
+  transition: var(--transition);
+  border-radius: 50px;
+}
+.top-header-wrap-list .dropdown .dropdown-menu::-webkit-scrollbar-track {
+  background: #f9f9f9;
+  -webkit-transition: var(--transition);
+  transition: var(--transition);
+  border-radius: 50px;
+}
+.top-header-wrap-list .dropdown .dropdown-menu::-webkit-scrollbar-thumb {
+  background: var(--optionalColorThree);
+  -webkit-transition: var(--transition);
+  transition: var(--transition);
+  border-radius: 50px;
+}
+.top-header-wrap-list .dropdown .dropdown-menu::-webkit-scrollbar-thumb:hover {
+  background: var(--mainColor);
+  border-radius: 50px;
+}
+
+.top-header-middle-logo {
+  text-align: center;
+}
+
+/*================================================
+Dental Clinic Navbar Area CSS
+=================================================*/
+.dental-clinic-navbar {
+  background-color: transparent;
+  box-shadow: unset;
+}
+.dental-clinic-navbar.sticky {
+  background-color: transparent;
+  box-shadow: unset;
+}
+.dental-clinic-navbar.sticky .nav-inner {
+  margin-top: 5px;
+}
+.dental-clinic-navbar .container-fluid {
+  padding-left: 30px;
+  padding-right: 30px;
+}
+.dental-clinic-navbar .nav-inner {
+  display: flex;
+  flex-wrap: inherit;
+  align-items: center;
+  width: 100%;
+  justify-content: space-between;
+  background-color: #F3F4FE;
+  padding: 10px 25px;
+  border-radius: 10px;
+}
+.dental-clinic-navbar .others-option {
+  margin-left: 20px;
+}
+.dental-clinic-navbar .others-option .option-item {
+  margin-right: 20px;
+}
+.dental-clinic-navbar .others-option .option-item .default-btn {
+  background-color: var(--optionalColor);
+  color: var(--whiteColor) !important;
+  border: 1px solid var(--optionalColor);
+}
+.dental-clinic-navbar .others-option .option-item .default-btn:hover {
+  background-color: var(--mainColor);
+  border: 1px solid var(--mainColor);
+}
+.dental-clinic-navbar .others-option .option-item:last-child {
+  margin-right: 0;
+}
+
+/* Cancer Treatment Navbar CSS */
+.cancer-treatment-navbar {
+  background: radial-gradient(231% 135.8% at 0.9% 2.98%, rgba(255, 255, 255, 0.4) 0%, rgba(255, 255, 255, 0) 100%);
+  -webkit-backdrop-filter: blur(20px);
+          backdrop-filter: blur(20px);
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.cancer-treatment-navbar.sticky {
+  background-color: var(--whiteColor);
+  box-shadow: 0px 4px 30px 0px rgba(146, 139, 221, 0.1);
+}
+.cancer-treatment-navbar .others-option .option-item .search-bar i {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 50px;
+  height: 50px;
+  line-height: 50px;
+  border: 1px solid var(--whiteColor);
+  color: var(--blackColor);
+  border-radius: 50px;
+  transition: var(--transition);
+}
+.cancer-treatment-navbar .others-option .option-item .search-bar i:hover {
+  border: 1px solid var(--mainColor);
+}
+
+/* Skin Care Navbar CSS */
+.skin-care-navbar {
+  background-color: transparent;
+  box-shadow: unset;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.skin-care-navbar.sticky {
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+.skin-care-navbar .container-fluid {
+  padding-left: 30px;
+  padding-right: 30px;
+}
+.skin-care-navbar .others-option .option-item .default-btn {
+  border-radius: 5px;
+  background-color: var(--optionalColor);
+  color: var(--whiteColor) !important;
+  border: 1px solid var(--optionalColor);
+}
+.skin-care-navbar .others-option .option-item .default-btn:hover {
+  background-color: var(--mainColor);
+  border: 1px solid var(--mainColor);
+}
+
+/* Psychiatric Hospital Navbar CSS */
+.psychiatric-hospital-navbar .others-option .option-item .default-btn {
+  border-radius: 5px;
+  background-color: var(--optionalColor);
+  color: var(--whiteColor) !important;
+  border: 1px solid var(--optionalColor);
+}
+.psychiatric-hospital-navbar .others-option .option-item .default-btn:hover {
+  background-color: var(--mainColor);
+  border: 1px solid var(--mainColor);
+}
+
+/* Maternity Clinic Navbar CSS */
+.maternity-clinic-navbar {
+  background-color: #F7F9FD;
+}
+.maternity-clinic-navbar.sticky .nav-inner {
+  margin-top: 5px;
+}
+.maternity-clinic-navbar .nav-inner {
+  border: 1px solid #E1E6F0;
+  background: var(--whiteColor);
+  margin-bottom: -50px;
+}
+.maternity-clinic-navbar .nav-inner .navbar-brand {
+  padding-right: 0;
+  display: none;
+}
+.maternity-clinic-navbar .others-option .option-item .search-form {
+  max-width: 200px;
+  position: relative;
+}
+.maternity-clinic-navbar .others-option .option-item .search-form .form-control {
+  background-color: transparent;
+  display: inline-block;
+  border: none;
+  border-bottom: 1px solid #E1E6F0;
+  height: 35px;
+  padding: 0 0 15px 0;
+  outline: 0;
+  box-shadow: unset;
+  font-size: 14px;
+  font-weight: 500;
+  color: var(--paragraph);
+  border-radius: 0;
+  transition: var(--transition);
+}
+.maternity-clinic-navbar .others-option .option-item .search-form .form-control::-moz-placeholder {
+  color: var(--paragraph);
+  -moz-transition: var(--transition);
+  transition: var(--transition);
+}
+.maternity-clinic-navbar .others-option .option-item .search-form .form-control::placeholder {
+  color: var(--paragraph);
+  transition: var(--transition);
+}
+.maternity-clinic-navbar .others-option .option-item .search-form .form-control:focus::-moz-placeholder {
+  color: transparent;
+}
+.maternity-clinic-navbar .others-option .option-item .search-form .form-control:focus::placeholder {
+  color: transparent;
+}
+.maternity-clinic-navbar .others-option .option-item .search-form button {
+  background-color: transparent;
+  padding: 0;
+  border: none;
+  font-size: 18px;
+  color: var(--blackColor);
+  transition: var(--transition);
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+.maternity-clinic-navbar .others-option .option-item .search-form button:hover {
+  color: var(--mainColor);
+}
+.maternity-clinic-navbar .others-option .option-item .default-btn {
+  border-radius: 5px;
+  background-color: var(--optionalColor);
+  color: var(--whiteColor) !important;
+  border: 1px solid var(--optionalColor);
+}
+.maternity-clinic-navbar .others-option .option-item .default-btn:hover {
+  background-color: var(--mainColor);
+  border: 1px solid var(--mainColor);
+}
+.maternity-clinic-navbar.wrap2 {
+  background-color: transparent;
+  padding-bottom: 30px;
+}
+.maternity-clinic-navbar.wrap2.sticky {
+  padding-bottom: 0;
+}
+.maternity-clinic-navbar.wrap2 .nav-inner {
+  margin-bottom: 0;
+}
+
+/*================================================
+Dental Clinic Banner Area CSS
+=================================================*/
+.dental-clinic-banner-area {
+  background-image: url(../images/dental-clinic/banner-bg.jpg);
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+  z-index: 1;
+  overflow: hidden;
+  padding-top: 375px;
+  padding-bottom: 360px;
+}
+.dental-clinic-banner-area .container-fluid {
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.dental-clinic-banner-content {
+  position: relative;
+}
+.dental-clinic-banner-content h1 {
+  font-size: 80px;
+  max-width: 915px;
+  margin-bottom: 15px;
+}
+.dental-clinic-banner-content h1 strong {
+  font-weight: 700;
+}
+.dental-clinic-banner-content p {
+  margin-bottom: 0;
+  font-size: 18px;
+  max-width: 800px;
+}
+.dental-clinic-banner-content .banner-btn {
+  margin-top: 30px;
+}
+.dental-clinic-banner-content .bottom-info {
+  max-width: 465px;
+  text-align: center;
+  position: absolute;
+  right: 0;
+  bottom: -190px;
+  margin-left: auto;
+  margin-right: 0;
+}
+.dental-clinic-banner-content .bottom-info p {
+  border-radius: 100px;
+  background-color: #C4DCF3;
+  font-size: 18px;
+  padding: 20px 50px;
+}
+
+/*================================================
+DC Feature Area CSS
+=================================================*/
+.dc-feature-area {
+  position: relative;
+  z-index: 11;
+  margin-top: -120px;
+}
+.dc-feature-area .container-fluid {
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.dc-feature-inner {
+  background-color: var(--whiteColor);
+  border-radius: 30px;
+  padding: 10px 10px 0px 10px;
+}
+
+.dc-feature-card {
+  background-color: #D6D2F1;
+  padding: 30px;
+  border-radius: 20px;
+}
+.dc-feature-card h3 {
+  font-size: 18px;
+  margin-bottom: 15px;
+  font-weight: 700;
+}
+.dc-feature-card p {
+  margin-bottom: 20px;
+}
+.dc-feature-card .link-btn {
+  color: var(--blackColor);
+  font-size: 15px;
+  font-weight: 500;
+  position: relative;
+  padding-left: 22px;
+  transition: var(--transition);
+}
+.dc-feature-card .link-btn i {
+  font-size: 17px;
+  position: absolute;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  transition: var(--transition);
+  display: flex;
+}
+.dc-feature-card .link-btn:hover {
+  color: var(--optionalColorThree);
+  padding-left: 0;
+  padding-right: 7px;
+}
+.dc-feature-card .link-btn:hover i {
+  left: 100%;
+}
+.dc-feature-card.wrap2 {
+  background-color: #D7ECE4;
+}
+.dc-feature-card.wrap3 {
+  background-color: #F2DDD9;
+}
+
+/*================================================
+DC About Area CSS
+=================================================*/
+.dc-about-area {
+  overflow: hidden;
+}
+
+.dc-about-image {
+  position: relative;
+  margin-right: -25px;
+}
+.dc-about-image img {
+  border-radius: 20px;
+}
+.dc-about-image .award-wrap {
+  position: absolute;
+  right: 0;
+  top: 0;
+  max-width: 130px;
+  background-color: var(--whiteColor);
+  padding: 0 0 25px 25px;
+  border-radius: 0 0 0 20px;
+}
+.dc-about-image .award-wrap .shape1 {
+  position: absolute;
+  top: 0;
+  left: -30px;
+  transform: rotate(450deg);
+}
+.dc-about-image .award-wrap .shape1 svg {
+  width: 30px;
+  height: 30px;
+  fill: var(--whiteColor);
+}
+.dc-about-image .award-wrap .shape2 {
+  position: absolute;
+  bottom: -30px;
+  right: 0;
+  transform: rotate(90deg);
+}
+.dc-about-image .award-wrap .shape2 svg {
+  width: 30px;
+  height: 30px;
+  fill: var(--whiteColor);
+}
+
+.dc-about-content {
+  padding-left: 90px;
+}
+.dc-about-content .sub {
+  font-size: 12px;
+  font-weight: 700;
+  color: var(--optionalColor);
+  display: block;
+  margin-bottom: 12px;
+}
+.dc-about-content h2 {
+  font-size: 42px;
+  margin-bottom: 12px;
+  line-height: 1.3;
+}
+.dc-about-content h2 strong {
+  font-weight: 700;
+}
+.dc-about-content p {
+  margin-bottom: 5px;
+}
+.dc-about-content p:last-child {
+  margin-bottom: 0;
+}
+.dc-about-content .list {
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
+  margin-bottom: 0;
+  padding-left: 0;
+  padding-right: 0;
+}
+.dc-about-content .list li {
+  list-style-type: none;
+  margin-right: 30px;
+}
+.dc-about-content .list li .info {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+.dc-about-content .list li .info .image img {
+  max-width: 50px;
+}
+.dc-about-content .list li .info .title h5 {
+  font-size: 18px;
+  margin-bottom: 0;
+  font-weight: 700;
+}
+.dc-about-content .list li .info .title span {
+  font-size: 15px;
+  display: block;
+  margin-top: 5px;
+}
+.dc-about-content .list li:last-child {
+  margin-right: 0;
+  border-left: 1px solid #E7E9FD;
+  padding-left: 25px;
+}
+.dc-about-content .bottom-info {
+  display: flex;
+  align-items: center;
+  gap: 25px;
+  margin-top: 35px;
+}
+.dc-about-content .bottom-info .left .trustpilot {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 10px;
+  line-height: 1;
+}
+.dc-about-content .bottom-info .left .trustpilot span {
+  font-size: 20px;
+  font-weight: 600;
+  color: var(--blackColor);
+}
+.dc-about-content .bottom-info .left ul {
+  display: flex;
+  margin-bottom: 0;
+  padding-left: 0;
+  padding-right: 0;
+}
+.dc-about-content .bottom-info .left ul li {
+  list-style-type: none;
+  margin-right: 5px;
+}
+.dc-about-content .bottom-info .left ul li:last-child {
+  margin-right: 0;
+}
+.dc-about-content .bottom-info .left span {
+  display: block;
+  font-size: 14px;
+  margin-top: 7px;
+}
+.dc-about-content .bottom-info .right {
+  text-align: center;
+  border-radius: 200px;
+  background: #E7E9FD;
+  padding: 22px 50px;
+}
+.dc-about-content .bottom-info .right span {
+  font-size: 14px;
+  color: var(--blackColor);
+  display: block;
+  margin-bottom: 10px;
+}
+.dc-about-content .bottom-info .right .call {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  justify-content: center;
+}
+.dc-about-content .bottom-info .right .call i {
+  font-size: 22px;
+  color: var(--optionalColor);
+}
+.dc-about-content .bottom-info .right .call a {
+  font-size: 18px;
+  font-weight: 700;
+  color: #574AAD;
+  transition: var(--transition);
+}
+.dc-about-content .bottom-info .right .call a:hover {
+  color: var(--mainColor);
+}
+
+/*================================================
+DC Services Area CSS
+=================================================*/
+.dc-services-area {
+  background: linear-gradient(-109deg, #E7F9FA 0%, #A6ECF1 100%);
+  position: relative;
+  z-index: 1;
+  overflow: hidden;
+}
+.dc-services-area::before {
+  position: absolute;
+  content: "";
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100px;
+  background-color: var(--whiteColor);
+  z-index: -1;
+}
+
+.dc-services-large-item {
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 20px;
+  padding: 30px;
+}
+.dc-services-large-item .top {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  margin-bottom: 25px;
+}
+.dc-services-large-item .top .icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 125px;
+  height: 125px;
+  background-color: #E7E9FD;
+  border-radius: 125px;
+}
+.dc-services-large-item .top h3 {
+  font-size: 18px;
+  font-weight: 700;
+  margin-bottom: 0;
+}
+.dc-services-large-item p {
+  max-width: 425px;
+  margin-bottom: 20px;
+}
+.dc-services-large-item .link-btn {
+  color: var(--blackColor);
+  font-size: 15px;
+  font-weight: 500;
+  position: relative;
+  padding-left: 22px;
+  transition: var(--transition);
+}
+.dc-services-large-item .link-btn i {
+  font-size: 17px;
+  position: absolute;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  transition: var(--transition);
+  display: flex;
+}
+.dc-services-large-item .link-btn:hover {
+  color: var(--mainColor);
+  padding-left: 0;
+  padding-right: 7px;
+}
+.dc-services-large-item .link-btn:hover i {
+  left: 100%;
+}
+
+.dc-services-card {
+  background-color: var(--whiteColor);
+  padding: 30px;
+  border-radius: 20px;
+  position: relative;
+}
+.dc-services-card .icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 125px;
+  height: 125px;
+  background-color: #E7E9FD;
+  border-radius: 125px;
+  margin-bottom: 32px;
+}
+.dc-services-card h3 {
+  font-size: 18px;
+  font-weight: 700;
+  margin-bottom: 15px;
+}
+.dc-services-card p {
+  margin-bottom: 0;
+}
+.dc-services-card .arrow-btn {
+  position: absolute;
+  right: 0;
+  top: 0;
+  background-color: #dcf7f8;
+  padding: 0 0 15px 15px;
+  border-radius: 0 0 0 20px;
+}
+.dc-services-card .arrow-btn a i {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 75px;
+  height: 75px;
+  line-height: 75px;
+  background-color: transparent;
+  border: 1px solid var(--mainColor);
+  color: var(--blackColor);
+  font-size: 30px;
+  border-radius: 75px;
+  transition: var(--transition);
+}
+.dc-services-card .arrow-btn .shape1 {
+  position: absolute;
+  top: 0;
+  left: -30px;
+  transform: rotate(450deg);
+}
+.dc-services-card .arrow-btn .shape1 svg {
+  width: 30px;
+  height: 30px;
+  fill: #dcf7f8;
+}
+.dc-services-card .arrow-btn .shape2 {
+  position: absolute;
+  bottom: -30px;
+  right: 0;
+  transform: rotate(90deg);
+}
+.dc-services-card .arrow-btn .shape2 svg {
+  width: 30px;
+  height: 30px;
+  fill: #dcf7f8;
+}
+.dc-services-card .arrow-btn.wrap3 {
+  background-color: #bff1f4;
+}
+.dc-services-card .arrow-btn.wrap3 .shape1 svg {
+  fill: #bff1f4;
+}
+.dc-services-card .arrow-btn.wrap3 .shape2 svg {
+  fill: #bff1f4;
+}
+.dc-services-card .arrow-btn.wrap4 {
+  background-color: #ccf4f7;
+}
+.dc-services-card .arrow-btn.wrap4 .shape1 svg {
+  fill: #ccf4f7;
+}
+.dc-services-card .arrow-btn.wrap4 .shape2 svg {
+  fill: #ccf4f7;
+}
+.dc-services-card:hover .arrow-btn a i {
+  background-color: var(--mainColor);
+  color: var(--whiteColor);
+}
+
+.dc-services-link {
+  margin-top: 35px;
+  margin-left: 315px;
+}
+.dc-services-link span a {
+  text-decoration: underline;
+  color: var(--optionalColor);
+}
+.dc-services-link span a:hover {
+  color: var(--mainColor);
+}
+
+.dc-appointment-inner {
+  border-radius: 20px;
+  background-color: #D6D2F1;
+  padding: 50px 30px;
+  margin-top: 100px;
+}
+.dc-appointment-inner h5 {
+  font-size: 18px;
+  font-weight: 700;
+  color: #574AAD;
+  text-align: center;
+  margin-bottom: 25px;
+}
+.dc-appointment-inner form .form-group .form-control {
+  display: inline-block;
+  width: 100%;
+  height: 55px;
+  background-color: var(--whiteColor);
+  border: none;
+  border-radius: 5px;
+  outline: 0;
+  box-shadow: unset;
+  color: var(--paragraph);
+  padding: 10px 20px;
+  transition: var(--transition);
+}
+.dc-appointment-inner form .form-group .form-control::-moz-placeholder {
+  color: var(--paragraph);
+  -moz-transition: var(--transition);
+  transition: var(--transition);
+}
+.dc-appointment-inner form .form-group .form-control::placeholder {
+  color: var(--paragraph);
+  transition: var(--transition);
+}
+.dc-appointment-inner form .form-group .form-control:focus::-moz-placeholder {
+  color: transparent;
+}
+.dc-appointment-inner form .form-group .form-control:focus::placeholder {
+  color: transparent;
+}
+.dc-appointment-inner form .form-group .appointment-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  background-color: var(--optionalColor);
+  color: var(--whiteColor);
+  font-weight: 500;
+  border: none;
+  gap: 10px;
+  border-radius: 5px;
+  padding: 15.5px 25px;
+  transition: var(--transition);
+}
+.dc-appointment-inner form .form-group .appointment-btn i {
+  font-size: 20px;
+}
+.dc-appointment-inner form .form-group .appointment-btn:hover {
+  background-color: var(--mainColor);
+}
+
+.dc-services-wrap-image {
+  position: absolute;
+  right: -7px;
+  bottom: 80px;
+  z-index: -11;
+}
+
+/*================================================
+DC Choose Area CSS
+=================================================*/
+.dc-choose-inner {
+  margin-bottom: 30px;
+}
+.dc-choose-inner .choose-content .sub {
+  font-size: 12px;
+  font-weight: 700;
+  color: var(--optionalColor);
+  display: block;
+  margin-bottom: 12px;
+}
+.dc-choose-inner .choose-content h2 {
+  font-size: 40px;
+  margin-bottom: 0;
+  line-height: 1.4;
+}
+.dc-choose-inner .choose-content h2 strong {
+  font-weight: 700;
+}
+.dc-choose-inner .choose-image {
+  text-align: end;
+}
+
+.dc-choose-card .list {
+  position: relative;
+  top: -55px;
+  margin-bottom: 0;
+  padding-left: 0;
+  padding-right: 0;
+}
+.dc-choose-card .list li {
+  list-style-type: none;
+  margin-bottom: 0;
+  margin-bottom: 15px;
+}
+.dc-choose-card .list li span {
+  font-size: 18px;
+  font-weight: 700;
+  color: var(--blackColor);
+}
+.dc-choose-card .list li:last-child {
+  margin-bottom: 0;
+}
+.dc-choose-card .image {
+  border-radius: 20px;
+  overflow: hidden;
+}
+.dc-choose-card .image img {
+  border-radius: 20px;
+  transition: var(--transition);
+}
+.dc-choose-card .content {
+  margin-top: 25px;
+}
+.dc-choose-card .content h3 {
+  font-size: 18px;
+  font-weight: 700;
+  margin-bottom: 0;
+}
+.dc-choose-card:hover .image img {
+  transform: scale(1.1);
+}
+
+/*================================================
+DC Testimonials Area CSS
+=================================================*/
+.dc-testimonials-area {
+  background-color: #F3F4FE;
+  position: relative;
+  z-index: 1;
+  overflow: hidden;
+}
+.dc-testimonials-area.wrap-bg2 {
+  background-color: transparent;
+}
+
+.dc-testimonials-card .image {
+  position: relative;
+  display: inline-flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+.dc-testimonials-card .image img {
+  border-radius: 100px;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+.dc-testimonials-card .image .quote {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+}
+.dc-testimonials-card .image .quote i {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 30px;
+  width: 30px;
+  line-height: 30px;
+  border-radius: 50px;
+  background-color: var(--mainColor);
+  color: var(--whiteColor);
+  font-size: 18px;
+}
+.dc-testimonials-card p {
+  font-size: 23.5px;
+  margin-bottom: 0;
+}
+.dc-testimonials-card .info {
+  max-width: 430px;
+  margin: 30px auto 0;
+}
+.dc-testimonials-card .info h3 {
+  font-size: 18px;
+  font-weight: 700;
+  margin-bottom: 0;
+}
+.dc-testimonials-card .info span {
+  display: block;
+  margin-top: 8px;
+}
+
+.dc-testimonials-slider {
+  position: relative;
+  max-width: 985px;
+  margin: auto;
+  text-align: center;
+}
+
+.dc-feed-slider-button {
+  position: relative;
+  max-width: 985px;
+  margin: auto;
+  text-align: center;
+}
+.dc-feed-slider-button .testimonial-button-prev {
+  position: absolute;
+  left: 210px;
+  bottom: 0;
+  z-index: 1;
+}
+.dc-feed-slider-button .testimonial-button-prev i {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  height: 45px;
+  width: 45px;
+  line-height: 45px;
+  border-radius: 50px;
+  border: 1px solid #8EC0EE;
+  color: var(--blackColor);
+  font-size: 20px;
+  transition: var(--transition);
+}
+.dc-feed-slider-button .testimonial-button-prev i:hover {
+  background-color: #8EC0EE;
+  cursor: pointer;
+}
+.dc-feed-slider-button .testimonial-button-next {
+  position: absolute;
+  right: 210px;
+  bottom: 0;
+  z-index: 1;
+}
+.dc-feed-slider-button .testimonial-button-next i {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  height: 45px;
+  width: 45px;
+  line-height: 45px;
+  border-radius: 50px;
+  border: 1px solid #8EC0EE;
+  color: var(--blackColor);
+  font-size: 20px;
+  transition: var(--transition);
+}
+.dc-feed-slider-button .testimonial-button-next i:hover {
+  background-color: #8EC0EE;
+  cursor: pointer;
+}
+
+.dc-testimonials-wrap1 {
+  position: absolute;
+  left: 70px;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: -1;
+}
+
+.dc-testimonials-wrap2 {
+  position: absolute;
+  right: 70px;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: -1;
+}
+
+/*================================================
+DC Team Area CSS
+=================================================*/
+.dc-team-area {
+  overflow: hidden;
+}
+
+.dc-team-card .image {
+  position: relative;
+}
+.dc-team-card .image img {
+  border-radius: 20px;
+}
+.dc-team-card .image .arrow-btn {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  background-color: var(--whiteColor);
+  padding: 15px 0 0 15px;
+  border-radius: 20px 0 0 0;
+}
+.dc-team-card .image .arrow-btn a i {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 75px;
+  height: 75px;
+  line-height: 75px;
+  background-color: transparent;
+  border: 1px solid var(--mainColor);
+  color: var(--blackColor);
+  font-size: 30px;
+  border-radius: 75px;
+  transition: var(--transition);
+}
+.dc-team-card .image .arrow-btn .shape1 {
+  position: absolute;
+  top: -30px;
+  right: 0;
+  transform: rotate(540deg);
+}
+.dc-team-card .image .arrow-btn .shape1 svg {
+  width: 30px;
+  height: 30px;
+  fill: var(--whiteColor);
+}
+.dc-team-card .image .arrow-btn .shape2 {
+  position: absolute;
+  bottom: 0;
+  left: -30px;
+  transform: rotate(180deg);
+}
+.dc-team-card .image .arrow-btn .shape2 svg {
+  width: 30px;
+  height: 30px;
+  fill: var(--whiteColor);
+}
+.dc-team-card .content {
+  margin-top: 25px;
+}
+.dc-team-card .content h3 {
+  font-size: 18px;
+  font-weight: 700;
+  margin-bottom: 0;
+}
+.dc-team-card .content span {
+  display: block;
+  margin-top: 10px;
+}
+.dc-team-card:hover .image .arrow-btn a i {
+  background-color: var(--mainColor);
+  color: var(--whiteColor);
+}
+
+/*================================================
+DC Treatment Area CSS
+=================================================*/
+.dc-treatment-item img {
+  border-radius: 20px;
+}
+
+.dc-treatment-inner {
+  position: relative;
+}
+.dc-treatment-inner .treatment-button-prev {
+  position: absolute;
+  left: -35px;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 1;
+  background-color: var(--whiteColor);
+  padding: 15px 15px 15px 0px;
+  border-radius: 0 70px 70px 0;
+}
+.dc-treatment-inner .treatment-button-prev i {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  height: 75px;
+  width: 75px;
+  line-height: 75px;
+  border-radius: 50px;
+  background-color: var(--mainColor);
+  color: var(--whiteColor);
+  font-size: 30px;
+  transition: var(--transition);
+}
+.dc-treatment-inner .treatment-button-prev i:hover {
+  background-color: var(--optionalColor);
+  cursor: pointer;
+}
+.dc-treatment-inner .treatment-button-next {
+  position: absolute;
+  right: -35px;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 1;
+  background-color: var(--whiteColor);
+  padding: 15px 0 15px 15px;
+  border-radius: 70px 0 0 70px;
+}
+.dc-treatment-inner .treatment-button-next i {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  height: 75px;
+  width: 75px;
+  line-height: 75px;
+  border-radius: 50px;
+  background-color: var(--mainColor);
+  color: var(--whiteColor);
+  font-size: 30px;
+  transition: var(--transition);
+}
+.dc-treatment-inner .treatment-button-next i:hover {
+  background-color: var(--optionalColor);
+  cursor: pointer;
+}
+
+.treatment-emergency-help {
+  background-color: var(--optionalColor);
+  border-radius: 20px;
+  padding: 25px 0;
+  overflow: hidden;
+  margin-bottom: 25px;
+}
+.treatment-emergency-help h1 {
+  white-space: nowrap;
+  font-size: 42px;
+  margin-bottom: 0;
+  color: var(--whiteColor);
+  animation: marquee 7s linear infinite forwards;
+  font-weight: 400;
+  line-height: 1;
+}
+.treatment-emergency-help h1 a {
+  font-weight: 700;
+  color: var(--whiteColor);
+}
+.treatment-emergency-help h1 a:hover {
+  color: var(--mainColor);
+}
+.treatment-emergency-help h1 .gap {
+  margin: 0 45px;
+  position: relative;
+  top: -3.5px;
+}
+.treatment-emergency-help h1:hover {
+  animation-play-state: paused;
+}
+
+.dc-treatment-box {
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 20px;
+  padding: 40px;
+}
+.dc-treatment-box .content {
+  max-width: 330px;
+}
+.dc-treatment-box .content h3 {
+  font-size: 23.5px;
+  margin-bottom: 12px;
+}
+.dc-treatment-box .content p {
+  margin-bottom: 0;
+}
+.dc-treatment-box .treatment-btn {
+  margin-top: 100px;
+}
+
+.dc-treatment-card {
+  border-radius: 20px;
+  background-color: #D7ECE4;
+  padding: 40px;
+  position: relative;
+  z-index: 1;
+}
+.dc-treatment-card .content {
+  max-width: 280px;
+}
+.dc-treatment-card .content h3 {
+  font-size: 23.5px;
+  margin-bottom: 12px;
+}
+.dc-treatment-card .content p {
+  margin-bottom: 22px;
+}
+.dc-treatment-card .content .default-btn {
+  background-color: var(--optionalColor);
+}
+.dc-treatment-card .content .default-btn:hover {
+  background-color: var(--mainColor);
+}
+.dc-treatment-card .bottom {
+  margin-top: 55px;
+  text-align: center;
+}
+.dc-treatment-card .wrap-image {
+  position: absolute;
+  top: 55px;
+  right: 40px;
+  z-index: -1;
+  max-width: 255px;
+}
+
+/*================================================
+DC Blog Area CSS
+=================================================*/
+.dc-blog-area {
+  background-color: #EAEDF0;
+  overflow: hidden;
+}
+
+.dc-blog-item .image a img {
+  border-radius: 20px;
+}
+.dc-blog-item .content {
+  background-color: var(--whiteColor);
+  padding: 30.5px 30px;
+  max-width: 590px;
+  margin: -75px auto 0;
+  border-radius: 20px;
+  position: relative;
+  z-index: 1;
+}
+.dc-blog-item .content .meta {
+  display: flex;
+  margin-bottom: 15px;
+  padding-left: 0;
+  padding-right: 0;
+}
+.dc-blog-item .content .meta li {
+  list-style-type: none;
+  font-size: 13px;
+  margin-right: 30px;
+  position: relative;
+}
+.dc-blog-item .content .meta li::before {
+  position: absolute;
+  content: "-";
+  right: -18px;
+  top: 50%;
+  transform: translateY(-50%);
+  color: var(--paragraph);
+}
+.dc-blog-item .content .meta li:last-child {
+  margin-right: 0;
+}
+.dc-blog-item .content .meta li:last-child::before {
+  display: none;
+}
+.dc-blog-item .content h3 {
+  font-size: 23.5px;
+  margin-bottom: 17px;
+  line-height: 1.3;
+}
+.dc-blog-item .content .link-btn {
+  color: var(--blackColor);
+  font-size: 15px;
+  font-weight: 500;
+  position: relative;
+  padding-left: 22px;
+  transition: var(--transition);
+}
+.dc-blog-item .content .link-btn i {
+  font-size: 17px;
+  position: absolute;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  transition: var(--transition);
+  display: flex;
+}
+.dc-blog-item .content .link-btn:hover {
+  color: var(--mainColor);
+  padding-left: 0;
+  padding-right: 7px;
+}
+.dc-blog-item .content .link-btn:hover i {
+  left: 100%;
+}
+
+.dc-blog-items {
+  border-left: 1px solid #CCCFD2;
+  padding-left: 55px;
+  margin-left: 10px;
+}
+.dc-blog-items .item {
+  border-radius: 20px;
+  background: #C4DCF3;
+  padding: 22.5px 30px;
+  margin-bottom: 10px;
+}
+.dc-blog-items .item .meta {
+  display: flex;
+  margin-bottom: 15px;
+  padding-left: 0;
+  padding-right: 0;
+}
+.dc-blog-items .item .meta li {
+  list-style-type: none;
+  font-size: 13px;
+  margin-right: 30px;
+  position: relative;
+}
+.dc-blog-items .item .meta li::before {
+  position: absolute;
+  content: "-";
+  right: -18px;
+  top: 50%;
+  transform: translateY(-50%);
+  color: var(--paragraph);
+}
+.dc-blog-items .item .meta li:last-child {
+  margin-right: 0;
+}
+.dc-blog-items .item .meta li:last-child::before {
+  display: none;
+}
+.dc-blog-items .item h3 {
+  font-size: 23.5px;
+  margin-bottom: 17px;
+  line-height: 1.3;
+}
+.dc-blog-items .item .link-btn {
+  color: var(--blackColor);
+  font-size: 15px;
+  font-weight: 500;
+  position: relative;
+  padding-left: 22px;
+  transition: var(--transition);
+}
+.dc-blog-items .item .link-btn i {
+  font-size: 17px;
+  position: absolute;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  transition: var(--transition);
+  display: flex;
+}
+.dc-blog-items .item .link-btn:hover {
+  color: var(--mainColor);
+  padding-left: 0;
+  padding-right: 7px;
+}
+.dc-blog-items .item .link-btn:hover i {
+  left: 100%;
+}
+.dc-blog-items .item.wrap2 {
+  background: #C4DCF3;
+}
+.dc-blog-items .item.wrap3 {
+  background: #D6D2F1;
+}
+.dc-blog-items .item.wrap4 {
+  background: #F2DDD9;
+}
+.dc-blog-items .item:last-child {
+  margin-bottom: 0;
+}
+
+/*================================================
+DC Contact Area CSS
+=================================================*/
+.dc-contact-area {
+  overflow: hidden;
+}
+
+.dc-contact-form .content {
+  margin-bottom: 25px;
+}
+.dc-contact-form .content .sub {
+  font-size: 12px;
+  font-weight: 700;
+  color: var(--optionalColor);
+  display: block;
+  margin-bottom: 10px;
+}
+.dc-contact-form .content h2 {
+  font-size: 42px;
+  margin-bottom: 0;
+  line-height: 1.4;
+}
+.dc-contact-form .content h2 strong {
+  font-weight: 700;
+}
+.dc-contact-form form .form-group {
+  margin-bottom: 25px;
+}
+.dc-contact-form form .form-group label {
+  font-size: 12px;
+  letter-spacing: 1.57px;
+  color: var(--paragraph);
+  font-weight: 500;
+  display: block;
+  margin-bottom: 10px;
+}
+.dc-contact-form form .form-group .form-control {
+  display: inline-block;
+  width: 100%;
+  height: 55px;
+  border-radius: 5px;
+  background: #E1E6EB;
+  border: none;
+  padding: 15px 20px;
+  font-size: 14px;
+  outline: 0;
+  box-shadow: unset;
+  color: var(--paragraph);
+  transition: var(--transition);
+}
+.dc-contact-form form .form-group .form-control::-moz-placeholder {
+  color: var(--paragraph);
+  -moz-transition: var(--transition);
+  transition: var(--transition);
+}
+.dc-contact-form form .form-group .form-control::placeholder {
+  color: var(--paragraph);
+  transition: var(--transition);
+}
+.dc-contact-form form .form-group .form-control:focus::-moz-placeholder {
+  color: transparent;
+}
+.dc-contact-form form .form-group .form-control:focus::placeholder {
+  color: transparent;
+}
+.dc-contact-form form .form-group textarea.form-control {
+  display: flex;
+  min-height: 120px;
+}
+.dc-contact-form form .default-btn {
+  border: none;
+}
+
+.dc-location-map {
+  margin-right: -90px;
+}
+.dc-location-map .content {
+  text-align: center;
+  margin-bottom: 45px;
+}
+.dc-location-map .content h3 {
+  font-size: 42px;
+  margin-bottom: 0;
+}
+.dc-location-map .map {
+  position: relative;
+}
+.dc-location-map .map .info {
+  border-radius: 10px;
+  border: 1px solid var(--mainColor);
+  background: #E7E9FD;
+  padding: 20px;
+  max-width: 240px;
+  position: absolute;
+  left: 25px;
+  top: 55px;
+  margin-bottom: 0;
+}
+.dc-location-map .map .info li {
+  list-style-type: none;
+  font-size: 14px;
+  margin-bottom: 15px;
+}
+.dc-location-map .map .info li span {
+  display: flex;
+  align-items: center;
+  gap: 7px;
+  font-size: var(--font-size);
+  line-height: 1;
+}
+.dc-location-map .map .info li span i {
+  color: var(--optionalColor);
+}
+.dc-location-map .map .info li span a {
+  color: var(--paragraph);
+}
+.dc-location-map .map .info li span a:hover {
+  color: var(--mainColor);
+}
+.dc-location-map .map .info li:last-child {
+  margin-bottom: 0;
+}
+
+/*================================================
+Cancer Treatment Slider Area CSS
+=================================================*/
+.cancer-treatment-slider-area {
+  position: relative;
+  overflow: hidden;
+  z-index: 1;
+}
+
+.cancer-treatment-slider-item {
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100%;
+  width: 100%;
+  padding-top: 350px;
+  padding-bottom: 365px;
+}
+.cancer-treatment-slider-item .container-fluid {
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.cancer-treatment-slider-content {
+  max-width: 910px;
+}
+.cancer-treatment-slider-content h1 {
+  font-size: 84px;
+  margin-bottom: 0;
+  line-height: 1.3;
+}
+.cancer-treatment-slider-content h1 strong {
+  font-weight: 700;
+}
+.cancer-treatment-slider-content .slider-btn {
+  margin-top: 30px;
+}
+.cancer-treatment-slider-content.wrap2 {
+  max-width: 830px;
+}
+
+.cancer-treatment-slider-button {
+  display: flex;
+  margin-bottom: 0;
+  padding: 0;
+  position: absolute;
+  left: 30px;
+  bottom: 100px;
+  z-index: 1;
+}
+.cancer-treatment-slider-button li {
+  list-style-type: none;
+  margin-right: 10px;
+}
+.cancer-treatment-slider-button li i {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50px;
+  border: 1px solid var(--whiteColor);
+  background: rgba(255, 255, 255, 0.6);
+  height: 45px;
+  width: 45px;
+  line-height: 45px;
+  color: var(--blackColor);
+  font-size: 20px;
+  transition: var(--transition);
+}
+.cancer-treatment-slider-button li i:hover {
+  background-color: var(--whiteColor);
+  cursor: pointer;
+}
+.cancer-treatment-slider-button li:last-child {
+  margin-right: 0;
+}
+
+.cancer-treatment-slider-bottom {
+  position: absolute;
+  right: 30px;
+  bottom: 100px;
+  z-index: 1;
+}
+.cancer-treatment-slider-bottom .award {
+  margin-bottom: 20px;
+  text-align: end;
+}
+.cancer-treatment-slider-bottom .content {
+  max-width: 575px;
+}
+.cancer-treatment-slider-bottom .content p {
+  font-weight: 500;
+  margin-bottom: 0;
+  color: var(--whiteColor);
+  font-size: 23.5px;
+}
+
+/*================================================
+Cancer Types Area CSS
+=================================================*/
+.cancer-types-area {
+  overflow: hidden;
+}
+
+.cancer-types-content {
+  margin-bottom: 37px;
+}
+.cancer-types-content .sub {
+  font-size: 12px;
+  font-weight: 700;
+  color: var(--optionalColor);
+}
+.cancer-types-content .shape {
+  text-align: end;
+  margin-top: 15px;
+}
+.cancer-types-content h2 {
+  font-size: 42px;
+  margin-bottom: 0;
+  line-height: 1.3;
+  margin-left: 25px;
+}
+.cancer-types-content h2 strong {
+  font-weight: 700;
+}
+
+.cancer-types-image {
+  text-align: center;
+}
+.cancer-types-image img {
+  border-radius: 20px;
+}
+.cancer-types-image span {
+  display: block;
+  margin-top: 15px;
+}
+
+.cancer-types-list {
+  margin-bottom: 0;
+  padding-left: 100px;
+  padding-right: 0;
+}
+.cancer-types-list li {
+  list-style-type: none;
+  display: flex;
+  gap: 15px;
+  align-items: center;
+  margin-bottom: 25px;
+}
+.cancer-types-list li i {
+  font-size: 25px;
+  color: var(--optionalColorThree);
+}
+.cancer-types-list li:last-child {
+  margin-bottom: 0;
+}
+
+/*================================================
+Cancer About Area CSS
+=================================================*/
+.cancer-about-area {
+  overflow: hidden;
+}
+
+.cancer-about-content .sub {
+  font-size: 12px;
+  font-weight: 700;
+  color: var(--optionalColor);
+  display: block;
+  margin-bottom: 12px;
+}
+.cancer-about-content .gap {
+  margin-bottom: 20px;
+}
+.cancer-about-content .cancer-about-user-box {
+  border-radius: 20px;
+  background-color: #D6D2F1;
+  padding: 25px;
+}
+.cancer-about-content .cancer-about-user-box p {
+  margin-bottom: 0;
+}
+.cancer-about-content .cancer-about-user-box .info {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  margin-top: 20px;
+}
+.cancer-about-content .cancer-about-user-box .info .image img {
+  border-radius: 50px;
+}
+.cancer-about-content .cancer-about-user-box .info .title h3 {
+  font-size: 18px;
+  margin-bottom: 0;
+  font-weight: 700;
+}
+.cancer-about-content .cancer-about-user-box .info .title span {
+  display: block;
+  margin-top: 8px;
+}
+.cancer-about-content .cancer-about-rating {
+  border-radius: 20px;
+  background: #D7ECE4;
+  padding: 30px 20px;
+  text-align: center;
+}
+.cancer-about-content .cancer-about-rating span {
+  display: block;
+  margin-bottom: 15px;
+}
+.cancer-about-content .cancer-about-rating .list {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 0;
+  padding-left: 0;
+  padding-right: 0;
+}
+.cancer-about-content .cancer-about-rating .list li {
+  list-style-type: none;
+}
+.cancer-about-content .cancer-about-rating h1 {
+  font-size: 55px;
+  font-weight: 700;
+  line-height: 1;
+  margin-top: 32.5px;
+  margin-bottom: 0;
+}
+.cancer-about-content .bottom-info {
+  display: flex;
+  align-items: center;
+  gap: 25px;
+  margin-top: 30px;
+}
+.cancer-about-content .bottom-info .left .trustpilot {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 10px;
+  line-height: 1;
+}
+.cancer-about-content .bottom-info .left .trustpilot span {
+  font-size: 20px;
+  font-weight: 600;
+  color: var(--blackColor);
+}
+.cancer-about-content .bottom-info .left ul {
+  display: flex;
+  margin-bottom: 0;
+  padding-left: 0;
+  padding-right: 0;
+}
+.cancer-about-content .bottom-info .left ul li {
+  list-style-type: none;
+  margin-right: 5px;
+}
+.cancer-about-content .bottom-info .left ul li:last-child {
+  margin-right: 0;
+}
+.cancer-about-content .bottom-info .left span {
+  display: block;
+  font-size: 14px;
+  margin-top: 7px;
+}
+.cancer-about-content .bottom-info .right {
+  text-align: center;
+  border-radius: 200px;
+  background: #E7E9FD;
+  padding: 22px 50px;
+}
+.cancer-about-content .bottom-info .right span {
+  font-size: 14px;
+  color: var(--blackColor);
+  display: block;
+  margin-bottom: 10px;
+}
+.cancer-about-content .bottom-info .right .call {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  justify-content: center;
+}
+.cancer-about-content .bottom-info .right .call i {
+  font-size: 22px;
+  color: var(--optionalColor);
+}
+.cancer-about-content .bottom-info .right .call a {
+  font-size: 18px;
+  font-weight: 700;
+  color: #574AAD;
+  transition: var(--transition);
+}
+.cancer-about-content .bottom-info .right .call a:hover {
+  color: var(--mainColor);
+}
+
+.cancer-about-image {
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100%;
+  width: 100%;
+  border-radius: 20px;
+}
+
+/*================================================
+Cancer Appointment Area CSS
+=================================================*/
+.cancer-appointment-area {
+  position: relative;
+  z-index: 1;
+  overflow: hidden;
+}
+.cancer-appointment-area::before {
+  position: absolute;
+  content: "";
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100px;
+  background-color: #F3F4FE;
+  z-index: -1;
+}
+
+.cancer-appointment-inner {
+  border-radius: 20px;
+  background-color: #C4DCF3;
+  padding: 50px 30px;
+}
+.cancer-appointment-inner h5 {
+  font-size: 18px;
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: 25px;
+}
+.cancer-appointment-inner form .form-group .form-control {
+  display: inline-block;
+  width: 100%;
+  height: 55px;
+  background-color: var(--whiteColor);
+  border: none;
+  border-radius: 5px;
+  outline: 0;
+  box-shadow: unset;
+  color: var(--paragraph);
+  padding: 10px 20px;
+  transition: var(--transition);
+}
+.cancer-appointment-inner form .form-group .form-control::-moz-placeholder {
+  color: var(--paragraph);
+  -moz-transition: var(--transition);
+  transition: var(--transition);
+}
+.cancer-appointment-inner form .form-group .form-control::placeholder {
+  color: var(--paragraph);
+  transition: var(--transition);
+}
+.cancer-appointment-inner form .form-group .form-control:focus::-moz-placeholder {
+  color: transparent;
+}
+.cancer-appointment-inner form .form-group .form-control:focus::placeholder {
+  color: transparent;
+}
+.cancer-appointment-inner form .form-group .appointment-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  background-color: var(--optionalColor);
+  color: var(--whiteColor);
+  font-weight: 500;
+  border: none;
+  gap: 10px;
+  border-radius: 5px;
+  padding: 15.5px 25px;
+  transition: var(--transition);
+}
+.cancer-appointment-inner form .form-group .appointment-btn i {
+  font-size: 20px;
+}
+.cancer-appointment-inner form .form-group .appointment-btn:hover {
+  background-color: var(--mainColor);
+}
+
+/*================================================
+Cancer Services Area CSS
+=================================================*/
+.cancer-services-area {
+  background-color: #F3F4FE;
+  overflow: hidden;
+}
+.cancer-services-area .section-title.wrap-style2 {
+  max-width: 1320px;
+}
+
+.cancer-services-card {
+  position: relative;
+}
+.cancer-services-card a img {
+  border-radius: 20px;
+}
+.cancer-services-card .content {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  padding: 0 30px 25px 30px;
+}
+.cancer-services-card .content h3 {
+  font-size: 18px;
+  font-weight: 700;
+  margin-bottom: 15px;
+}
+.cancer-services-card .content h3 a {
+  color: var(--whiteColor);
+}
+.cancer-services-card .content h3 a:hover {
+  color: var(--mainColor);
+}
+.cancer-services-card .content p {
+  color: var(--whiteColor);
+}
+.cancer-services-card .arrow-btn {
+  position: absolute;
+  right: 0;
+  top: 0;
+  background-color: #F3F4FE;
+  padding: 0 0 15px 15px;
+  border-radius: 0 0 0 20px;
+}
+.cancer-services-card .arrow-btn a i {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 75px;
+  height: 75px;
+  line-height: 75px;
+  background-color: transparent;
+  border: 1px solid var(--mainColor);
+  color: var(--blackColor);
+  font-size: 30px;
+  border-radius: 75px;
+  transition: var(--transition);
+}
+.cancer-services-card .arrow-btn .shape1 {
+  position: absolute;
+  top: 0;
+  left: -30px;
+  transform: rotate(450deg);
+}
+.cancer-services-card .arrow-btn .shape1 svg {
+  width: 30px;
+  height: 30px;
+  fill: #F3F4FE;
+}
+.cancer-services-card .arrow-btn .shape2 {
+  position: absolute;
+  bottom: -30px;
+  right: 0;
+  transform: rotate(90deg);
+}
+.cancer-services-card .arrow-btn .shape2 svg {
+  width: 30px;
+  height: 30px;
+  fill: #F3F4FE;
+}
+.cancer-services-card:hover .arrow-btn a i {
+  background-color: var(--mainColor);
+  color: var(--whiteColor);
+}
+
+.cancer-services-item {
+  background-color: var(--whiteColor);
+  border-radius: 20px;
+}
+.cancer-services-item .image {
+  position: relative;
+}
+.cancer-services-item .image a img {
+  border-radius: 20px;
+}
+.cancer-services-item .image .arrow-btn {
+  position: absolute;
+  right: 0;
+  top: 0;
+  background-color: #F3F4FE;
+  padding: 0 0 15px 15px;
+  border-radius: 0 0 0 20px;
+}
+.cancer-services-item .image .arrow-btn a i {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 75px;
+  height: 75px;
+  line-height: 75px;
+  background-color: transparent;
+  border: 1px solid var(--mainColor);
+  color: var(--blackColor);
+  font-size: 30px;
+  border-radius: 75px;
+  transition: var(--transition);
+}
+.cancer-services-item .image .arrow-btn .shape1 {
+  position: absolute;
+  top: 0;
+  left: -30px;
+  transform: rotate(450deg);
+}
+.cancer-services-item .image .arrow-btn .shape1 svg {
+  width: 30px;
+  height: 30px;
+  fill: #F3F4FE;
+}
+.cancer-services-item .image .arrow-btn .shape2 {
+  position: absolute;
+  bottom: -30px;
+  right: 0;
+  transform: rotate(90deg);
+}
+.cancer-services-item .image .arrow-btn .shape2 svg {
+  width: 30px;
+  height: 30px;
+  fill: #F3F4FE;
+}
+.cancer-services-item .content {
+  padding: 30px;
+}
+.cancer-services-item .content h3 {
+  font-size: 18px;
+  font-weight: 700;
+  margin-bottom: 15px;
+}
+.cancer-services-item .content p {
+  margin-bottom: 0;
+}
+.cancer-services-item:hover .image .arrow-btn a i {
+  background-color: var(--mainColor);
+  color: var(--whiteColor);
+}
+
+.cancer-services-link {
+  margin-top: 35px;
+  text-align: center;
+}
+.cancer-services-link span a {
+  text-decoration: underline;
+  color: var(--optionalColor);
+}
+.cancer-services-link span a:hover {
+  color: var(--mainColor);
+}
+
+/*================================================
+Cancer Choose Area CSS
+=================================================*/
+.cancer-choose-area {
+  overflow: hidden;
+}
+
+.cancer-choose-content .sub {
+  font-size: 12px;
+  font-weight: 700;
+  color: var(--optionalColor);
+  display: block;
+  margin-bottom: 12px;
+}
+.cancer-choose-content h2 {
+  font-size: 42px;
+  margin-bottom: 0;
+  line-height: 1.3;
+}
+.cancer-choose-content h2 strong {
+  font-weight: 700;
+}
+.cancer-choose-content .inner {
+  margin-top: 30px;
+}
+.cancer-choose-content .inner .image img {
+  border-radius: 20px;
+}
+.cancer-choose-content .inner .list {
+  margin-bottom: 0;
+  padding-left: 100px;
+  padding-right: 0;
+}
+.cancer-choose-content .inner .list li {
+  list-style-type: none;
+  display: flex;
+  gap: 15px;
+  align-items: center;
+  font-size: 20px;
+  margin-bottom: 17px;
+}
+.cancer-choose-content .inner .list li i {
+  font-size: 25px;
+  color: var(--optionalColorThree);
+}
+.cancer-choose-content .inner .list li:last-child {
+  margin-bottom: 0;
+}
+
+.cancer-choose-image {
+  position: relative;
+  padding-bottom: 140px;
+}
+.cancer-choose-image img {
+  border-radius: 20px;
+}
+.cancer-choose-image .wrap-image {
+  max-width: 200px;
+  position: absolute;
+  right: 20px;
+  bottom: 0;
+}
+.cancer-choose-image .shape {
+  position: absolute;
+  left: 50px;
+  bottom: 30px;
+}
+
+/*================================================
+Cancer Testimonials Area CSS
+=================================================*/
+.cancer-testimonials-item {
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100%;
+  width: 100%;
+  padding: 80px 90px;
+  border-radius: 20px;
+}
+.cancer-testimonials-item h3 {
+  font-size: 42px;
+  font-weight: 400;
+  margin-bottom: 0;
+  color: var(--blackColor);
+  max-width: 785px;
+  line-height: 1.5;
+}
+.cancer-testimonials-item .info {
+  max-width: 350px;
+  margin-top: 35px;
+}
+.cancer-testimonials-item .info h5 {
+  font-size: 18px;
+  font-weight: 700;
+  margin-bottom: 0;
+}
+.cancer-testimonials-item .info span {
+  display: block;
+  margin-top: 10px;
+}
+
+.cancer-testimonials-slider {
+  position: relative;
+}
+
+.testimonials-pagination {
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  left: 0 !important;
+  right: 0 !important;
+  top: unset !important;
+  bottom: 100px !important;
+  z-index: 1;
+  text-align: center;
+}
+.testimonials-pagination .swiper-pagination-bullet {
+  opacity: 100%;
+  background-color: var(--mainColor);
+  height: 15px;
+  width: 15px;
+  border-radius: 50px;
+  margin: 0 7px !important;
+}
+.testimonials-pagination .swiper-pagination-bullet.swiper-pagination-bullet-active {
+  background-color: #574AAD;
+}
+.testimonials-pagination .owl-dot {
+  opacity: 100%;
+  background-color: var(--mainColor);
+  height: 15px;
+  width: 15px;
+  border-radius: 50px;
+  margin: 0 7px !important;
+  border: none;
+}
+.testimonials-pagination .owl-dot.active {
+  background-color: #574AAD;
+}
+
+/*================================================
+Cancer Team Area CSS
+=================================================*/
+.cancer-team-area {
+  overflow: hidden;
+}
+
+.cancer-team-item {
+  overflow: hidden;
+  position: relative;
+}
+.cancer-team-item a img {
+  border-radius: 20px;
+}
+.cancer-team-item .content {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  padding: 30px;
+  text-align: center;
+}
+.cancer-team-item .content h3 {
+  font-size: 18px;
+  margin-bottom: 0;
+  font-weight: 700;
+}
+.cancer-team-item .content h3 a {
+  color: var(--whiteColor);
+}
+.cancer-team-item .content h3 a:hover {
+  color: var(--optionalColor);
+}
+.cancer-team-item .content span {
+  display: block;
+  color: var(--whiteColor);
+  margin-top: 10px;
+}
+.cancer-team-item .content .team-btn {
+  margin-top: 20px;
+}
+.cancer-team-item .content .team-btn .default-btn {
+  background-color: var(--whiteColor);
+  color: var(--optionalColorTwo) !important;
+  border: 1px solid var(--optionalColorTwo);
+}
+.cancer-team-item .content .team-btn .default-btn:hover {
+  background-color: var(--optionalColorTwo);
+  color: var(--whiteColor) !important;
+}
+.cancer-team-item::before {
+  position: absolute;
+  content: "";
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  bottom: 0;
+  border-radius: 20px;
+  background: linear-gradient(180deg, rgba(2, 13, 43, 0) 50%, rgba(2, 13, 43, 0.85) 100%);
+}
+
+.cancer-team-inner {
+  border-radius: 20px;
+  background-color: #D7ECE4;
+  padding: 50px;
+}
+.cancer-team-inner .inner-hidden {
+  overflow: hidden;
+}
+.cancer-team-inner .cancer-team-slider {
+  margin-right: -45px;
+}
+.cancer-team-inner .cancer-team-slider .swiper-scrollbar {
+  margin-top: 25px;
+  position: relative;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  border-radius: 0;
+  background-color: var(--whiteColor);
+  cursor: pointer;
+}
+.cancer-team-inner .cancer-team-slider .swiper-scrollbar .swiper-scrollbar-drag {
+  border-radius: 0;
+  background-color: #C3D8D0;
+}
+
+.cancer-team-card .image a img {
+  border-radius: 20px;
+}
+.cancer-team-card .content {
+  margin-top: 25px;
+}
+.cancer-team-card .content h3 {
+  font-size: 18px;
+  font-weight: 700;
+  margin-bottom: 0;
+}
+.cancer-team-card .content span {
+  display: block;
+  margin-top: 12px;
+  font-size: 15px;
+}
+
+.cancer-team-slider .owl-dots {
+  display: flex;
+  max-width: 1295px;
+  background-color: rgb(202, 211, 220);
+  justify-content: space-between;
+  margin: 45px auto 0px !important;
+}
+
+.cancer-team-slider .owl-dot.active {
+  background: rgb(202, 211, 220);
+}
+
+.cancer-team-slider .owl-dots .owl-dot span {
+  width: 129.5px;
+  height: 5px;
+  opacity: 1;
+  display: block;
+  backface-visibility: visible;
+  flex: 1 1 0%;
+  padding: 0px;
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 0px;
+  transition: 0.7s;
+  margin: 0px !important;
+}
+
+/*================================================
+Cancer FAQ Area CSS
+=================================================*/
+.cancer-faq-content {
+  position: sticky;
+  top: 135px;
+}
+.cancer-faq-content .sub {
+  font-size: 12px;
+  font-weight: 700;
+  color: var(--optionalColor);
+  display: block;
+  margin-bottom: 12px;
+}
+.cancer-faq-content h2 {
+  font-size: 42px;
+  margin-bottom: 0;
+  line-height: 1.3;
+}
+.cancer-faq-content h2 strong {
+  font-weight: 700;
+}
+.cancer-faq-content .info {
+  display: flex;
+  align-items: center;
+  gap: 25px;
+  margin-top: 35px;
+}
+.cancer-faq-content .info .shape img {
+  max-width: 85px;
+}
+.cancer-faq-content .info .title p {
+  color: var(--blackColor);
+  margin-bottom: 5px;
+}
+.cancer-faq-content .info .title span {
+  display: flex;
+  align-items: center;
+  gap: 7px;
+}
+.cancer-faq-content .info .title span i {
+  color: var(--optionalColor);
+}
+.cancer-faq-content .info .title span a {
+  color: #574AAD;
+  font-size: 18px;
+  font-weight: 700;
+}
+.cancer-faq-content .info .title span a:hover {
+  color: var(--mainColor);
+}
+
+.cancer-faq-accordion .accordion-item {
+  background-color: transparent;
+  border: 1px solid #E0E3E6;
+  margin-bottom: 10px;
+  border-radius: 10px;
+  padding: 25px 30px;
+}
+.cancer-faq-accordion .accordion-item:last-child {
+  margin-bottom: 0;
+}
+.cancer-faq-accordion .accordion-item .accordion-button {
+  color: var(--blackColor);
+  position: relative;
+  text-align: start;
+  box-shadow: unset;
+  margin-bottom: 0;
+  display: block;
+  border: none;
+  width: 100%;
+  font-size: 18px;
+  font-weight: 700;
+  padding: 0px 30px 0px 0;
+  transition: var(--transition);
+  background-color: transparent;
+}
+.cancer-faq-accordion .accordion-item .accordion-button::before {
+  position: absolute;
+  content: "שׁ";
+  right: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  color: var(--blackColor);
+  font-size: 20px;
+  font-family: "tabler-icons";
+}
+.cancer-faq-accordion .accordion-item .accordion-button:not(.collapsed)::before {
+  content: "שּׂ";
+}
+.cancer-faq-accordion .accordion-item .accordion-body {
+  border-top: 1px solid #E0E3E6;
+  padding: 20px 0 0 0;
+  margin-top: 25px;
+}
+
+/*================================================
+Cancer Blog Area CSS
+=================================================*/
+.cancer-blog-area {
+  overflow: hidden;
+}
+
+.cancer-blog-item .image {
+  border-radius: 20px;
+  overflow: hidden;
+}
+.cancer-blog-item .image a img {
+  border-radius: 20px;
+  transition: var(--transition);
+}
+.cancer-blog-item .content {
+  margin-top: 27px;
+}
+.cancer-blog-item .content .meta {
+  display: flex;
+  margin-bottom: 15px;
+  padding-left: 0;
+  padding-right: 0;
+}
+.cancer-blog-item .content .meta li {
+  list-style-type: none;
+  font-size: 13px;
+  margin-right: 30px;
+  position: relative;
+}
+.cancer-blog-item .content .meta li::before {
+  position: absolute;
+  content: "-";
+  right: -18px;
+  top: 50%;
+  transform: translateY(-50%);
+  color: var(--paragraph);
+}
+.cancer-blog-item .content .meta li:first-child {
+  color: var(--mainColor);
+}
+.cancer-blog-item .content .meta li:last-child {
+  margin-right: 0;
+}
+.cancer-blog-item .content .meta li:last-child::before {
+  display: none;
+}
+.cancer-blog-item .content h3 {
+  font-size: 23.5px;
+  margin-bottom: 17px;
+  line-height: 1.3;
+}
+.cancer-blog-item .content .link-btn {
+  color: var(--blackColor);
+  font-size: 15px;
+  font-weight: 500;
+  position: relative;
+  padding-left: 22px;
+  transition: var(--transition);
+}
+.cancer-blog-item .content .link-btn i {
+  font-size: 17px;
+  position: absolute;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  transition: var(--transition);
+  display: flex;
+}
+.cancer-blog-item .content .link-btn:hover {
+  color: var(--mainColor);
+  padding-left: 0;
+  padding-right: 7px;
+}
+.cancer-blog-item .content .link-btn:hover i {
+  left: 100%;
+}
+.cancer-blog-item:hover .image a img {
+  transform: scale(1.1);
+}
+
+.cancer-blog-items {
+  padding-left: 50px;
+}
+.cancer-blog-items .item {
+  display: flex;
+  align-items: start;
+}
+.cancer-blog-items .item .image a img {
+  max-width: 112px;
+  border-radius: 20px;
+}
+.cancer-blog-items .item .content {
+  margin-left: 25px;
+  border-bottom: 1px solid #E0E3E6;
+  margin-bottom: 30px;
+  padding-bottom: 27px;
+}
+.cancer-blog-items .item .content .meta {
+  display: flex;
+  margin-bottom: 12px;
+  padding-left: 0;
+  padding-right: 0;
+}
+.cancer-blog-items .item .content .meta li {
+  list-style-type: none;
+  font-size: 13px;
+  margin-right: 30px;
+  position: relative;
+}
+.cancer-blog-items .item .content .meta li::before {
+  position: absolute;
+  content: "-";
+  right: -18px;
+  top: 50%;
+  transform: translateY(-50%);
+  color: var(--paragraph);
+}
+.cancer-blog-items .item .content .meta li:first-child {
+  color: var(--mainColor);
+}
+.cancer-blog-items .item .content .meta li:last-child {
+  margin-right: 0;
+}
+.cancer-blog-items .item .content .meta li:last-child::before {
+  display: none;
+}
+.cancer-blog-items .item .content h3 {
+  font-size: 23.5px;
+  margin-bottom: 15px;
+  line-height: 1.4;
+}
+.cancer-blog-items .item .content .link-btn {
+  color: var(--blackColor);
+  font-size: 15px;
+  font-weight: 500;
+  position: relative;
+  padding-left: 22px;
+  transition: var(--transition);
+}
+.cancer-blog-items .item .content .link-btn i {
+  font-size: 17px;
+  position: absolute;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  transition: var(--transition);
+  display: flex;
+}
+.cancer-blog-items .item .content .link-btn:hover {
+  color: var(--mainColor);
+  padding-left: 0;
+  padding-right: 7px;
+}
+.cancer-blog-items .item .content .link-btn:hover i {
+  left: 100%;
+}
+.cancer-blog-items .item:last-child .content {
+  border-bottom: none;
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+
+/*================================================
+Cancer Contact Area CSS
+=================================================*/
+.cancer-contact-area {
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.cancer-contact-form {
+  background: var(--whiteColor);
+  padding: 80px;
+  border-radius: 20px;
+  max-width: 650px;
+}
+.cancer-contact-form h2 {
+  font-size: 42px;
+  font-weight: 400;
+  margin-bottom: 35px;
+}
+.cancer-contact-form .form-group {
+  margin-bottom: 25px;
+}
+.cancer-contact-form .form-group .form-control {
+  display: inline-block;
+  background-color: transparent;
+  border: none;
+  border-bottom: 1px solid #E0E3E6;
+  padding: 0 0 10px 0;
+  box-shadow: unset;
+  outline: 0;
+  border-radius: 0;
+  font-size: 15px;
+  color: var(--paragraph);
+  transition: var(--transition);
+}
+.cancer-contact-form .form-group .form-control::-moz-placeholder {
+  color: var(--paragraph);
+  -moz-transition: var(--transition);
+  transition: var(--transition);
+}
+.cancer-contact-form .form-group .form-control::placeholder {
+  color: var(--paragraph);
+  transition: var(--transition);
+}
+.cancer-contact-form .form-group .form-control:focus {
+  border-bottom: 1px solid var(--mainColor);
+}
+.cancer-contact-form .form-group .form-control:focus::-moz-placeholder {
+  color: transparent;
+}
+.cancer-contact-form .form-group .form-control:focus::placeholder {
+  color: transparent;
+}
+.cancer-contact-form .form-group textarea.form-control {
+  display: flex;
+  height: 100px;
+}
+.cancer-contact-form .contact-btn {
+  display: flex;
+  align-items: center;
+}
+.cancer-contact-form .contact-btn .default-btn {
+  border: none;
+}
+.cancer-contact-form .contact-btn .call {
+  display: flex;
+  align-items: center;
+  gap: 7px;
+  margin-left: 35px;
+}
+.cancer-contact-form .contact-btn .call i {
+  color: var(--optionalColor);
+}
+.cancer-contact-form .contact-btn .call a {
+  color: #574AAD;
+  font-size: 18px;
+  font-weight: 700;
+}
+.cancer-contact-form .contact-btn .call a:hover {
+  color: var(--mainColor);
+}
+
+/*================================================
+Skin Care Banner Area CSS
+=================================================*/
+.skin-care-banner-area .container-fluid {
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.skin-care-banner-inner {
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 20px;
+  padding-top: 450px;
+  padding-bottom: 100px;
+}
+.skin-care-banner-inner .content {
+  max-width: 1370px;
+  margin: auto;
+}
+.skin-care-banner-inner .content .top {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  justify-content: space-between;
+}
+.skin-care-banner-inner .content .top h1 {
+  margin-bottom: 0;
+  font-size: 130px;
+  font-weight: 700;
+  line-height: 1;
+  color: var(--whiteColor);
+}
+.skin-care-banner-inner .content .top .info {
+  text-align: center;
+  border-radius: 200px;
+  background: rgba(189, 143, 117, 0.7);
+  padding: 22px 50px;
+}
+.skin-care-banner-inner .content .top .info span {
+  font-size: 14px;
+  color: var(--whiteColor);
+  display: block;
+  margin-bottom: 10px;
+}
+.skin-care-banner-inner .content .top .info .call {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  justify-content: center;
+}
+.skin-care-banner-inner .content .top .info .call i {
+  font-size: 22px;
+  color: #FFCF42;
+}
+.skin-care-banner-inner .content .top .info .call a {
+  font-size: 18px;
+  font-weight: 700;
+  color: var(--whiteColor);
+  transition: var(--transition);
+}
+.skin-care-banner-inner .content .top .info .call a:hover {
+  color: var(--mainColor);
+}
+.skin-care-banner-inner .content .bottom {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+.skin-care-banner-inner .content .bottom p {
+  font-size: 18px;
+  margin-bottom: 0;
+  color: var(--whiteColor);
+  max-width: 300px;
+}
+.skin-care-banner-inner .content .bottom h1 {
+  margin-bottom: 0;
+  font-size: 110px;
+  color: var(--whiteColor);
+  line-height: 1;
+  font-weight: 400;
+}
+
+/*================================================
+SC Appointment Area CSS
+=================================================*/
+.sc-appointment-items .item {
+  border-radius: 20px;
+  background-color: #C4DCF3;
+  padding: 25px 30px;
+  margin-bottom: 20px;
+}
+.sc-appointment-items .item h3 {
+  font-size: 18px;
+  font-weight: 700;
+  margin-bottom: 15px;
+}
+.sc-appointment-items .item p {
+  margin-bottom: 0;
+}
+.sc-appointment-items .item.wrap2 {
+  background-color: #D6D2F1;
+}
+.sc-appointment-items .item.wrap3 {
+  background-color: #D7ECE4;
+}
+.sc-appointment-items .item:last-child {
+  margin-bottom: 0;
+}
+
+.sc-appointment-form {
+  border-radius: 20px;
+  background-color: #F3F4FE;
+  padding: 50px;
+  overflow: hidden;
+  position: relative;
+  z-index: 1;
+}
+.sc-appointment-form h1 {
+  color: rgba(213, 218, 229, 0.5);
+  margin-bottom: 0;
+  font-size: 100px;
+  font-weight: 900;
+  letter-spacing: 10px;
+  position: absolute;
+  left: 7px;
+  top: 50%;
+  transform: translateY(-50%) rotate(180deg);
+  writing-mode: vertical-lr;
+  z-index: -1;
+  margin: 0;
+  line-height: 1;
+}
+.sc-appointment-form .form-wrap {
+  padding-left: 85px;
+}
+.sc-appointment-form .form-wrap .content {
+  margin-bottom: 30px;
+}
+.sc-appointment-form .form-wrap .content h2 {
+  margin-bottom: 0;
+  font-size: 42px;
+}
+.sc-appointment-form .form-wrap .content h2 strong {
+  font-weight: 700;
+}
+.sc-appointment-form .form-wrap .form-group {
+  margin-bottom: 25px;
+}
+.sc-appointment-form .form-wrap .form-group .form-control {
+  display: inline-block;
+  height: 57px;
+  width: 100%;
+  background-color: var(--whiteColor);
+  border: none;
+  box-shadow: unset;
+  outline: 0;
+  padding: 15px 20px;
+  font-size: 13px;
+  letter-spacing: 1.57px;
+  color: var(--paragraph);
+  transition: var(--transition);
+}
+.sc-appointment-form .form-wrap .form-group .form-control::-moz-placeholder {
+  color: var(--paragraph);
+  -moz-transition: var(--transition);
+  transition: var(--transition);
+}
+.sc-appointment-form .form-wrap .form-group .form-control::placeholder {
+  color: var(--paragraph);
+  transition: var(--transition);
+}
+.sc-appointment-form .form-wrap .form-group .form-control:focus::-moz-placeholder {
+  color: transparent;
+}
+.sc-appointment-form .form-wrap .form-group .form-control:focus::placeholder {
+  color: transparent;
+}
+.sc-appointment-form .form-wrap .default-btn {
+  border: none;
+  border-radius: 5px;
+  background-color: var(--optionalColorThree);
+}
+.sc-appointment-form .form-wrap .default-btn:hover {
+  background-color: var(--mainColor);
+}
+
+/*================================================
+SC About Area CSS
+=================================================*/
+.sc-about-area {
+  overflow: hidden;
+}
+.sc-about-area .section-title.wrap-style2 {
+  max-width: 1320px;
+}
+
+.sc-about-image {
+  margin-left: -80px;
+  padding-right: 0;
+}
+.sc-about-image img {
+  border-radius: 20px;
+}
+
+.sc-about-content p {
+  margin-bottom: 0;
+  font-size: 20.5px;
+}
+.sc-about-content p strong {
+  font-weight: 700;
+}
+.sc-about-content .info {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  margin-top: 35px;
+}
+.sc-about-content .info .about-btn .default-btn {
+  border-radius: 5px;
+  padding: 15px 20px 15.5px 55px;
+}
+.sc-about-content .info .call b {
+  display: block;
+  font-weight: 400;
+  color: var(--paragraph);
+  margin-bottom: 7px;
+}
+.sc-about-content .info .call span {
+  display: flex;
+  align-items: center;
+  gap: 7px;
+}
+.sc-about-content .info .call span i {
+  color: var(--optionalColorThree);
+}
+.sc-about-content .info .call span a {
+  color: var(--blackColor);
+  font-size: 18px;
+  font-weight: 700;
+}
+.sc-about-content .info .call span a:hover {
+  color: var(--mainColor);
+}
+.sc-about-content .inner {
+  margin-top: 35px;
+}
+.sc-about-content .inner .image img {
+  border-radius: 20px;
+}
+.sc-about-content .inner .list {
+  margin-bottom: 0;
+  padding-left: 30px;
+  padding-right: 0;
+}
+.sc-about-content .inner .list li {
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 12px;
+}
+.sc-about-content .inner .list li h5 {
+  font-size: 18px;
+  font-weight: 700;
+  margin-bottom: 7px;
+}
+.sc-about-content .inner .list li i {
+  color: var(--optionalColorThree);
+  font-size: 18.5px;
+}
+.sc-about-content .inner .list li:last-child {
+  margin-bottom: 0;
+}
+
+/*================================================
+SC Services Area CSS
+=================================================*/
+.sc-services-area {
+  margin: 0 30px;
+  position: relative;
+  z-index: 1;
+  overflow: hidden;
+  border-radius: 20px;
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.sc-services-area .section-title.wrap-style2 {
+  max-width: 1320px;
+  text-align: start;
+}
+
+.sc-services-tabs {
+  margin-bottom: 0;
+  border: none;
+}
+.sc-services-tabs .nav-item {
+  width: 100%;
+  border-bottom: 1px solid #E1E6EB;
+  margin-bottom: 30px;
+  padding-bottom: 30px;
+}
+.sc-services-tabs .nav-item .nav-link {
+  background-color: transparent;
+  padding: 0;
+  border: none;
+  font-size: 52px;
+  font-weight: 400;
+  color: var(--paragraph);
+  transition: var(--transition);
+  position: relative;
+}
+.sc-services-tabs .nav-item .nav-link sup {
+  transition: var(--transition);
+  font-size: var(--font-size);
+  position: relative;
+  top: -20px;
+}
+.sc-services-tabs .nav-item .nav-link:hover, .sc-services-tabs .nav-item .nav-link.active {
+  font-weight: 700;
+  color: var(--blackColor);
+}
+.sc-services-tabs .nav-item .nav-link:hover sup, .sc-services-tabs .nav-item .nav-link.active sup {
+  font-weight: 400;
+  color: var(--optionalColor);
+}
+.sc-services-tabs .nav-item:last-child {
+  border-bottom: none;
+  padding-bottom: 0;
+  margin-bottom: 0;
+}
+
+.sc-services-inner .image a img {
+  border-radius: 20px;
+}
+.sc-services-inner .content {
+  display: flex;
+  gap: 35px;
+  align-items: start;
+  padding: 30px 0 0 35px;
+}
+.sc-services-inner .content .number {
+  font-weight: 700;
+  color: var(--paragraph);
+  font-size: 23.5px;
+  writing-mode: vertical-lr;
+  transform: rotate(180deg);
+  position: relative;
+  top: 20px;
+}
+.sc-services-inner .content .title {
+  max-width: 425px;
+}
+.sc-services-inner .content .title p {
+  margin-bottom: 30px;
+}
+.sc-services-inner .content .title .link-btn {
+  color: var(--blackColor);
+  font-size: 15px;
+  font-weight: 500;
+  position: relative;
+  padding-left: 22px;
+  transition: var(--transition);
+}
+.sc-services-inner .content .title .link-btn i {
+  font-size: 17px;
+  position: absolute;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  transition: var(--transition);
+  display: flex;
+}
+.sc-services-inner .content .title .link-btn:hover {
+  color: var(--mainColor);
+  padding-left: 0;
+  padding-right: 7px;
+}
+.sc-services-inner .content .title .link-btn:hover i {
+  left: 100%;
+}
+
+/*================================================
+SC Choose Area CSS
+=================================================*/
+.sc-choose-area {
+  overflow: hidden;
+}
+.sc-choose-area .section-title.wrap-style2 {
+  max-width: 1320px;
+}
+
+.sc-choose-card .image {
+  position: relative;
+  overflow: hidden;
+  border-radius: 20px;
+}
+.sc-choose-card .image img {
+  border-radius: 20px;
+  transition: var(--transition);
+}
+.sc-choose-card .image .number {
+  font-weight: 400;
+  color: var(--blackColor);
+  font-size: 23.5px;
+  position: absolute;
+  right: 20px;
+  top: 20px;
+  line-height: 1;
+}
+.sc-choose-card .content {
+  margin-top: 25px;
+}
+.sc-choose-card .content h3 {
+  margin-bottom: 0;
+  font-size: 18px;
+  font-weight: 700;
+}
+.sc-choose-card:hover .image img {
+  transform: scale(1.1);
+}
+
+.col-lg-3:nth-child(2) .sc-choose-card {
+  margin-top: 50px;
+}
+.col-lg-3:nth-child(4) .sc-choose-card {
+  margin-top: 50px;
+}
+.col-lg-3:nth-child(6) .sc-choose-card {
+  margin-top: 50px;
+}
+.col-lg-3:nth-child(8) .sc-choose-card {
+  margin-top: 50px;
+}
+
+/*================================================
+SC Doctors Area CSS
+=================================================*/
+.sc-doctors-area {
+  border-radius: 20px;
+  background-color: #F3F4FE;
+  overflow: hidden;
+  margin: 0 30px;
+}
+
+.sc-doctors-tabs {
+  display: flex;
+  justify-content: center;
+  border: none;
+  margin-bottom: 40px;
+  padding-left: 0;
+  padding-right: 0;
+}
+.sc-doctors-tabs .nav-item {
+  margin-right: 12px;
+}
+.sc-doctors-tabs .nav-item:last-child {
+  margin-right: 0;
+}
+.sc-doctors-tabs .nav-item .nav-link {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 20px;
+  border: 1px solid #C4DCF3;
+  background-color: transparent;
+  color: var(--blackColor);
+  padding: 10px 20px;
+  font-size: 12px;
+  font-weight: 600;
+  letter-spacing: 1.2px;
+  transition: var(--transition);
+  text-transform: uppercase;
+}
+.sc-doctors-tabs .nav-item .nav-link:hover, .sc-doctors-tabs .nav-item .nav-link.active {
+  background-color: #C4DCF3;
+}
+
+.sc-doctors-card .image {
+  border-radius: 20px;
+  overflow: hidden;
+}
+.sc-doctors-card .image a img {
+  border-radius: 20px;
+  transition: var(--transition);
+}
+.sc-doctors-card .content {
+  text-align: center;
+  margin-top: 27px;
+}
+.sc-doctors-card .content h3 {
+  font-size: 18px;
+  font-weight: 700;
+  margin-bottom: 0;
+}
+.sc-doctors-card .content span {
+  display: block;
+  margin-top: 12px;
+}
+.sc-doctors-card:hover .image a img {
+  transform: scale(1.1);
+}
+
+/*================================================
+Treatment Fees Area CSS
+=================================================*/
+.treatment-fees-area {
+  overflow: hidden;
+}
+.treatment-fees-area .container-fluid {
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.treatment-fees-inner {
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100%;
+  width: 100%;
+  border-radius: 20px;
+}
+
+.treatment-fees-image {
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100%;
+  margin-right: 100px;
+  border-radius: 20px;
+}
+
+.treatment-fees-content {
+  max-width: 650px;
+  padding: 10px 0;
+}
+.treatment-fees-content .content {
+  margin-bottom: 30px;
+}
+.treatment-fees-content .content .sub {
+  font-size: 12px;
+  font-weight: 700;
+  color: var(--optionalColor);
+  display: block;
+  margin-bottom: 12px;
+}
+.treatment-fees-content .content h2 {
+  font-size: 42px;
+  margin-bottom: 0;
+  line-height: 1.3;
+}
+.treatment-fees-content .content h2 strong {
+  font-weight: 700;
+}
+.treatment-fees-content .fees-inner .item {
+  border-bottom: 1px solid #C4DCF3;
+  margin-bottom: 30px;
+  padding-bottom: 30px;
+}
+.treatment-fees-content .fees-inner .item .left {
+  text-align: start;
+}
+.treatment-fees-content .fees-inner .item .left h5 {
+  margin-bottom: 0;
+  font-size: 18px;
+  font-weight: 700;
+}
+.treatment-fees-content .fees-inner .item .middle p {
+  margin-bottom: 0;
+  max-width: 225px;
+}
+.treatment-fees-content .fees-inner .item .price {
+  text-align: end;
+}
+.treatment-fees-content .fees-inner .item p a {
+  color: var(--paragraph);
+  font-weight: 600;
+}
+.treatment-fees-content .fees-inner .item p a:hover {
+  color: var(--mainColor);
+}
+.treatment-fees-content .fees-inner .item:last-child {
+  margin-bottom: 0;
+  padding-bottom: 0;
+  border: none;
+}
+
+/*================================================
+SC Blog Area CSS
+=================================================*/
+.sc-blog-area {
+  overflow: hidden;
+}
+
+.sc-blog-card .image {
+  border-radius: 20px;
+  overflow: hidden;
+}
+.sc-blog-card .image a img {
+  border-radius: 20px;
+  transition: var(--transition);
+}
+.sc-blog-card .content {
+  border-radius: 20px;
+  background-color: #C4DCF3;
+  padding: 25px 30px;
+  margin-top: 1.5px;
+}
+.sc-blog-card .content .meta {
+  display: flex;
+  margin-bottom: 12px;
+  padding-left: 0;
+  padding-right: 0;
+}
+.sc-blog-card .content .meta li {
+  list-style-type: none;
+  font-size: 13px;
+  margin-right: 30px;
+  position: relative;
+}
+.sc-blog-card .content .meta li::before {
+  position: absolute;
+  content: "-";
+  right: -18px;
+  top: 50%;
+  transform: translateY(-50%);
+  color: var(--paragraph);
+}
+.sc-blog-card .content .meta li:last-child {
+  margin-right: 0;
+}
+.sc-blog-card .content .meta li:last-child::before {
+  display: none;
+}
+.sc-blog-card .content h3 {
+  font-size: 23.5px;
+  margin-bottom: 15px;
+  line-height: 1.5;
+}
+.sc-blog-card .content .link-btn {
+  color: var(--blackColor);
+  font-size: 15px;
+  font-weight: 500;
+  position: relative;
+  padding-left: 22px;
+  transition: var(--transition);
+}
+.sc-blog-card .content .link-btn i {
+  font-size: 17px;
+  position: absolute;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  transition: var(--transition);
+  display: flex;
+}
+.sc-blog-card .content .link-btn:hover {
+  color: var(--mainColor);
+  padding-left: 0;
+  padding-right: 7px;
+}
+.sc-blog-card .content .link-btn:hover i {
+  left: 100%;
+}
+.sc-blog-card .content.wrap2 {
+  background-color: #D6D2F1;
+}
+.sc-blog-card .content.wrap3 {
+  background-color: #D7ECE4;
+}
+.sc-blog-card:hover .image a img {
+  transform: scale(1.1);
+}
+
+/*================================================
+SC Blog Area CSS
+=================================================*/
+.sc-gallery-inner {
+  background-color: #F3F4FE;
+  padding: 50px 45px;
+  border-radius: 20px;
+}
+.sc-gallery-inner h2 {
+  font-size: 42px;
+  margin-bottom: 35px;
+}
+.sc-gallery-inner .item {
+  overflow: hidden;
+  border-radius: 20px;
+}
+.sc-gallery-inner .item img {
+  transition: var(--transition);
+  border-radius: 20px;
+}
+.sc-gallery-inner .item:hover img {
+  transform: scale(1.2);
+}
+
+.sc-gallery-app {
+  border-radius: 20px;
+  background-color: #C4DCF3;
+  padding: 70px 60px;
+}
+.sc-gallery-app .sub {
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 1.2px;
+  display: block;
+  margin-bottom: 12px;
+  color: var(--optionalColor);
+}
+.sc-gallery-app h2 {
+  font-size: 42px;
+  margin-bottom: 0;
+}
+.sc-gallery-app h2 b {
+  font-weight: 800;
+}
+.sc-gallery-app .info {
+  display: flex;
+  align-items: center;
+  margin-top: 25px;
+  margin-bottom: 35.5px;
+}
+.sc-gallery-app .info .title {
+  margin-left: 15px;
+}
+.sc-gallery-app .info .title h5 {
+  font-weight: 600;
+  font-size: 14px;
+  color: var(--paragraph);
+  margin-bottom: 0;
+}
+.sc-gallery-app .info .title span {
+  font-size: 14px;
+  display: block;
+  margin-top: 5px;
+}
+.sc-gallery-app .app-btn {
+  display: flex;
+  margin-bottom: 0;
+  padding-left: 0;
+  padding-right: 0;
+}
+.sc-gallery-app .app-btn li {
+  list-style-type: none;
+  display: inline-block;
+  margin-right: 15px;
+}
+.sc-gallery-app .app-btn li a {
+  list-style-type: none;
+  display: inline-flex;
+  padding: 20px 30px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  background-color: #E67A66;
+  transition: var(--transition);
+}
+.sc-gallery-app .app-btn li a .icon i {
+  font-size: 30px;
+  color: var(--whiteColor);
+}
+.sc-gallery-app .app-btn li a .title {
+  margin-left: 15px;
+}
+.sc-gallery-app .app-btn li a .title span {
+  font-size: 12px;
+  display: block;
+  margin-bottom: 5px;
+  color: var(--whiteColor);
+}
+.sc-gallery-app .app-btn li a .title h5 {
+  margin-bottom: 0;
+  font-size: var(--font-size);
+  font-weight: 500;
+  color: var(--whiteColor);
+}
+.sc-gallery-app .app-btn li a:hover {
+  background-color: var(--mainColor);
+}
+.sc-gallery-app .app-btn li a:hover:last-child {
+  background-color: var(--optionalColor);
+}
+.sc-gallery-app .app-btn li:last-child {
+  margin-right: 0;
+}
+.sc-gallery-app .app-btn li:last-child a {
+  background-color: var(--paragraph);
+}
+
+/*================================================
+Psychiatric Hospital Banner Area CSS
+=================================================*/
+.psychiatric-hospital-banner-area {
+  overflow: hidden;
+  position: relative;
+  z-index: 1;
+  padding-top: 70px;
+}
+.psychiatric-hospital-banner-area .container-fluid {
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.psychiatric-hospital-banner-content {
+  margin-bottom: 70px;
+}
+.psychiatric-hospital-banner-content h1 {
+  margin-bottom: 0;
+  font-size: 110px;
+  font-weight: 700;
+}
+.psychiatric-hospital-banner-content h1 span {
+  display: block;
+}
+.psychiatric-hospital-banner-content .brain {
+  position: relative;
+  top: 35px;
+  margin-left: 30px;
+}
+
+.psychiatric-hospital-banner-bottom {
+  overflow: hidden;
+  position: relative;
+}
+.psychiatric-hospital-banner-bottom img {
+  border-radius: 20px;
+}
+.psychiatric-hospital-banner-bottom .view-animation {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 11;
+}
+.psychiatric-hospital-banner-bottom .view-animation h1 {
+  white-space: nowrap;
+  font-size: 100px;
+  margin-bottom: 0;
+  color: var(--whiteColor);
+  animation: marquee 15s linear infinite forwards;
+  font-weight: 700;
+  line-height: 1;
+}
+.psychiatric-hospital-banner-bottom .view-animation h1 sup {
+  position: relative;
+  top: -12px;
+  margin: 0 25px;
+}
+.psychiatric-hospital-banner-bottom .view-animation h1:hover {
+  animation-play-state: paused;
+}
+.psychiatric-hospital-banner-bottom .inner-wrap {
+  position: absolute;
+  right: 0;
+  top: 0;
+  background-color: var(--whiteColor);
+  padding: 35px;
+  border-radius: 0 0 0 20px;
+}
+.psychiatric-hospital-banner-bottom .inner-wrap p {
+  max-width: 375px;
+  margin-bottom: 0;
+  font-size: 18px;
+  color: var(--blackColor);
+}
+.psychiatric-hospital-banner-bottom .inner-wrap .shape1 {
+  position: absolute;
+  top: 0;
+  left: -30px;
+  transform: rotate(450deg);
+}
+.psychiatric-hospital-banner-bottom .inner-wrap .shape1 svg {
+  width: 30px;
+  height: 30px;
+  fill: var(--whiteColor);
+}
+.psychiatric-hospital-banner-bottom .inner-wrap .shape2 {
+  position: absolute;
+  bottom: -30px;
+  right: 0;
+  transform: rotate(90deg);
+}
+.psychiatric-hospital-banner-bottom .inner-wrap .shape2 svg {
+  width: 30px;
+  height: 30px;
+  fill: var(--whiteColor);
+}
+.psychiatric-hospital-banner-bottom .ellipse {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+
+.psychiatric-hospital-banner-ellipse {
+  position: absolute;
+  left: -370px;
+  top: 0;
+  z-index: -1;
+}
+
+/*================================================
+PH About Area CSS
+=================================================*/
+.ph-about-area {
+  overflow: hidden;
+}
+
+.ph-about-card {
+  background-color: #C4DCF3;
+  padding: 25px;
+  border-radius: 20px;
+}
+.ph-about-card h3 {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  margin-bottom: 15px;
+}
+.ph-about-card h3 span {
+  font-size: 18px;
+  font-weight: 700;
+  letter-spacing: 1.8px;
+}
+.ph-about-card p {
+  letter-spacing: -0.32px;
+}
+.ph-about-card.wrap2 {
+  background-color: #D7ECE4;
+}
+.ph-about-card.wrap3 {
+  background-color: #D6D2F1;
+}
+
+/*================================================
+PH Services Area CSS
+=================================================*/
+.ph-services-area {
+  overflow: hidden;
+  background-color: #F5F7FB;
+}
+
+.ph-services-slider {
+  margin-right: -450px;
+}
+
+.ph-services-card {
+  background-color: var(--whiteColor);
+  padding: 30px;
+  border-radius: 15px;
+  position: relative;
+}
+.ph-services-card h3 {
+  font-size: 18px;
+  font-weight: 700;
+  margin-bottom: 25px;
+  line-height: 1.4;
+}
+.ph-services-card h3 span {
+  display: block;
+}
+.ph-services-card img {
+  border-radius: 15px;
+}
+.ph-services-card p {
+  margin-top: 22px;
+  margin-bottom: 0;
+}
+.ph-services-card .arrow-btn {
+  position: absolute;
+  right: 0;
+  top: 0;
+  background-color: #F5F7FB;
+  padding: 0 0 15px 15px;
+  border-radius: 0 0 0 15px;
+}
+.ph-services-card .arrow-btn a i {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 75px;
+  height: 75px;
+  line-height: 75px;
+  background-color: var(--whiteColor);
+  border: 1px solid #C4DCF3;
+  color: var(--blackColor);
+  font-size: 30px;
+  border-radius: 75px;
+  transition: var(--transition);
+}
+.ph-services-card .arrow-btn .shape1 {
+  position: absolute;
+  top: 0;
+  left: -30px;
+  transform: rotate(450deg);
+}
+.ph-services-card .arrow-btn .shape1 svg {
+  width: 30px;
+  height: 30px;
+  fill: #F5F7FB;
+}
+.ph-services-card .arrow-btn .shape2 {
+  position: absolute;
+  bottom: -30px;
+  right: 0;
+  transform: rotate(90deg);
+}
+.ph-services-card .arrow-btn .shape2 svg {
+  width: 30px;
+  height: 30px;
+  fill: #F5F7FB;
+}
+.ph-services-card:hover .arrow-btn a i {
+  background-color: var(--optionalColor);
+  border: 1px solid var(--optionalColor);
+  color: var(--whiteColor);
+}
+
+.ph-services-link {
+  margin-top: 35px;
+}
+.ph-services-link span a {
+  text-decoration: underline;
+  color: var(--optionalColor);
+}
+.ph-services-link span a:hover {
+  color: var(--mainColor);
+}
+
+/*================================================
+PH Conditions Area CSS
+=================================================*/
+.ph-conditions-area {
+  position: relative;
+  z-index: 1;
+  overflow: hidden;
+}
+
+.ph-conditions-image {
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100%;
+  width: 100%;
+  position: relative;
+  z-index: 1;
+  border-radius: 20px;
+}
+.ph-conditions-image .rating {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  background-color: var(--whiteColor);
+  padding: 25px 30px 0 0;
+  border-radius: 0 20px 0 0;
+}
+.ph-conditions-image .rating .trustpilot {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 10px;
+  line-height: 1;
+}
+.ph-conditions-image .rating .trustpilot span {
+  font-size: 20px;
+  font-weight: 600;
+  color: var(--blackColor);
+}
+.ph-conditions-image .rating ul {
+  display: flex;
+  margin-bottom: 0;
+  padding-left: 0;
+  padding-right: 0;
+}
+.ph-conditions-image .rating ul li {
+  list-style-type: none;
+  margin-right: 5px;
+}
+.ph-conditions-image .rating ul li:last-child {
+  margin-right: 0;
+}
+.ph-conditions-image .rating span {
+  display: block;
+  font-size: 14px;
+  margin-top: 7px;
+}
+.ph-conditions-image .rating .shape1 {
+  position: absolute;
+  top: -30px;
+  left: 0;
+  transform: rotate(-450deg);
+}
+.ph-conditions-image .rating .shape1 svg {
+  width: 30px;
+  height: 30px;
+  fill: var(--whiteColor);
+}
+.ph-conditions-image .rating .shape2 {
+  position: absolute;
+  bottom: 0;
+  right: -30px;
+  transform: rotate(-90deg);
+}
+.ph-conditions-image .rating .shape2 svg {
+  width: 30px;
+  height: 30px;
+  fill: var(--whiteColor);
+}
+
+.ph-conditions-content .inner {
+  margin-bottom: 25px;
+}
+.ph-conditions-content .inner .image img {
+  border-radius: 20px;
+}
+.ph-conditions-content .inner .list {
+  margin-bottom: 0;
+  padding-left: 90px;
+  padding-right: 0;
+}
+.ph-conditions-content .inner .list li {
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 15px;
+}
+.ph-conditions-content .inner .list li h5 {
+  font-size: 18px;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+.ph-conditions-content .inner .list li i {
+  color: var(--optionalColorThree);
+  font-size: 18.5px;
+}
+.ph-conditions-content .inner .list li:last-child {
+  margin-bottom: 0;
+}
+.ph-conditions-content .conditions-card {
+  background-color: #F2DDD9;
+  padding: 30px;
+  border-radius: 20px;
+}
+.ph-conditions-content .conditions-card p {
+  font-size: 23.5px;
+  margin-bottom: 0;
+}
+.ph-conditions-content .conditions-card .info {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  margin-top: 25px;
+}
+.ph-conditions-content .conditions-card .info .image {
+  position: relative;
+  display: inline-flex;
+}
+.ph-conditions-content .conditions-card .info .image img {
+  border-radius: 100px;
+}
+.ph-conditions-content .conditions-card .info .image .quote {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+}
+.ph-conditions-content .conditions-card .info .image .quote i {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 30px;
+  width: 30px;
+  line-height: 30px;
+  border-radius: 50px;
+  background-color: var(--mainColor);
+  color: var(--whiteColor);
+  font-size: 18px;
+}
+.ph-conditions-content .conditions-card .info .title h3 {
+  font-size: 18px;
+  font-weight: 700;
+  margin-bottom: 0;
+}
+.ph-conditions-content .conditions-card .info .title span {
+  font-size: 14px;
+  display: block;
+  margin-top: 12px;
+}
+.ph-conditions-content .conditions-slider {
+  position: relative;
+}
+.ph-conditions-content .conditions-button {
+  display: flex;
+  justify-content: end;
+  margin-bottom: 0;
+  position: absolute;
+  right: 30px;
+  bottom: 30px;
+  z-index: 1;
+  padding-left: 0;
+  padding-right: 0;
+}
+.ph-conditions-content .conditions-button li {
+  list-style-type: none;
+  margin-right: 10px;
+}
+.ph-conditions-content .conditions-button li i {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 50px;
+  height: 50px;
+  line-height: 50px;
+  border: 1px solid var(--whiteColor);
+  color: var(--blackColor);
+  border-radius: 50px;
+  font-size: 25px;
+  transition: var(--transition);
+}
+.ph-conditions-content .conditions-button li i:hover {
+  background-color: var(--whiteColor);
+  cursor: pointer;
+}
+.ph-conditions-content .conditions-button li:last-child {
+  margin-right: 0;
+}
+
+.ph-conditions-ellipse {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: -680px;
+  text-align: center;
+  z-index: -1;
+}
+
+/*================================================
+PH Team Area CSS
+=================================================*/
+.ph-team-area {
+  overflow: hidden;
+  position: relative;
+  z-index: 1;
+}
+
+.ph-team-items .item {
+  border-radius: 20px;
+  background-color: var(--whiteColor);
+  border: 1px solid #C4DCF3;
+  margin-bottom: 15px;
+  padding: 30px;
+  transition: var(--transition);
+  position: relative;
+}
+.ph-team-items .item .content h3 {
+  font-size: 17px;
+  font-weight: 700;
+  margin-bottom: 0;
+}
+.ph-team-items .item .content span {
+  font-size: 14px;
+  display: block;
+  margin-top: 10px;
+}
+.ph-team-items .item .team-btn {
+  text-align: end;
+}
+.ph-team-items .item .team-btn .default-btn {
+  border-radius: 5px;
+  padding: 14px 20px 14.5px 55px;
+}
+.ph-team-items .item:last-child {
+  margin-bottom: 0;
+}
+.ph-team-items .item .team-image {
+  position: absolute;
+  right: 245px;
+  top: 50%;
+  transform: translateY(-50%);
+  transition: var(--transition);
+  opacity: 0;
+  max-width: 225px;
+  z-index: 1;
+}
+.ph-team-items .item .team-image img {
+  border-radius: 20px;
+  border: 1px solid #C4DCF3;
+}
+.ph-team-items .item:hover, .ph-team-items .item.active {
+  background-color: #F3F4FE;
+}
+.ph-team-items .item:hover .team-image, .ph-team-items .item.active .team-image {
+  opacity: 1;
+}
+
+.ph-team-ellipse {
+  position: absolute;
+  left: 0;
+  right: 0;
+  text-align: center;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: -1;
+}
+
+/*================================================
+PH Admission Area CSS
+=================================================*/
+.ph-admission-area {
+  background-color: #F5F7FB;
+}
+
+.ph-admission-card img {
+  margin-bottom: 40px;
+}
+.ph-admission-card h3 {
+  font-size: 18px;
+  font-weight: 700;
+  margin-bottom: 15px;
+}
+.ph-admission-card p {
+  margin-bottom: 0;
+}
+
+/*================================================
+PH FAQ Area CSS
+=================================================*/
+.ph-faq-ask {
+  display: flex;
+  align-items: end;
+}
+.ph-faq-ask img {
+  margin-bottom: 7px;
+}
+.ph-faq-ask .link-btn {
+  color: var(--blackColor);
+  font-size: 15px;
+  font-weight: 500;
+  position: relative;
+  padding-left: 22px;
+  transition: var(--transition);
+  margin-left: -75px;
+}
+.ph-faq-ask .link-btn i {
+  font-size: 17px;
+  position: absolute;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  transition: var(--transition);
+  display: flex;
+}
+.ph-faq-ask .link-btn:hover {
+  color: var(--mainColor);
+  padding-left: 0;
+  padding-right: 7px;
+}
+.ph-faq-ask .link-btn:hover i {
+  left: 100%;
+}
+
+.ph-faq-accordion {
+  padding-left: 30px;
+}
+.ph-faq-accordion .accordion-item {
+  background-color: transparent;
+  border: none;
+  border-bottom: 1px solid #C4DCF3;
+  margin-bottom: 30px;
+  border-radius: 0;
+}
+.ph-faq-accordion .accordion-item:last-child {
+  margin-bottom: 0;
+}
+.ph-faq-accordion .accordion-item .accordion-button {
+  color: var(--blackColor);
+  position: relative;
+  text-align: start;
+  box-shadow: unset;
+  margin-bottom: 0;
+  display: block;
+  border: none;
+  width: 100%;
+  font-size: 18px;
+  font-weight: 700;
+  padding: 0px 0px 25px 0px;
+  transition: var(--transition);
+  background-color: transparent;
+}
+.ph-faq-accordion .accordion-item .accordion-button::before {
+  position: absolute;
+  content: "שׁ";
+  right: 0;
+  top: 0;
+  color: var(--blackColor);
+  font-size: 20px;
+  font-family: "tabler-icons";
+}
+.ph-faq-accordion .accordion-item .accordion-button:not(.collapsed)::before {
+  content: "שּׂ";
+}
+.ph-faq-accordion .accordion-item .accordion-body {
+  padding: 0 45px 20px 0;
+}
+.ph-faq-accordion .accordion-item .accordion-body p {
+  color: var(--paragraph);
+}
+
+/*================================================
+PH Blog Area CSS
+=================================================*/
+.ph-blog-area {
+  position: relative;
+  z-index: 1;
+  overflow: hidden;
+}
+
+.ph-blog-item .image {
+  position: relative;
+}
+.ph-blog-item .image img {
+  border-radius: 20px;
+}
+.ph-blog-item .image .arrow-btn {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  background-color: var(--whiteColor);
+  padding: 15px 0 0 15px;
+  border-radius: 15px 0 0 0;
+}
+.ph-blog-item .image .arrow-btn a i {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 75px;
+  height: 75px;
+  line-height: 75px;
+  background-color: var(--whiteColor);
+  border: 1px solid #C4DCF3;
+  color: var(--blackColor);
+  font-size: 30px;
+  border-radius: 75px;
+  transition: var(--transition);
+}
+.ph-blog-item .image .arrow-btn .shape1 {
+  position: absolute;
+  top: -30px;
+  right: 0;
+  transform: rotate(540deg);
+}
+.ph-blog-item .image .arrow-btn .shape1 svg {
+  width: 30px;
+  height: 30px;
+  fill: var(--whiteColor);
+}
+.ph-blog-item .image .arrow-btn .shape2 {
+  position: absolute;
+  bottom: 0;
+  left: -30px;
+  transform: rotate(180deg);
+}
+.ph-blog-item .image .arrow-btn .shape2 svg {
+  width: 30px;
+  height: 30px;
+  fill: var(--whiteColor);
+}
+.ph-blog-item .content {
+  margin-top: 27px;
+}
+.ph-blog-item .content .meta {
+  display: flex;
+  margin-bottom: 12px;
+  padding-left: 0;
+  padding-right: 0;
+}
+.ph-blog-item .content .meta li {
+  list-style-type: none;
+  font-size: 13px;
+  margin-right: 30px;
+  position: relative;
+}
+.ph-blog-item .content .meta li::before {
+  position: absolute;
+  content: "-";
+  right: -18px;
+  top: 50%;
+  transform: translateY(-50%);
+  color: var(--paragraph);
+}
+.ph-blog-item .content .meta li:last-child {
+  margin-right: 0;
+}
+.ph-blog-item .content .meta li:last-child::before {
+  display: none;
+}
+.ph-blog-item .content h3 {
+  font-size: 23.5px;
+  margin-bottom: 0;
+  line-height: 1.5;
+}
+.ph-blog-item:hover .image .arrow-btn a i {
+  background-color: var(--optionalColor);
+  border: 1px solid var(--optionalColor);
+  color: var(--whiteColor);
+}
+
+.ph-blog-inner {
+  margin-top: 40px;
+}
+.ph-blog-inner .ph-blog-card {
+  border-radius: 20px;
+  background-color: #D7ECE4;
+  padding: 25px 30px;
+}
+.ph-blog-inner .ph-blog-card .meta {
+  display: flex;
+  margin-bottom: 12px;
+  padding-left: 0;
+  padding-right: 0;
+}
+.ph-blog-inner .ph-blog-card .meta li {
+  list-style-type: none;
+  font-size: 13px;
+  margin-right: 30px;
+  position: relative;
+}
+.ph-blog-inner .ph-blog-card .meta li::before {
+  position: absolute;
+  content: "-";
+  right: -18px;
+  top: 50%;
+  transform: translateY(-50%);
+  color: var(--paragraph);
+}
+.ph-blog-inner .ph-blog-card .meta li:last-child {
+  margin-right: 0;
+}
+.ph-blog-inner .ph-blog-card .meta li:last-child::before {
+  display: none;
+}
+.ph-blog-inner .ph-blog-card h3 {
+  font-size: 23.5px;
+  margin-bottom: 17px;
+  line-height: 1.5;
+}
+.ph-blog-inner .ph-blog-card .link-btn {
+  color: var(--blackColor);
+  font-size: 15px;
+  font-weight: 500;
+  position: relative;
+  padding-left: 22px;
+  transition: var(--transition);
+}
+.ph-blog-inner .ph-blog-card .link-btn i {
+  font-size: 17px;
+  position: absolute;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  transition: var(--transition);
+  display: flex;
+}
+.ph-blog-inner .ph-blog-card .link-btn:hover {
+  color: var(--mainColor);
+  padding-left: 0;
+  padding-right: 7px;
+}
+.ph-blog-inner .ph-blog-card .link-btn:hover i {
+  left: 100%;
+}
+.ph-blog-inner .ph-blog-card.wrap4 {
+  background-color: #D6D2F1;
+}
+
+.ph-blog-link {
+  border-radius: 20px;
+  border: 1px solid #C4DCF3;
+  padding: 30px;
+  text-align: center;
+  margin-top: 25px;
+}
+.ph-blog-link span a {
+  text-decoration: underline;
+  color: var(--optionalColor);
+}
+.ph-blog-link span a:hover {
+  color: var(--mainColor);
+}
+
+.ph-blog-ellipse {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: -680px;
+  text-align: center;
+  z-index: -1;
+}
+
+/*================================================
+PH Appointment Area CSS
+=================================================*/
+.ph-appointment-area {
+  position: relative;
+  z-index: 1;
+  overflow: hidden;
+}
+.ph-appointment-area::before {
+  position: absolute;
+  content: "";
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100px;
+  background-color: #F5F7FB;
+  z-index: -1;
+}
+
+.ph-appointment-inner {
+  border-radius: 20px;
+  background-color: #F2DDD9;
+  padding: 50px 30px;
+}
+.ph-appointment-inner h5 {
+  font-size: 18px;
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: 25px;
+}
+.ph-appointment-inner form .form-group .form-control {
+  display: inline-block;
+  width: 100%;
+  height: 55px;
+  background-color: var(--whiteColor);
+  border: none;
+  border-radius: 5px;
+  outline: 0;
+  box-shadow: unset;
+  color: var(--paragraph);
+  padding: 10px 20px;
+  font-size: 14px;
+  transition: var(--transition);
+}
+.ph-appointment-inner form .form-group .form-control::-moz-placeholder {
+  color: var(--paragraph);
+  -moz-transition: var(--transition);
+  transition: var(--transition);
+}
+.ph-appointment-inner form .form-group .form-control::placeholder {
+  color: var(--paragraph);
+  transition: var(--transition);
+}
+.ph-appointment-inner form .form-group .form-control:focus::-moz-placeholder {
+  color: transparent;
+}
+.ph-appointment-inner form .form-group .form-control:focus::placeholder {
+  color: transparent;
+}
+.ph-appointment-inner form .form-group .appointment-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  background-color: var(--optionalColor);
+  color: var(--whiteColor);
+  font-weight: 500;
+  border: none;
+  gap: 10px;
+  border-radius: 5px;
+  padding: 15.5px 25px;
+  transition: var(--transition);
+}
+.ph-appointment-inner form .form-group .appointment-btn i {
+  font-size: 20px;
+}
+.ph-appointment-inner form .form-group .appointment-btn:hover {
+  background-color: var(--mainColor);
+}
+
+/*================================================
+Maternity Clinic Slider Area CSS
+=================================================*/
+.maternity-clinic-slider-area {
+  position: relative;
+  z-index: 1;
+  padding: 0 10px;
+  background-color: #F7F9FD;
+}
+.maternity-clinic-slider-area .maternity-clinic-video-wrap {
+  text-align: center;
+  margin-top: -90px;
+  position: relative;
+  z-index: 1;
+}
+.maternity-clinic-slider-area .maternity-clinic-video-wrap .video-btn {
+  position: relative;
+  display: inline-flex;
+  background-color: #F7F9FD;
+  padding: 20px 20px 0px 20px;
+  border-radius: 100px 100px 0 0;
+}
+.maternity-clinic-slider-area .maternity-clinic-video-wrap .video-btn i {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100px;
+  width: 100px;
+  line-height: 100px;
+  background-color: var(--optionalColor);
+  color: var(--whiteColor);
+  font-size: 30px;
+  transition: var(--transition);
+  border-radius: 100px;
+}
+.maternity-clinic-slider-area .maternity-clinic-video-wrap .video-btn i:hover {
+  background-color: var(--mainColor);
+}
+
+.maternity-clinic-slider-item {
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+  z-index: 1;
+  overflow: hidden;
+  border-radius: 20px;
+  padding-top: 210px;
+  padding-bottom: 175px;
+}
+.maternity-clinic-slider-item::before {
+  position: absolute;
+  content: "";
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  background: linear-gradient(-270deg, #F7F1EE 0%, rgba(247, 241, 238, 0) 58.6%);
+  z-index: -1;
+}
+.maternity-clinic-slider-item .fun {
+  border-radius: 20px;
+  background: #F8F2F6;
+  padding: 20px 30px;
+  position: absolute;
+  right: 50px;
+  bottom: 50px;
+}
+.maternity-clinic-slider-item .fun h3 {
+  font-size: 50px;
+  font-weight: 800;
+  line-height: 1;
+  margin-bottom: 7px;
+}
+.maternity-clinic-slider-item .fun p {
+  margin-bottom: 0;
+}
+
+.maternity-clinic-slider-content {
+  max-width: 890px;
+  padding-left: 15px;
+}
+.maternity-clinic-slider-content h1 {
+  font-size: 80px;
+  margin-bottom: 10px;
+  font-weight: 400;
+}
+.maternity-clinic-slider-content h1 strong {
+  font-weight: 700;
+}
+.maternity-clinic-slider-content p {
+  margin-bottom: 0;
+  font-size: 18px;
+}
+.maternity-clinic-slider-content .slider-btn {
+  margin-top: 30px;
+}
+.maternity-clinic-slider-content .slider-btn .default-btn {
+  border-radius: 5px;
+  padding: 14px 20px 14.5px 55px;
+}
+.maternity-clinic-slider-content.wrap2 {
+  max-width: 1030px;
+}
+.maternity-clinic-slider-content.wrap3 {
+  max-width: 920px;
+}
+
+.maternity-clinic-slider-pagination {
+  position: absolute;
+  right: 0 !important;
+  left: 0 !important;
+  bottom: 120px !important;
+  text-align: center;
+  z-index: 11;
+}
+.maternity-clinic-slider-pagination .swiper-pagination-bullet {
+  opacity: 100%;
+  background-color: var(--mainColor);
+  height: 15px;
+  width: 15px;
+  border-radius: 50px;
+  margin: 0 7px !important;
+}
+.maternity-clinic-slider-pagination .swiper-pagination-bullet.swiper-pagination-bullet-active {
+  background-color: #574AAD;
+}
+.maternity-clinic-slider-pagination .owl-dot {
+  opacity: 100%;
+  background-color: var(--mainColor);
+  height: 15px;
+  width: 15px;
+  border-radius: 50px;
+  margin: 0 7px !important;
+  border: none;
+}
+.maternity-clinic-slider-pagination .owl-dot.active {
+  background-color: #574AAD;
+}
+
+/*================================================
+MC Features Area CSS
+=================================================*/
+.mc-features-area {
+  overflow: hidden;
+  background-color: #F7F9FD;
+}
+.mc-features-area.wrap-bg2 {
+  background-color: transparent;
+}
+
+.mc-features-card {
+  background: #C4DCF3;
+  border-radius: 20px;
+  padding: 50px;
+}
+.mc-features-card .title {
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+}
+.mc-features-card .title i {
+  font-size: 40px;
+  color: var(--blackColor);
+}
+.mc-features-card .title h3 {
+  font-size: 14px;
+  font-weight: 700;
+  letter-spacing: 1.4px;
+  margin-left: 15px;
+  margin-bottom: 0;
+}
+.mc-features-card p {
+  margin-bottom: 18px;
+}
+.mc-features-card .features-btn {
+  color: var(--blackColor);
+  font-size: 15px;
+  font-weight: 500;
+  position: relative;
+  padding-left: 22px;
+  transition: var(--transition);
+}
+.mc-features-card .features-btn i {
+  font-size: 17px;
+  position: absolute;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  transition: var(--transition);
+  display: flex;
+}
+.mc-features-card .features-btn:hover {
+  color: var(--optionalColor);
+  padding-left: 0;
+  padding-right: 8px;
+}
+.mc-features-card .features-btn:hover i {
+  left: 100%;
+}
+.mc-features-card.bg-D7ECE4 {
+  background-color: #D7ECE4;
+}
+.mc-features-card.bg-D6D2F1 {
+  background-color: #D6D2F1;
+}
+
+/*================================================
+Partner Area CSS
+=================================================*/
+.partner-area.wrap-bg2 {
+  background-color: #F7F9FD;
+}
+
+/*================================================
+MC About Area CSS
+=================================================*/
+.mc-about-content .sub {
+  font-size: 12px;
+  font-weight: 700;
+  color: var(--optionalColor);
+  display: block;
+  margin-bottom: 12px;
+}
+.mc-about-content h2 {
+  font-size: 42px;
+  margin-bottom: 0;
+  line-height: 1.3;
+}
+.mc-about-content h2 strong {
+  font-weight: 700;
+}
+.mc-about-content .inner {
+  margin-top: 30px;
+}
+.mc-about-content .inner .image {
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100%;
+  width: 100%;
+  border-radius: 10px;
+}
+.mc-about-content .inner .content {
+  padding-left: 15px;
+}
+.mc-about-content .inner .content .info {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  margin-top: 20px;
+}
+.mc-about-content .inner .content .info .about-btn .default-btn {
+  border-radius: 5px;
+  padding: 15px 20px 15.5px 55px;
+}
+.mc-about-content .inner .content .info .call b {
+  display: block;
+  font-weight: 400;
+  color: var(--paragraph);
+  margin-bottom: 7px;
+}
+.mc-about-content .inner .content .info .call span {
+  display: flex;
+  align-items: center;
+  gap: 7px;
+}
+.mc-about-content .inner .content .info .call span i {
+  color: var(--optionalColorThree);
+}
+.mc-about-content .inner .content .info .call span a {
+  color: var(--blackColor);
+  font-size: 18px;
+  font-weight: 700;
+}
+.mc-about-content .inner .content .info .call span a:hover {
+  color: var(--mainColor);
+}
+
+.mc-about-image {
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100%;
+  width: 100%;
+  border-radius: 20px;
+  position: relative;
+}
+.mc-about-image .counter-wrap {
+  position: absolute;
+  right: 10px;
+  bottom: 10px;
+  border-radius: 20px;
+  background-color: #D7ECE4;
+  padding: 15px;
+  text-align: center;
+}
+.mc-about-image .counter-wrap .item {
+  border-radius: 20px;
+  border: 1px solid var(--whiteColor);
+  padding: 25px;
+}
+.mc-about-image .counter-wrap .item h3 {
+  font-size: 35px;
+  font-weight: 900;
+  margin-bottom: 5px;
+}
+.mc-about-image .counter-wrap .item p {
+  font-size: 12px;
+  margin-bottom: 0;
+  letter-spacing: 1.2px;
+}
+.mc-about-image .counter-wrap .item p span {
+  display: block;
+}
+
+/*================================================
+MC Services Area CSS
+=================================================*/
+.mc-services-area {
+  position: relative;
+  z-index: 1;
+}
+.mc-services-area .section-title.wrap-style2 {
+  max-width: 1320px;
+}
+.mc-services-area .section-title.wrap-style2 .left {
+  text-align: start;
+}
+.mc-services-area .section-title.wrap-style2 .right {
+  text-align: end;
+}
+.mc-services-area .section-title.wrap-style2 .right p {
+  margin-bottom: 0;
+}
+.mc-services-area .section-title.wrap-style2 .right p a {
+  color: var(--optionalColor);
+  text-decoration: underline;
+}
+.mc-services-area .section-title.wrap-style2 .right p a:hover {
+  color: var(--mainColor);
+}
+.mc-services-area::before {
+  position: absolute;
+  content: "";
+  left: 0;
+  right: 0;
+  top: 0;
+  width: 100%;
+  height: 795px;
+  background-color: #FFF4F8;
+  z-index: -1;
+}
+
+.mc-services-image {
+  position: sticky;
+  top: 150px;
+  margin-left: -70px;
+}
+.mc-services-image img {
+  border-radius: 0 0 7px 7px;
+}
+
+.mc-services-items {
+  padding-left: 30px;
+}
+.mc-services-items .item {
+  margin-bottom: 30px;
+}
+.mc-services-items .item h3 {
+  font-size: 18px;
+  font-weight: 700;
+  margin-bottom: 25px;
+}
+.mc-services-items .item h3 span {
+  font-weight: 400;
+}
+.mc-services-items .item .image {
+  overflow: hidden;
+  position: relative;
+  border-radius: 20px;
+}
+.mc-services-items .item .image a img {
+  border-radius: 20px;
+  transition: var(--transition);
+}
+.mc-services-items .item .image .arrow-btn {
+  position: absolute;
+  right: 20px;
+  bottom: 20px;
+}
+.mc-services-items .item .image .arrow-btn a i {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 45px;
+  width: 45px;
+  line-height: 45px;
+  background-color: var(--whiteColor);
+  color: var(--blackColor);
+  border-radius: 50px;
+  font-size: 20px;
+  transition: var(--transition);
+}
+.mc-services-items .item .image .arrow-btn a i:hover {
+  background-color: var(--mainColor);
+  color: var(--whiteColor);
+}
+.mc-services-items .item .image:hover a img {
+  transform: scale(1.1);
+}
+.mc-services-items .item p {
+  max-width: 670px;
+  margin-top: 20px;
+  margin-bottom: 0;
+}
+.mc-services-items .item:last-child {
+  margin-bottom: 0;
+}
+
+/*================================================
+MC Treatment Area CSS
+=================================================*/
+.mc-treatment-area {
+  overflow: hidden;
+}
+.mc-treatment-area .section-title.wrap-style2 {
+  max-width: 1320px;
+}
+
+.mc-treatment-content {
+  background-color: var(--mainColor);
+  border-radius: 20px;
+  padding: 50px 50px 0 50px;
+  text-align: center;
+  position: relative;
+  margin-right: 70px;
+}
+.mc-treatment-content .info {
+  position: absolute;
+  top: 50px;
+  left: 50px;
+  text-align: start;
+}
+.mc-treatment-content .info span {
+  font-size: 14px;
+  color: var(--whiteColor);
+  display: block;
+  margin-bottom: 10px;
+}
+.mc-treatment-content .info .call {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  justify-content: center;
+}
+.mc-treatment-content .info .call i {
+  font-size: 20px;
+  color: var(--whiteColor);
+}
+.mc-treatment-content .info .call a {
+  font-size: 18px;
+  font-weight: 700;
+  color: var(--whiteColor);
+  transition: var(--transition);
+  letter-spacing: 1.45px;
+}
+.mc-treatment-content .info .call a:hover {
+  color: var(--blackColor);
+}
+.mc-treatment-content .bottom {
+  text-align: start;
+  position: absolute;
+  right: -70px;
+  bottom: 50px;
+  background-color: #D6D2F1;
+  padding: 35px 30px;
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+}
+.mc-treatment-content .bottom .item {
+  display: flex;
+  gap: 15px;
+  align-items: center;
+  margin-right: 100px;
+  position: relative;
+}
+.mc-treatment-content .bottom .item h5 {
+  margin-bottom: 0;
+  color: var(--paragraph);
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 1.5;
+}
+.mc-treatment-content .bottom .item::before {
+  position: absolute;
+  content: "";
+  right: -52px;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 1px;
+  height: 55px;
+  background-color: var(--whiteColor);
+}
+.mc-treatment-content .bottom .item:last-child {
+  margin-right: 0;
+}
+.mc-treatment-content .bottom .item:last-child::before {
+  display: none;
+}
+
+.mc-treatment-items .item {
+  border-radius: 20px;
+  border: 1px solid #E1E6F0;
+  background-color: #F7F9FD;
+  padding: 35px 30px;
+  position: relative;
+  z-index: 1;
+  overflow: hidden;
+}
+.mc-treatment-items .item .icon {
+  margin-bottom: 105px;
+}
+.mc-treatment-items .item h3 {
+  font-size: 18px;
+  font-weight: 700;
+  margin-bottom: 15px;
+}
+.mc-treatment-items .item p {
+  margin-bottom: 0;
+}
+.mc-treatment-items .item .shape {
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  z-index: -1;
+}
+
+/*================================================
+MC Overview Area CSS
+=================================================*/
+.mc-overview-area {
+  overflow: hidden;
+}
+
+.mc-overview-card {
+  background-color: #F2DDD9;
+  padding: 50px 185px 50px 45px;
+  border-radius: 20px;
+  position: relative;
+  overflow: hidden;
+}
+.mc-overview-card h3 {
+  font-size: 25px;
+  margin-bottom: 15px;
+  line-height: 1.4;
+}
+.mc-overview-card h3 b {
+  font-weight: 700;
+  display: block;
+}
+.mc-overview-card p {
+  margin-bottom: 0;
+}
+.mc-overview-card .wrap-shape {
+  position: absolute;
+  bottom: 45px;
+  right: 55px;
+  max-width: 75px;
+}
+.mc-overview-card.wrap2 {
+  background-color: #C4DCF3;
+}
+.mc-overview-card.wrap3 {
+  background-color: #D7ECE4;
+}
+
+/*================================================
+MC Testimonials Area CSS
+=================================================*/
+.mc-testimonials-area {
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.mc-testimonials-content {
+  position: relative;
+  max-width: 760px;
+  margin-left: auto;
+  margin-right: 0;
+}
+.mc-testimonials-content .content {
+  margin-bottom: 35px;
+}
+.mc-testimonials-content .content .sub {
+  font-size: 12px;
+  font-weight: 700;
+  color: var(--optionalColor);
+  display: block;
+  margin-bottom: 12px;
+}
+.mc-testimonials-content .content h2 {
+  font-size: 42px;
+  margin-bottom: 0;
+}
+.mc-testimonials-content .content h2 strong {
+  font-weight: 700;
+}
+.mc-testimonials-content .mc-testimonials-card .quote {
+  margin-bottom: 25px;
+}
+.mc-testimonials-content .mc-testimonials-card .quote img {
+  width: auto;
+}
+.mc-testimonials-content .mc-testimonials-card p {
+  font-size: 25.5px;
+  font-weight: 500;
+  margin-bottom: 0;
+}
+.mc-testimonials-content .mc-testimonials-card .info {
+  display: flex;
+  align-items: center;
+  max-width: 450px;
+  margin-top: 35px;
+}
+.mc-testimonials-content .mc-testimonials-card .info .image img {
+  border-radius: 50px;
+}
+.mc-testimonials-content .mc-testimonials-card .info .title {
+  margin-left: 15px;
+}
+.mc-testimonials-content .mc-testimonials-card .info .title h3 {
+  font-size: 18px;
+  font-weight: 700;
+  margin-bottom: 0;
+}
+.mc-testimonials-content .mc-testimonials-card .info .title span {
+  display: block;
+  margin-top: 10px;
+}
+.mc-testimonials-content .mc-testimonials-slider {
+  position: relative;
+}
+.mc-testimonials-content .mc-testimonials-button {
+  display: flex;
+  margin-bottom: 0;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  z-index: 1;
+  padding-left: 0;
+  padding-right: 0;
+}
+.mc-testimonials-content .mc-testimonials-button li {
+  list-style-type: none;
+  margin-right: 10px;
+}
+.mc-testimonials-content .mc-testimonials-button li i {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 50px;
+  height: 50px;
+  line-height: 50px;
+  background-color: var(--whiteColor);
+  border: 1px solid #E1E6F0;
+  color: var(--blackColor);
+  border-radius: 50px;
+  font-size: 25px;
+  transition: var(--transition);
+}
+.mc-testimonials-content .mc-testimonials-button li i:hover {
+  background-color: var(--mainColor);
+  border: 1px solid var(--mainColor);
+  color: var(--whiteColor);
+  cursor: pointer;
+}
+.mc-testimonials-content .mc-testimonials-button li:last-child {
+  margin-right: 0;
+}
+
+/*================================================
+MC Team Area CSS
+=================================================*/
+.mc-team-card {
+  overflow: hidden;
+  position: relative;
+}
+.mc-team-card a img {
+  border-radius: 20px;
+}
+.mc-team-card .content {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  padding: 30px;
+  z-index: 1;
+  text-align: center;
+}
+.mc-team-card .content .default-btn {
+  border: 1px solid var(--optionalColorTwo);
+  background: rgba(255, 255, 255, 0.7);
+  border-radius: 5px;
+  color: var(--optionalColorTwo) !important;
+  padding: 10px 10px 10.5px 40px;
+}
+.mc-team-card .content .default-btn i {
+  font-size: 20px;
+  left: 10px;
+}
+.mc-team-card .content .default-btn:hover {
+  background: var(--optionalColorTwo);
+  color: var(--whiteColor) !important;
+}
+.mc-team-card .content h3 {
+  font-size: 18px;
+  font-weight: 700;
+  margin-top: 20px;
+  margin-bottom: 12px;
+}
+.mc-team-card .content h3 a {
+  color: var(--whiteColor);
+}
+.mc-team-card .content span {
+  color: var(--whiteColor);
+}
+.mc-team-card::before {
+  position: absolute;
+  content: "";
+  left: 0;
+  right: 0;
+  bottom: 0;
+  height: 100%;
+  width: 100%;
+  border-radius: 0 0 20px 20px;
+  background: linear-gradient(180deg, rgba(149, 136, 232, 0) 60%, #574AAD 100%);
+}
+
+.mc-team-inner {
+  position: relative;
+}
+.mc-team-inner .team-button-prev {
+  position: absolute;
+  left: -65px;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 1;
+}
+.mc-team-inner .team-button-prev i {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 45px;
+  height: 45px;
+  line-height: 45px;
+  background-color: var(--whiteColor);
+  border: 1px solid #8EC0EE;
+  color: var(--blackColor);
+  border-radius: 50px;
+  font-size: 20px;
+  transition: var(--transition);
+}
+.mc-team-inner .team-button-prev i:hover {
+  background-color: #8EC0EE;
+  cursor: pointer;
+}
+.mc-team-inner .team-button-next {
+  position: absolute;
+  right: -65px;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 1;
+}
+.mc-team-inner .team-button-next i {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 45px;
+  height: 45px;
+  line-height: 45px;
+  background-color: var(--whiteColor);
+  border: 1px solid #8EC0EE;
+  color: var(--blackColor);
+  border-radius: 50px;
+  font-size: 20px;
+  transition: var(--transition);
+}
+.mc-team-inner .team-button-next i:hover {
+  background-color: #8EC0EE;
+  cursor: pointer;
+}
+
+/*================================================
+MC Appointment Area CSS
+=================================================*/
+.mc-appointment-image {
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100%;
+  width: 100%;
+  border-radius: 20px;
+}
+
+.mc-appointment-form {
+  border-radius: 20px;
+  background-color: #F3F4FE;
+  padding: 50px;
+  overflow: hidden;
+  position: relative;
+  z-index: 1;
+  margin-top: -100px;
+  margin-left: -85px;
+}
+.mc-appointment-form h1 {
+  color: rgba(213, 218, 229, 0.5);
+  margin-bottom: 0;
+  font-size: 100px;
+  font-weight: 900;
+  letter-spacing: 10px;
+  position: absolute;
+  left: 7px;
+  top: 50%;
+  transform: translateY(-50%) rotate(180deg);
+  writing-mode: vertical-lr;
+  z-index: -1;
+  margin: 0;
+  line-height: 1;
+}
+.mc-appointment-form .form-wrap {
+  padding-left: 85px;
+}
+.mc-appointment-form .form-wrap .content {
+  margin-bottom: 30px;
+}
+.mc-appointment-form .form-wrap .content h2 {
+  margin-bottom: 0;
+  font-size: 42px;
+}
+.mc-appointment-form .form-wrap .content h2 strong {
+  font-weight: 700;
+}
+.mc-appointment-form .form-wrap .form-group {
+  margin-bottom: 25px;
+}
+.mc-appointment-form .form-wrap .form-group .form-control {
+  display: inline-block;
+  height: 57px;
+  width: 100%;
+  background-color: #E1E6EB;
+  border: none;
+  box-shadow: unset;
+  outline: 0;
+  padding: 15px 20px;
+  font-size: 13px;
+  letter-spacing: 1.57px;
+  color: var(--paragraph);
+  transition: var(--transition);
+}
+.mc-appointment-form .form-wrap .form-group .form-control::-moz-placeholder {
+  color: var(--paragraph);
+  -moz-transition: var(--transition);
+  transition: var(--transition);
+}
+.mc-appointment-form .form-wrap .form-group .form-control::placeholder {
+  color: var(--paragraph);
+  transition: var(--transition);
+}
+.mc-appointment-form .form-wrap .form-group .form-control:focus::-moz-placeholder {
+  color: transparent;
+}
+.mc-appointment-form .form-wrap .form-group .form-control:focus::placeholder {
+  color: transparent;
+}
+.mc-appointment-form .form-wrap .default-btn {
+  border: none;
+  border-radius: 5px;
+  background-color: var(--optionalColorThree);
+}
+.mc-appointment-form .form-wrap .default-btn:hover {
+  background-color: var(--mainColor);
+}
+
+.mc-appointment-info {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 670px;
+  position: relative;
+  z-index: 1;
+  padding: 15px 20px;
+  border-radius: 5.5px 50px 50px 5.5px;
+  background-color: #C4DCF3;
+  margin-top: 80px;
+  margin-bottom: 55px;
+}
+.mc-appointment-info .info {
+  display: flex;
+  align-items: center;
+}
+.mc-appointment-info .info .icon i {
+  font-size: 35px;
+  color: #E67A66;
+}
+.mc-appointment-info .info .title {
+  margin-left: 15px;
+}
+.mc-appointment-info .info .title h5 {
+  font-size: 14px;
+  font-weight: 500;
+  letter-spacing: 1.2px;
+  margin-bottom: 0;
+}
+.mc-appointment-info .info .title span {
+  display: block;
+  margin-top: 5px;
+  font-size: 13.5px;
+}
+.mc-appointment-info .arrow-btn {
+  margin-left: 25px;
+}
+.mc-appointment-info .arrow-btn a i {
+  display: inline-block;
+  height: 45px;
+  width: 45px;
+  line-height: 45px;
+  background-color: #8EC0EE;
+  color: var(--blackColor);
+  font-size: 17px;
+  text-align: center;
+  border-radius: 50px;
+  transition: var(--transition);
+}
+.mc-appointment-info .arrow-btn a i:hover {
+  background-color: var(--mainColor);
+  color: var(--whiteColor);
+}
+
+/*================================================
+MC Event Area CSS
+=================================================*/
+.mc-event-area {
+  overflow: hidden;
+  background-color: #D7ECE4;
+}
+.mc-event-area.wrap-bg2 {
+  background-color: transparent;
+  overflow: unset;
+}
+
+.mc-event-image {
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100%;
+  border-radius: 20px;
+  margin-left: 0;
+  margin-right: 0;
+}
+
+.mc-event-items {
+  padding-left: 30px;
+}
+.mc-event-items .item {
+  display: flex;
+  gap: 50px;
+  align-items: center;
+  border-bottom: 1px solid #C3D8D0;
+  margin-bottom: 30px;
+  padding-bottom: 30px;
+  justify-content: space-between;
+}
+.mc-event-items .item .number .sub {
+  font-size: 18px;
+  font-weight: 500;
+  color: var(--optionalColor);
+  display: block;
+  margin-bottom: 75px;
+}
+.mc-event-items .item .number a i {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 45px;
+  width: 45px;
+  border: 1px solid #E1E6F0;
+  background: rgba(255, 255, 255, 0.6);
+  border-radius: 50px;
+  color: var(--blackColor);
+  font-size: 20px;
+  transition: var(--transition);
+}
+.mc-event-items .item .content {
+  max-width: 540px;
+}
+.mc-event-items .item .content h3 {
+  font-size: 23.5px;
+  margin-bottom: 15px;
+}
+.mc-event-items .item .content p {
+  margin-bottom: 15px;
+}
+.mc-event-items .item .content p b {
+  font-weight: 700;
+  color: var(--blackColor);
+}
+.mc-event-items .item .content .list {
+  display: flex;
+  margin-bottom: 0;
+  padding-left: 0;
+  padding-right: 0;
+}
+.mc-event-items .item .content .list li {
+  list-style-type: none;
+  margin-right: 50px;
+}
+.mc-event-items .item .content .list li b {
+  font-weight: 700;
+  color: var(--blackColor);
+}
+.mc-event-items .item .content .list li:last-child {
+  margin-right: 0;
+}
+.mc-event-items .item:last-child {
+  border-bottom: none;
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+.mc-event-items .item:hover .number a i {
+  background-color: var(--mainColor);
+  color: var(--whiteColor);
+}
+
+.mc-event-wrap-image {
+  position: sticky;
+  top: 170px;
+  margin-left: 0;
+  margin-right: 0;
+}
+.mc-event-wrap-image img {
+  border-radius: 20px;
+}
+
+/*================================================
+MC FAQ Area CSS
+=================================================*/
+.mc-faq-content .content {
+  margin-bottom: 30px;
+}
+.mc-faq-content .content .sub {
+  font-size: 12px;
+  font-weight: 700;
+  color: var(--optionalColor);
+  display: block;
+  margin-bottom: 12px;
+}
+.mc-faq-content .content h2 {
+  font-size: 42px;
+  margin-bottom: 0;
+}
+.mc-faq-content .content h2 strong {
+  font-weight: 700;
+}
+.mc-faq-content .form-wrap {
+  max-width: 455px;
+}
+.mc-faq-content .form-wrap .form-group {
+  margin-bottom: 15px;
+}
+.mc-faq-content .form-wrap .form-group .form-control {
+  display: inline-block;
+  height: 57px;
+  width: 100%;
+  background-color: #E1E6EB;
+  border: none;
+  box-shadow: unset;
+  outline: 0;
+  padding: 15px 20px;
+  font-size: 13px;
+  letter-spacing: 1.57px;
+  color: var(--paragraph);
+  transition: var(--transition);
+}
+.mc-faq-content .form-wrap .form-group .form-control::-moz-placeholder {
+  color: var(--paragraph);
+  -moz-transition: var(--transition);
+  transition: var(--transition);
+}
+.mc-faq-content .form-wrap .form-group .form-control::placeholder {
+  color: var(--paragraph);
+  transition: var(--transition);
+}
+.mc-faq-content .form-wrap .form-group .form-control:focus::-moz-placeholder {
+  color: transparent;
+}
+.mc-faq-content .form-wrap .form-group .form-control:focus::placeholder {
+  color: transparent;
+}
+.mc-faq-content .form-wrap .form-group textarea.form-control {
+  min-height: 150px;
+}
+.mc-faq-content .form-wrap .default-btn {
+  border: none;
+  border-radius: 5px;
+}
+
+.mc-faq-accordion .accordion-item {
+  background-color: transparent;
+  border: 1px solid #E0E3E6;
+  margin-bottom: 20px;
+  border-radius: 10px;
+  padding: 25px 30px;
+}
+.mc-faq-accordion .accordion-item:last-child {
+  margin-bottom: 0;
+}
+.mc-faq-accordion .accordion-item .accordion-button {
+  color: var(--blackColor);
+  position: relative;
+  text-align: start;
+  box-shadow: unset;
+  margin-bottom: 0;
+  display: block;
+  border: none;
+  width: 100%;
+  font-size: 18px;
+  font-weight: 700;
+  padding: 0px 30px 0px 0;
+  transition: var(--transition);
+  background-color: transparent;
+}
+.mc-faq-accordion .accordion-item .accordion-button::before {
+  position: absolute;
+  content: "שׁ";
+  right: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  color: var(--blackColor);
+  font-size: 20px;
+  font-family: "tabler-icons";
+}
+.mc-faq-accordion .accordion-item .accordion-button:not(.collapsed)::before {
+  content: "שּׂ";
+}
+.mc-faq-accordion .accordion-item .accordion-body {
+  border-top: 1px solid #E0E3E6;
+  padding: 20px 0 0 0;
+  margin-top: 25px;
+}
+
+/*================================================
+MC Blog Area CSS
+=================================================*/
+.mc-blog-area {
+  overflow: hidden;
+}
+.mc-blog-area.wrap-bg2 {
+  background-color: #D7ECE4;
+}
+.mc-blog-area.wrap-bg2 .mc-blog-item .image .date {
+  background-color: #D7ECE4;
+}
+.mc-blog-area.wrap-bg2 .mc-blog-item .image .date .shape1 svg {
+  fill: #D7ECE4;
+}
+.mc-blog-area.wrap-bg2 .mc-blog-item .image .date .shape2 svg {
+  fill: #D7ECE4;
+}
+
+.mc-blog-item .image {
+  position: relative;
+}
+.mc-blog-item .image a img {
+  border-radius: 20px;
+}
+.mc-blog-item .image .date {
+  position: absolute;
+  left: 0;
+  top: 0;
+  background-color: var(--whiteColor);
+  padding: 0 15px 15px 0;
+  border-radius: 0 0 20px 0;
+}
+.mc-blog-item .image .date .inner {
+  text-align: center;
+  background-color: var(--optionalColorThree);
+  border-radius: 10px;
+  padding: 10px 15px;
+}
+.mc-blog-item .image .date .inner span {
+  display: block;
+  color: var(--whiteColor);
+  margin-bottom: 5px;
+}
+.mc-blog-item .image .date .inner h5 {
+  margin-bottom: 0;
+  color: var(--whiteColor);
+  font-size: 18px;
+  font-weight: 700;
+}
+.mc-blog-item .image .date .shape1 {
+  position: absolute;
+  top: 0;
+  right: -30px;
+  transform: rotate(360deg);
+}
+.mc-blog-item .image .date .shape1 svg {
+  width: 30px;
+  height: 30px;
+  fill: var(--whiteColor);
+}
+.mc-blog-item .image .date .shape2 {
+  position: absolute;
+  bottom: -30px;
+  left: 0;
+}
+.mc-blog-item .image .date .shape2 svg {
+  width: 30px;
+  height: 30px;
+  fill: var(--whiteColor);
+}
+.mc-blog-item .content {
+  margin-top: 27px;
+}
+.mc-blog-item .content .meta {
+  display: flex;
+  margin-bottom: 15px;
+  padding-left: 0;
+  padding-right: 0;
+}
+.mc-blog-item .content .meta li {
+  list-style-type: none;
+  font-size: 13px;
+  margin-right: 30px;
+  position: relative;
+}
+.mc-blog-item .content .meta li a {
+  color: var(--paragraph);
+}
+.mc-blog-item .content .meta li a:hover {
+  color: var(--mainColor);
+}
+.mc-blog-item .content .meta li::before {
+  position: absolute;
+  content: "-";
+  right: -18px;
+  top: 50%;
+  transform: translateY(-50%);
+  color: var(--paragraph);
+}
+.mc-blog-item .content .meta li:last-child {
+  margin-right: 0;
+}
+.mc-blog-item .content .meta li:last-child::before {
+  display: none;
+}
+.mc-blog-item .content h3 {
+  font-size: 23.5px;
+  margin-bottom: 17px;
+  line-height: 1.4;
+}
+.mc-blog-item .content .link-btn {
+  color: var(--blackColor);
+  font-size: 15px;
+  font-weight: 500;
+  position: relative;
+  padding-left: 22px;
+  transition: var(--transition);
+}
+.mc-blog-item .content .link-btn i {
+  font-size: 17px;
+  position: absolute;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  transition: var(--transition);
+  display: flex;
+}
+.mc-blog-item .content .link-btn:hover {
+  color: var(--mainColor);
+  padding-left: 0;
+  padding-right: 7px;
+}
+.mc-blog-item .content .link-btn:hover i {
+  left: 100%;
+}
+
+/*================================================
+Prenatal Care Area CSS
+=================================================*/
+.prenatal-care-sidebar {
+  display: block;
+}
+.prenatal-care-sidebar .elementor-widget-wrap {
+  position: sticky;
+  top: 140px;
+}
+.prenatal-care-sidebar .item {
+  margin-bottom: 30px;
+}
+.prenatal-care-sidebar .item h3 {
+  font-size: 18px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+.prenatal-care-sidebar .item .services-list {
+  margin-bottom: 0;
+  padding-left: 0;
+  padding-right: 0;
+}
+.prenatal-care-sidebar .item .services-list li {
+  list-style-type: none;
+  margin-bottom: 5px;
+}
+.prenatal-care-sidebar .item .services-list li a {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  justify-content: space-between;
+  border-radius: 5px;
+  border: 1px solid #E1E6F0;
+  background-color: #F7F9FD;
+  color: var(--blackColor);
+  padding: 15px 20px;
+  font-weight: 500;
+}
+.prenatal-care-sidebar .item .services-list li a:hover {
+  border: 1px solid #E1E6F0;
+  background: #D7ECE4;
+}
+.prenatal-care-sidebar .item .services-list li:last-child {
+  margin-bottom: 0;
+}
+.prenatal-care-sidebar .item .working-list {
+  border-radius: 5px;
+  border: 1px solid #E1E6F0;
+  background: #FFF4F8;
+  margin-bottom: 0;
+  padding: 25px;
+}
+.prenatal-care-sidebar .item .working-list li {
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  justify-content: space-between;
+  margin-bottom: 15px;
+}
+.prenatal-care-sidebar .item .working-list li:last-child {
+  margin-bottom: 0;
+}
+.prenatal-care-sidebar .item .form-wrap .form-group {
+  margin-bottom: 15px;
+}
+.prenatal-care-sidebar .item .form-wrap .form-group .form-control {
+  display: inline-block;
+  height: 57px;
+  width: 100%;
+  background-color: #E1E6EB;
+  border: none;
+  box-shadow: unset;
+  outline: 0;
+  padding: 15px 20px;
+  font-size: 13px;
+  letter-spacing: 1.57px;
+  color: var(--paragraph);
+  transition: var(--transition);
+}
+.prenatal-care-sidebar .item .form-wrap .form-group .form-control::-moz-placeholder {
+  color: var(--paragraph);
+  -moz-transition: var(--transition);
+  transition: var(--transition);
+}
+.prenatal-care-sidebar .item .form-wrap .form-group .form-control::placeholder {
+  color: var(--paragraph);
+  transition: var(--transition);
+}
+.prenatal-care-sidebar .item .form-wrap .form-group .form-control:focus::-moz-placeholder {
+  color: transparent;
+}
+.prenatal-care-sidebar .item .form-wrap .form-group .form-control:focus::placeholder {
+  color: transparent;
+}
+.prenatal-care-sidebar .item .form-wrap .form-group textarea.form-control {
+  min-height: 150px;
+}
+.prenatal-care-sidebar .item .form-wrap .default-btn {
+  border: none;
+  border-radius: 5px;
+}
+.prenatal-care-sidebar .item:last-child {
+  margin-bottom: 0;
+}
+
+.prenatal-care-desc-content {
+  padding-left: 50px;
+}
+.prenatal-care-desc-content h2 {
+  font-size: 42px;
+  margin-bottom: 30px;
+  line-height: 1.4;
+}
+.prenatal-care-desc-content img {
+  border-radius: 20px;
+}
+.prenatal-care-desc-content h3 {
+  font-size: 25px;
+  margin-top: 45px;
+  margin-bottom: 15px;
+}
+.prenatal-care-desc-content .list {
+  margin-bottom: 0;
+  padding-left: 30px;
+  padding-right: 0;
+}
+.prenatal-care-desc-content .list li {
+  margin-bottom: 10px;
+}
+.prenatal-care-desc-content .list li:last-child {
+  margin-bottom: 0;
+}
+.prenatal-care-desc-content .inner {
+  margin-top: 30px;
+}
+.prenatal-care-desc-content .inner .content h4 {
+  font-size: 25px;
+  margin-bottom: 15px;
+}
+.prenatal-care-desc-content .mc-faq-accordion {
+  margin-top: 25px;
+}
+
+/*================================================
+Event Details Area CSS
+=================================================*/
+.event-details-sidebar {
+  position: block !important;
+}
+.event-details-sidebar .elementor-widget-wrap {
+  position: sticky;
+  top: 170px;
+}
+.event-details-sidebar .item {
+  margin-bottom: 30px;
+}
+.event-details-sidebar .item h3 {
+  font-size: 18px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+.event-details-sidebar .item .list {
+  border-radius: 5px;
+  border: 1px solid #E1E6F0;
+  background: #FFF4F8;
+  margin-bottom: 0;
+  padding: 25px;
+}
+.event-details-sidebar .item .list li {
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  justify-content: space-between;
+  margin-bottom: 17px;
+}
+.event-details-sidebar .item .list li:last-child {
+  margin-bottom: 0;
+}
+.event-details-sidebar .item .form-wrap .form-group {
+  margin-bottom: 15px;
+}
+.event-details-sidebar .item .form-wrap .form-group .form-control {
+  display: inline-block;
+  height: 57px;
+  width: 100%;
+  background-color: #E1E6EB;
+  border: none;
+  box-shadow: unset;
+  outline: 0;
+  padding: 15px 20px;
+  font-size: 13px;
+  letter-spacing: 1.57px;
+  color: var(--paragraph);
+  transition: var(--transition);
+}
+.event-details-sidebar .item .form-wrap .form-group .form-control::-moz-placeholder {
+  color: var(--paragraph);
+  -moz-transition: var(--transition);
+  transition: var(--transition);
+}
+.event-details-sidebar .item .form-wrap .form-group .form-control::placeholder {
+  color: var(--paragraph);
+  transition: var(--transition);
+}
+.event-details-sidebar .item .form-wrap .form-group .form-control:focus::-moz-placeholder {
+  color: transparent;
+}
+.event-details-sidebar .item .form-wrap .form-group .form-control:focus::placeholder {
+  color: transparent;
+}
+.event-details-sidebar .item .form-wrap .form-group textarea.form-control {
+  min-height: 150px;
+}
+.event-details-sidebar .item .form-wrap .default-btn {
+  border: none;
+  border-radius: 5px;
+}
+.event-details-sidebar .item:last-child {
+  margin-bottom: 0;
+}
+
+.event-details-desc {
+  padding-left: 50px;
+}
+.event-details-desc .content {
+  margin-bottom: 30px;
+}
+.event-details-desc .content h2 {
+  font-size: 25px;
+  margin-bottom: 15px;
+}
+.event-details-desc .content p {
+  margin-bottom: 0;
+}
+.event-details-desc img {
+  border-radius: 20px;
+}
+.event-details-desc h3 {
+  font-size: 25px;
+  margin-top: 35px;
+  margin-bottom: 15px;
+}
+.event-details-desc h5 {
+  font-weight: 700;
+  font-size: var(--font-size);
+  color: var(--paragraph);
+  margin-top: 20px;
+  margin-bottom: 15px;
+}
+.event-details-desc .list {
+  margin-bottom: 0;
+  padding-left: 30px;
+  padding-right: 0;
+}
+.event-details-desc .list li {
+  margin-bottom: 10px;
+}
+.event-details-desc .list li a {
+  color: var(--optionalColor);
+}
+.event-details-desc .list li a:hover {
+  color: var(--mainColor);
+}
+.event-details-desc .list li:last-child {
+  margin-bottom: 0;
+}
+
+/*================================================
+Footer Area CSS
+=================================================*/
+.footer-area.without-box-wrap {
+  border-radius: 0;
+  margin-left: 0;
+  margin-right: 0;
+}
+.footer-area.without-box-wrap .copyright-area {
+  background-color: #C4DCF3;
+}
+.footer-area.wrap-bg2 {
+  background-color: #F5F7FB;
+}
+.footer-area.wrap-bg2 .single-footer-widget .locations p {
+  color: var(--paragraph);
+}
+.footer-area.wrap-bg2 .single-footer-widget .locations p span {
+  color: var(--blackColor);
+}
+.footer-area.wrap-bg2 .single-footer-widget .hour-info li {
+  color: var(--paragraph);
+}
+.footer-area.wrap-bg2 .single-footer-widget .hour-info li span {
+  color: var(--blackColor);
+}
+.footer-area.wrap-bg2 .single-footer-widget h3 {
+  color: var(--blackColor);
+}
+.footer-area.wrap-bg2 .single-footer-widget .custom-links li a {
+  color: var(--paragraph);
+}
+.footer-area.wrap-bg2 .single-footer-widget .custom-links li a:hover {
+  color: var(--mainColor);
+}
+.footer-area.wrap-bg2 .single-footer-widget .social-info span {
+  color: var(--blackColor);
+}
+.footer-area.wrap-bg2 .single-footer-widget .social-info .social li a i {
+  color: var(--paragraph);
+}
+.footer-area.wrap-bg2 .single-footer-widget .social-info .social li a i:hover {
+  color: var(--mainColor);
+}
+
+.wrap-bg2 .footer-area {
+  background-color: #F5F7FB;
+}
+.wrap-bg2 .footer-area .single-footer-widget .locations p {
+  color: var(--paragraph);
+}
+.wrap-bg2 .footer-area .single-footer-widget .locations p span {
+  color: var(--blackColor);
+}
+.wrap-bg2 .footer-area .single-footer-widget .hour-info li {
+  color: var(--paragraph);
+}
+.wrap-bg2 .footer-area .single-footer-widget .hour-info li span {
+  color: var(--blackColor);
+}
+.wrap-bg2 .footer-area .single-footer-widget h3 {
+  color: var(--blackColor);
+}
+.wrap-bg2 .footer-area .single-footer-widget .custom-links li a {
+  color: var(--paragraph);
+}
+.wrap-bg2 .footer-area .single-footer-widget .custom-links li a:hover {
+  color: var(--mainColor);
+}
+.wrap-bg2 .footer-area .single-footer-widget .social-info span {
+  color: var(--blackColor);
+}
+.wrap-bg2 .footer-area .single-footer-widget .social-info .social li a i {
+  color: var(--paragraph);
+}
+.wrap-bg2 .footer-area .single-footer-widget .social-info .social li a i:hover {
+  color: var(--mainColor);
+}
+
+/* End "Dental Clinic", "Cancer Treatment Center", "Dermatology & Skin Care Clinic", "Psychiatric Hospital" & "Maternity Clinic" Demo Style CSS
+==============================================================*/
+.dental-choose-card .elementor-widget-container {
+  border-radius: 20px;
+  overflow: hidden;
+}
+.dental-choose-card .elementor-widget-container img {
+  transition: var(--transition);
+}
+.dental-choose-card .elementor-widget-heading .elementor-widget-container {
+  border-radius: 0;
+  overflow: unset;
+}
+.dental-choose-card:hover .elementor-widget-container img {
+  transform: scale(1.1);
+}
+
+.without-box-wrap .footer-area {
+  margin-left: 0;
+  margin-right: 0;
+  border-radius: unset;
+}
+
+.copyright-area {
+  background-color: #C4DCF3;
+}
+
+.skin-footer .copyright-area {
+  background-color: #8EC0EE;
+}/*# sourceMappingURL=hospa-new-demo.css.map */

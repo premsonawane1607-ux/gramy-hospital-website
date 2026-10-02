@@ -1,0 +1,31 @@
+# Next.js
+/.next/
+/out/
+/build/
+
+# dependencies
+/node_modules/
+
+# env
+.env*.local
+
+# misc
+.DS_Store
+*.pem
+npm-debug.log*
+next-env.d.ts
+
+# legacy static archive is huge and doesn't need to be re-diffed constantly,
+# but keep it tracked for now (not ignored) so history isn't lost.
+
+# Legacy static archive
+/legacy-static-site/
+
+# Local reference archive
+/reference-only-DO-NOT-SERVE/
+
+# Unused local video archive
+/public/videos/2026/08/WhatsApp-Video-2026-08-19-at-11.35.31-PM.mp4
+
+# Unused root video archive
+/WhatsApp-Video-2026-08-19-at-11.35.31-PM.mp4

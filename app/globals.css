@@ -1,0 +1,717 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --mainColor: #9588e8;
+  --optionalColor: #0b55e5;
+  --optionalColorTwo: #f82828;
+  --optionalColorThree: #5db996;
+  --optionalColorFour: #e67a66;
+  --blackColor: #020d2b;
+  --paragraph: #444f6f;
+  --whiteColor: #ffffff;
+  --transition: 0.6s;
+  --font-size: 16px;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: var(--font-libre-franklin), sans-serif;
+  color: var(--paragraph);
+  background-color: #ffffff;
+  font-size: var(--font-size);
+  font-weight: 400;
+}
+
+@media only screen and (max-width: 767px) {
+  body {
+    font-size: 15px;
+  }
+}
+
+p {
+  line-height: 1.8;
+  font-weight: 400;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: var(--font-libre-franklin), sans-serif;
+  color: var(--blackColor);
+  font-weight: 500;
+}
+
+a {
+  text-decoration: none;
+  transition: var(--transition);
+}
+
+.container-default {
+  max-width: 1230px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+/* Exact `.navbar .container-fluid` / `.top-header-area .container-fluid`
+   schedule from hospa-main.css + hospa-responsive.css: a centered,
+   Bootstrap-stepped container (540/720/960/1140) at everything below
+   1400px, genuinely fluid (just 30px padding, no cap) only in the
+   1400-1599px gap, then capped again at 1920px with 100px padding from
+   1600px up. Not the sitewide container-default (1230px flat) — this is
+   specific to the header, confirmed identical for both the top
+   announcement bar and the main navbar row. */
+.gh-header-container {
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 12px;
+  padding-right: 12px;
+  max-width: 540px;
+}
+
+@media (min-width: 768px) {
+  .gh-header-container {
+    max-width: 720px;
+  }
+}
+
+@media (min-width: 992px) {
+  .gh-header-container {
+    max-width: 960px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .gh-header-container {
+    max-width: 1140px;
+  }
+}
+
+@media (min-width: 1400px) {
+  .gh-header-container {
+    max-width: none;
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+}
+
+@media (min-width: 1600px) {
+  .gh-header-container {
+    max-width: 1920px;
+    padding-left: 100px;
+    padding-right: 100px;
+  }
+}
+
+.section-padding {
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+@media only screen and (max-width: 767px) {
+  .section-padding {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+}
+
+.default-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  padding: 12px 28px;
+  background-color: var(--mainColor);
+  color: #fff;
+  font-size: 15px;
+  font-weight: 500;
+  border-radius: 50px;
+  transition: var(--transition);
+}
+
+.default-btn:hover {
+  background-color: var(--optionalColor);
+  color: #fff;
+}
+
+.section-title {
+  max-width: 635px;
+  margin: 0 auto 40px;
+  text-align: center;
+}
+
+.section-title .sub {
+  display: inline-block;
+  color: var(--optionalColor);
+  font-weight: 700;
+  letter-spacing: 1.2px;
+  font-size: clamp(10px, 0.9vw, 12px);
+  margin-bottom: 12px;
+}
+
+.section-title h2 {
+  font-size: clamp(28px, 4vw, 42px);
+  line-height: 1.3;
+  margin: 0;
+  font-weight: 600;
+}
+
+.card-shadow {
+  box-shadow: 0 4px 30px rgba(2, 13, 43, 0.06);
+}
+
+/* ================================================
+   Hero (gh-hero) — matches the live site's custom hero widget
+   ================================================ */
+.gh-hero,
+.gh-hero * {
+  box-sizing: border-box;
+}
+
+.gh-hero {
+  --gh-ink: #0b2e28;
+  --gh-red: #e8482f;
+  --gh-red-dark: #c93a24;
+  font-family: var(--font-inter), -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  max-width: 100%;
+  margin: 0;
+}
+
+.gh-hero__viewport {
+  position: relative;
+  width: 100%;
+  aspect-ratio: 21 / 9;
+  min-height: 460px;
+  max-height: 680px;
+  overflow: hidden;
+  background: var(--gh-ink);
+}
+
+.gh-hero__track {
+  display: flex;
+  height: 100%;
+  transition: transform 0.7s cubic-bezier(0.65, 0.05, 0.2, 1);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .gh-hero__track {
+    transition: none;
+  }
+}
+
+.gh-slide {
+  position: relative;
+  flex: none;
+  height: 100%;
+}
+
+.gh-slide__scrim {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(0deg, rgba(11, 46, 40, 0.75) 0%, rgba(11, 46, 40, 0.32) 42%, rgba(11, 46, 40, 0) 72%);
+}
+
+.gh-slide__content {
+  position: absolute;
+  z-index: 2;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: clamp(10px, 1.6vw, 16px);
+  max-width: 640px;
+  padding: clamp(20px, 4vw, 44px) clamp(20px, 6%, 64px) clamp(56px, 7vw, 76px);
+  color: #fff;
+}
+
+.gh-slide__title {
+  margin: 0;
+  font-weight: 800;
+  font-size: clamp(1.5rem, 3.4vw, 2.6rem);
+  line-height: 1.1;
+  letter-spacing: -0.01em;
+  color: #fff;
+}
+
+.gh-slide__title span {
+  display: block;
+}
+
+.gh-slide__title--light {
+  font-weight: 400;
+  opacity: 0.92;
+}
+
+.gh-slide__body {
+  margin: 0;
+  font-size: clamp(0.85rem, 1.15vw, 1rem);
+  line-height: 1.55;
+  max-width: 46ch;
+  color: rgba(255, 255, 255, 0.9);
+}
+
+.gh-cta {
+  display: inline-flex;
+  align-items: center;
+  gap: 9px;
+  background: var(--gh-red);
+  color: #fff;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 0.9rem;
+  padding: 12px 22px;
+  border-radius: 999px;
+  transition: background 0.2s ease, transform 0.2s ease;
+  flex: none;
+}
+
+.gh-cta:hover {
+  background: var(--gh-red-dark);
+  transform: translateY(-1px);
+}
+
+.gh-cta__icon {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.25);
+  font-size: 0.82rem;
+  line-height: 1;
+}
+
+.gh-arrow {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 3;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  background: rgba(11, 46, 40, 0.35);
+  color: #fff;
+  font-size: 1rem;
+  line-height: 1;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: background 0.2s ease;
+}
+
+.gh-arrow:hover {
+  background: rgba(11, 46, 40, 0.6);
+}
+
+.gh-arrow--prev {
+  left: 16px;
+}
+
+.gh-arrow--next {
+  right: 16px;
+}
+
+@media (max-width: 900px) {
+  .gh-hero__viewport {
+    aspect-ratio: 4 / 3.3;
+    min-height: 460px;
+    max-height: 620px;
+  }
+  .gh-slide__content {
+    max-width: 78%;
+  }
+  .gh-slide__title {
+    font-size: clamp(1.35rem, 4vw, 2rem);
+  }
+  .gh-slide__body {
+    font-size: clamp(0.82rem, 1.8vw, 0.95rem);
+  }
+}
+
+@media (max-width: 600px) {
+  .gh-hero__viewport {
+    aspect-ratio: 4 / 3.2;
+    min-height: 320px;
+    max-height: 420px;
+  }
+  .gh-slide__content {
+    max-width: 100%;
+    padding: 14px 18px clamp(36px, 10vw, 48px);
+    gap: 8px;
+  }
+  .gh-slide__title {
+    font-size: clamp(1.05rem, 5.6vw, 1.5rem);
+  }
+  .gh-slide__body {
+    font-size: 0.8rem;
+    max-width: 100%;
+  }
+  .gh-cta {
+    font-size: 0.8rem;
+    padding: 6px 14px;
+  }
+  .gh-arrow {
+    width: 24px;
+    height: 24px;
+    font-size: 1rem;
+  }
+  .gh-arrow--prev {
+    left: 10px;
+  }
+  .gh-arrow--next {
+    right: 10px;
+  }
+}
+
+/* ================================================
+   Hero feature/quick-link cards — the live site's current
+   redesign sits flush below the hero (no rounded overlap
+   pill or border box like the legacy widget had).
+   ================================================ */
+.gh-features-area {
+  background-color: #fff;
+  position: relative;
+  z-index: 1;
+}
+
+.gh-features-inner {
+  padding: 75px 50px 25px 50px;
+}
+
+@media only screen and (max-width: 1199px) {
+  .gh-features-inner {
+    padding: 50px 25px 0 25px;
+  }
+}
+
+.gh-feature-card {
+  border-radius: 20px;
+  padding: 25px;
+}
+
+.gh-feature-card__title {
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.gh-feature-card__title i {
+  font-size: 28px;
+  color: var(--blackColor);
+}
+
+.gh-feature-card__title h3 {
+  font-size: 14px;
+  font-weight: 700;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  margin: 0 0 0 12px;
+}
+
+.gh-feature-card p {
+  margin: 0 0 18px;
+  line-height: 1.7;
+  color: var(--paragraph);
+}
+
+.gh-feature-card__link {
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+  padding-left: 22px;
+  font-size: 14px;
+  font-weight: 500;
+  color: var(--blackColor);
+  transition: 0.6s;
+}
+
+.gh-feature-card__link span {
+  position: absolute;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 17px;
+  display: flex;
+  transition: 0.6s;
+}
+
+.gh-feature-card__link:hover {
+  color: var(--optionalColor);
+  padding-left: 0;
+  padding-right: 8px;
+}
+
+.gh-feature-card__link:hover span {
+  left: 100%;
+}
+
+/* ================================================
+   Decorative bouncing shape (testimonials, etc.)
+   ================================================ */
+@keyframes moveleftbounce {
+  0% {
+    transform: translateX(0px);
+  }
+  50% {
+    transform: translateX(20px);
+  }
+  100% {
+    transform: translateX(0px);
+  }
+}
+
+.gh-shape-bounce {
+  animation: moveleftbounce 2s linear infinite;
+}
+
+/* ================================================
+   Header nav dropdowns — matches the original's
+   .navbar .navbar-nav .nav-item .dropdown-menu exactly
+   (265px, 20px radius, soft 70px shadow, sliding-dash
+   hover indicator on each item).
+   ================================================ */
+.gh-nav-dropdown {
+  width: 265px;
+  border-radius: 20px;
+  padding: 15px 0;
+  box-shadow: 0px 4px 70px 0px rgba(0, 0, 0, 0.1);
+}
+
+.gh-nav-dropdown__link {
+  position: relative;
+  display: block;
+  padding: 10px 30px;
+  font-size: 14px;
+  color: var(--paragraph);
+  transition: 0.6s;
+}
+
+.gh-nav-dropdown__link::before {
+  position: absolute;
+  content: "";
+  left: 25px;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: var(--mainColor);
+  height: 1px;
+  width: 15px;
+  transition: 0.6s;
+  opacity: 0;
+}
+
+.gh-nav-dropdown__link:hover {
+  color: var(--mainColor);
+  padding-left: 50px;
+}
+
+.gh-nav-dropdown__link:hover::before {
+  opacity: 1;
+}
+
+.gh-mega-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+  background-color: #e1e6eb;
+  color: var(--blackColor);
+  border-radius: 15px;
+  padding: 20px 25px;
+  font-size: 14px;
+  font-weight: 500;
+  transition: 0.6s;
+}
+
+.gh-mega-item::before {
+  position: absolute;
+  content: "";
+  left: 25px;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: var(--mainColor);
+  height: 1px;
+  width: 15px;
+  opacity: 0;
+  transition: 0.6s;
+}
+
+.gh-mega-item:hover {
+  color: var(--mainColor);
+  padding-left: 50px;
+}
+
+.gh-mega-item:hover::before {
+  opacity: 1;
+}
+
+.gh-mega-item__count {
+  font-weight: 400;
+  color: var(--paragraph);
+  font-size: 13.5px;
+}
+
+/* ================================================
+   Lab Test section container — the original uses a
+   fluid container that grows wider than the site's
+   normal 1230px container at large viewports (the
+   landscape/full-bleed feel of this section).
+   ================================================ */
+.gh-labtest-container {
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 12px;
+  padding-right: 12px;
+  max-width: 540px;
+}
+
+@media only screen and (min-width: 768px) {
+  .gh-labtest-container {
+    max-width: 720px;
+  }
+}
+
+@media only screen and (min-width: 992px) {
+  .gh-labtest-container {
+    max-width: 960px;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  .gh-labtest-container {
+    max-width: 1140px;
+  }
+}
+
+@media only screen and (min-width: 1400px) {
+  .gh-labtest-container {
+    max-width: none;
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+}
+
+@media only screen and (min-width: 1600px) {
+  .gh-labtest-container {
+    max-width: 1920px;
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+}
+
+/* ================================================
+   "OUR SERVICES" cards — matches the original's
+   .services-card hover exactly: the card itself
+   turns white, its heading turns the accent blue,
+   a purple duplicate card peeks out behind it
+   (::before, offset -10px right/bottom), and a small
+   decorative flower icon fades in at the top right
+   (::after). The offset card is hidden on mobile
+   (≤767px) in the original too.
+   ================================================ */
+.gh-service-card {
+  position: relative;
+  transition: 0.6s;
+}
+
+.gh-service-card::before {
+  position: absolute;
+  content: "";
+  right: -10px;
+  bottom: -10px;
+  height: 100%;
+  width: 100%;
+  border-radius: 20px;
+  background-color: #d6d2f1;
+  z-index: -1;
+  transition: 0.6s;
+  opacity: 0;
+  visibility: hidden;
+}
+
+.gh-service-card::after {
+  position: absolute;
+  content: "";
+  top: 30px;
+  right: 30px;
+  background-image: url(/images/theme/vector.png);
+  background-position: center center;
+  background-size: cover;
+  width: 55px;
+  height: 55px;
+  transition: 0.6s;
+  opacity: 0;
+  visibility: hidden;
+}
+
+.gh-service-card:hover::before,
+.gh-service-card:hover::after {
+  opacity: 1;
+  visibility: visible;
+}
+
+@media only screen and (max-width: 767px) {
+  .gh-service-card::before {
+    display: none;
+  }
+}
+
+/* ================================================
+   Specialist inner pages — exact Bootstrap `.container`
+   stepped widths (the original `.page-area` wraps its
+   content in a plain `.container`, not the sitewide
+   `container-default`, which caps at a different 1230px
+   at every breakpoint instead of stepping 540/720/960/
+   1140/1320 like Bootstrap actually does).
+   ================================================ */
+.gh-specialist-container {
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+@media only screen and (min-width: 576px) {
+  .gh-specialist-container {
+    max-width: 540px;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .gh-specialist-container {
+    max-width: 720px;
+  }
+}
+
+@media only screen and (min-width: 992px) {
+  .gh-specialist-container {
+    max-width: 960px;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  .gh-specialist-container {
+    max-width: 1140px;
+  }
+}
+
+@media only screen and (min-width: 1400px) {
+  .gh-specialist-container {
+    max-width: 1320px;
+  }
+}
