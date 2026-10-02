@@ -13,23 +13,26 @@ export function ElSection({
   id,
   boxed = false,
   className,
+  tag: Tag = "section",
   children,
 }: {
   id: string;
   /** `elementor-section-boxed` (centred container, 10px column padding) instead of full width. */
   boxed?: boolean;
   className?: string;
+  /** Older Elementor documents (About Overview) emit their sections as `<div>`. */
+  tag?: "section" | "div";
   children: ReactNode;
 }) {
   return (
-    <section
+    <Tag
       data-id={id}
       className={`lv-elementor-section lv-elementor-top-section lv-elementor-element lv-elementor-element-${id}${className ? ` ${className}` : ""} ${boxed ? "lv-elementor-section-boxed" : "lv-elementor-section-full_width"}`}
     >
       <div className={`lv-elementor-container ${boxed ? "lv-elementor-column-gap-default" : "lv-elementor-column-gap-no"}`}>
         {children}
       </div>
-    </section>
+    </Tag>
   );
 }
 

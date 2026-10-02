@@ -71,6 +71,7 @@ export const RESERVED_TOP_SLUGS = new Set([
   "news",
   "contact-us",
   "about-us",
+  "about-overview",
   "visitor-information",
   "find-a-doctor",
   "find-a-location",

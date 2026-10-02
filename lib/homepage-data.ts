@@ -127,9 +127,9 @@ export const whyChoose = {
   titleLead: "We Are Different To",
   titleBold: "Protect Your Health",
   items: [
-    { title: "Patient-Centered Care", icon: "/images/theme/img1.png", description: "Every patient is unique. We focus on personalized treatment plans, clear communication, and compassionate support throughout your healthcare journey.", href: "/about-us" },
-    { title: "Advanced Medical Excellence", icon: "/images/theme/img2.png", description: "Our experienced specialists combine clinical expertise with modern technology to deliver accurate diagnoses and effective treatments.", href: "/about-us" },
-    { title: "Comprehensive Specialty Care", icon: "/images/theme/img3.png", description: "From routine consultations to complex procedures, we provide multidisciplinary care designed to meet your health needs under one roof.", href: "/about-us" },
+    { title: "Patient-Centered Care", icon: "/images/theme/img1.png", description: "Every patient is unique. We focus on personalized treatment plans, clear communication, and compassionate support throughout your healthcare journey.", href: "/about-overview" },
+    { title: "Advanced Medical Excellence", icon: "/images/theme/img2.png", description: "Our experienced specialists combine clinical expertise with modern technology to deliver accurate diagnoses and effective treatments.", href: "/about-overview" },
+    { title: "Comprehensive Specialty Care", icon: "/images/theme/img3.png", description: "From routine consultations to complex procedures, we provide multidisciplinary care designed to meet your health needs under one roof.", href: "/about-overview" },
   ],
 };
 
